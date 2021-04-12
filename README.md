@@ -224,7 +224,7 @@ Si vous avez besoin d'aide, voici une vidéo qui explique l'ensemble des paramè
 J'utilise ce logiciel pour automatiser les réglages des paramètres Windows. Simple et clair, il suffit de lire les options avant de cocher. 
 Si vous rencontrez un soucis, vous pourrez décocher l'option qui vous pose problème.
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`W10Privacy (et d'autres logiciels de "vie privée"`](https://www.youtube.com/watch?v=oPUJThkVmXI)
+![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`W10Privacy (et d'autres logiciels de "vie privée")`](https://www.youtube.com/watch?v=oPUJThkVmXI) + [`Préréglage et le logiciel`](https://drive.google.com/file/d/1GzAWJxNHv4r2NFH80c1lwg0i0J68AQla/view?usp=sharing)
 
 ## Mode MSI
 
