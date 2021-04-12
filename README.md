@@ -23,8 +23,6 @@ machine. Si vous testez, c'est à vos risques.
 
 JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONSABILITÉS ! LISEZ ATTENTIVEMENT LE GUIDE PAR CHAPITRE ET PRENEZ VOTRE TEMPS ! 
 
-J’espère que ce guide vous sera utile, j’y ai mis du temps, des recherches, j’essaie de tout centraliser dans ce guide en français et j’essaie de simplifier au maximum les étapes afin que tous ces réglages vous soient accessibles ! 
-
 ## Table des matières
 
  - [**Optimisation du BIOS**](#optimisation-du-bios)
