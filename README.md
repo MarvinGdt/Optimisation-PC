@@ -26,18 +26,18 @@ J’espère que ce guide vous sera utile, j’y ai mis du temps, des recherches,
 
 ## Table des matières
 
- - [**Optimisation du BIOS**](#Optimisation du BIOS)
- - [**Installation de Windows et de vos Drivers**](#Installation de Windows et de vos Drivers)
- - [**Désactivation des drivers automatiques & Tweaks Regedit**](#Désactivation des drivers automatiques & Tweaks Regedit)
- - [**Mises à jour de Windows**](#Mises à jour de Windows)
- - [**Paramètres de Windows**](#Paramètres de Windows)
- - [**W10Privacy**](#W10Privacy)
- - [**Mode MSI**](#Mode MSI)
- - [**Mode de gestion d’alimentation**](#Mode de gestion d’alimentation)
- - [**Installer le Visual C++ Package et DirectX**](#Installer le Visual C++ Package et DirectX)
- - [**Réduire encore plus la latence**](#Réduire encore plus la latence)
- - [**Réactiver les mises à jour automatiques des drivers**](#Réactiver les mises à jour automatiques des drivers)
- - [**(BONUS) Liste des logiciels utiles à installer sur votre PC**](#(BONUS) Liste des logiciels utiles à installer sur votre PC)
+ - [**Optimisation du BIOS**](#optimisation-du-bios)
+ - [**Installation de Windows et de vos Drivers**](#installation-de-windows-et-de-vos-drivers)
+ - [**Désactivation des drivers automatiques & Tweaks Regedit**](#désactivation-des-drivers-automatiques--tweaks-regedit)
+ - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
+ - [**Paramètres de Windows**](#paramètres-de-windows)
+ - [**W10Privacy**](#w10privacy)
+ - [**Mode MSI**](#mode-msi)
+ - [**Mode de gestion d’alimentation**](#mode-de-gestion-dalimentation)
+ - [**Installer le Visual C++ Package et DirectX**](#installer-le-visual-c-package-et-directx)
+ - [**Réduire encore plus la latence**](#réduire-encore-plus-la-latence)
+ - [**Réactiver les mises à jour automatiques des drivers**](#réactiver-les-mises-à-jour-automatiques-des-drivers)
+ - [**(BONUS) Liste des logiciels utiles à installer sur votre PC**](#bonus-liste-des-logiciels-utiles-à-installer-sur-votre-pc)
 
 ## Optimisation du BIOS
 
