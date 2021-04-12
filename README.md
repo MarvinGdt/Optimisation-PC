@@ -243,6 +243,19 @@ Si vous avez besoin d'aide, voici une vidéo qui explique l'ensemble des paramè
 
 ![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`Paramètres Windows`](https://www.youtube.com/watch?v=DP0e0xTk0Ck)
 
+- Animation de Windows
+
+Si vous voulez avoir le sensation d'instentaénité sur votre PC, vous pouvez désactiver des effets d'animation. Cela allégera, légerement, la charge CPU.
+
+Clique droit sur "Ce PC", "Propriétés", "Paramètres avancés", onglet "Performances" cliquez sur "paramètres".
+
+Laissez cocher : 
+
+- Afficher des miniatures au lieu d'icônes ;
+- Afficher le contenu des fenêtres pendant leur déplacement ;
+- Animer les contrôles et les éléments à l'intérieur des fenêtres ;
+- Lisser les polices écran. 
+
 ## W10Privacy
 
 J'utilise ce logiciel pour automatiser les réglages des paramètres Windows. Simple et clair, il suffit de lire les options avant de cocher. 
@@ -259,6 +272,8 @@ Explication et utilité du mode MSI se trouvent dans la vidéo suivante :
 [`Si vous voulez plus d'information sur ce qu'est le mode MSI`](https://forum.malekal.com/viewtopic.php?t=62058) et [`télécharger MSI Utility`]( https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/)
 
 NB : pour les cartes graphiques AMD et les Nvidia Ampere (RTX 3000), le mode MSI est activé par défaut, vous pouvez passer cette étape donc. 
+
+N'est pas recommandé de faire cette étape sur les PC portables ! 
 
 ## Mode de gestion d'alimentation
 
