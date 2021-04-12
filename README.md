@@ -232,7 +232,7 @@ Explication et utilité du mode MSI se trouvent dans la vidéo suivante :
 
 ![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`MSI Mode`](https://youtu.be/eydeMfLlIsA)
 
-Si vous voulez plus d'information sur ce qu'est le mode MSI : https://forum.malekal.com/viewtopic.php?t=62058 et le télécharger : https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/
+[`Si vous voulez plus d'information sur ce qu'est le mode MSI`](https://forum.malekal.com/viewtopic.php?t=62058) et [`télécharger MSI Utility`]( https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/)
 
 ## Mode de gestion d'alimentation
 
@@ -263,7 +263,7 @@ Visual C++ à télécharger ici : [`Visual C++ Package AiO`](https://www.techpow
 Simplement, un logiciel qui réduira la latence de votre Windows mais aussi, cela permet de purger la RAM. 
 Aucune bidouille nécessaire. 
 
-Pour télécharger Intelligent Standby List Cleaner : https://www.wagnardsoft.com/forums/viewtopic.php?f=5&t=1256
+Pour téléchargez [`Intelligent Standby List Cleaner`](https://www.wagnardsoft.com/forums/viewtopic.php?f=5&t=1256)
 
 En bas à gauche du logiciel vous aurez 2 lignes : 
 
