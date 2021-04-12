@@ -120,7 +120,7 @@ Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en
 
 `fsutil behavior set DisableDeleteNotify 0`
 
-**=> Garanti 90% des ressources aux tâches principales :** 
+**=> Garanti 90% des ressources aux tâches principales :** (si vous streamez, vous pourrez renconter des soucis, si c'est le cas, remettez à 20)
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f`
 
