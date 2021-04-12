@@ -56,6 +56,16 @@ Ci-dessous, je mets les guides vidéos des cartes mères pour AMD et Intel en br
 
 -> Cette étape est OPTIONNELLE. Vous n'êtes pas obligé de faire cette partie si vous n'êtes pas serein. Je la mets pour les plus téméraires.
 
+![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`ClockTuner For Ryzen (EN)`](https://www.guru3d.com/articles-pages/clocktuner-2-for-ryzen-(ctr)-guide,1.html)
+
+![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`ClockTuner For Ryzen (FR)`](https://overclocking.com/tutoriel-clock-tuner-for-ryzen-version-2-0/)
+
+-> Si vous avez un CPU AMD Ryzen à partir de la génération Ryzen 3000, vous pouvez utiliser ce logiciel qui vous permettra d'OC automatiquement votre processeur via Windows directement.
+
+Suivez les guides anglais ou français, afin de préparer votre BIOS comme il se doit. Si vous utilisez CTR, ne faites pas le tuto vidéo pour AMD. 
+
+Vous faites l'un OU l'autre. A vous de choisir.
+
 ## Installation de Windows et de vos Drivers
 
 **Note :** Je préconise de partir sur un formatage complet de votre PC afin que tout ce guide se passe sans problème.
