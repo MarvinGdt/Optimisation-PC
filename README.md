@@ -1,6 +1,6 @@
 # Optimiser son PC et Windows 10 sans risque
 
-Dans ce git, j'ai compilé plusieurs tutos, guides de différentes personnes. Les trouvailles, tutos appartiennent aux personnes qui ont passés du temps à faire toutes ces recherches.
+Dans ce github, j'ai compilé plusieurs tutos, guides de différentes personnes. Les trouvailles, tutos appartiennent aux personnes qui ont passés du temps à faire toutes ces recherches.
  
 ![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`CAPETLEVRAI`](https://www.twitter.com/capetlevrai)
 
