@@ -24,6 +24,21 @@ JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONS
 
 J’espère que ce guide vous sera utile, j’y ai mis du temps, des recherches, j’essaie de tout centraliser dans ce guide en français et j’essaie de simplifier au maximum les étapes afin que tous ces réglages vous soient accessibles ! 
 
+## Table des matières
+
+ - [**Optimisation du BIOS**](#Optimisation du BIOS)
+ - [**Installation de Windows et de vos Drivers**](#Installation de Windows et de vos Drivers)
+ - [**Désactivation des drivers automatiques & Tweaks Regedit**](#Désactivation des drivers automatiques & Tweaks Regedit)
+ - [**Mises à jour de Windows**](#Mises à jour de Windows)
+ - [**Paramètres de Windows**](#Paramètres de Windows)
+ - [**W10Privacy**](#W10Privacy)
+ - [**Mode MSI**](#Mode MSI)
+ - [**Mode de gestion d’alimentation**](#Mode de gestion d’alimentation)
+ - [**Installer le Visual C++ Package et DirectX**](#Installer le Visual C++ Package et DirectX)
+ - [**Réduire encore plus la latence**](#Réduire encore plus la latence)
+ - [**Réactiver les mises à jour automatiques des drivers**](#Réactiver les mises à jour automatiques des drivers)
+ - [**(BONUS) Liste des logiciels utiles à installer sur votre PC**](#(BONUS) Liste des logiciels utiles à installer sur votre PC)
+
 ## Optimisation du BIOS
 
 Avant d’entamer l’optimisation de Windows, il est préférable que vous ayez un bios bien réglé afin de pouvoir profiter du plein potentiel de votre ordinateur. 
@@ -233,6 +248,8 @@ Explication et utilité du mode MSI se trouvent dans la vidéo suivante :
 ![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`MSI Mode`](https://youtu.be/eydeMfLlIsA)
 
 [`Si vous voulez plus d'information sur ce qu'est le mode MSI`](https://forum.malekal.com/viewtopic.php?t=62058) et [`télécharger MSI Utility`]( https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/)
+
+NB : pour les cartes graphiques AMD et les Nvidia Ampere (RTX 3000), le mode MSI est activé par défaut, vous pouvez passer cette étape donc. 
 
 ## Mode de gestion d'alimentation
 
