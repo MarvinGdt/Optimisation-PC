@@ -237,7 +237,7 @@ Explication et utilité du mode MSI se trouvent dans la vidéo suivante :
 ## Mode de gestion d'alimentation
 
 Un réglage important que vous pouvez faire sur votre PC est de changer le mode d'alimentation.
-Pour installer le mode "Performances Optimales" de Windows, lancez le CMD en administrateur et coller cette ligne : powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61.
+Pour installer le mode "Performances Optimales" de Windows, lancez le CMD en administrateur et coller cette ligne : `powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61`.
 
 Ensuite, allez l'appliquer dans les réglages de gestion d'alimentation.
 
@@ -263,7 +263,7 @@ Visual C++ à télécharger ici : [`Visual C++ Package AiO`](https://www.techpow
 Simplement, un logiciel qui réduira la latence de votre Windows mais aussi, cela permet de purger la RAM. 
 Aucune bidouille nécessaire. 
 
-Pour téléchargez [`Intelligent Standby List Cleaner`](https://www.wagnardsoft.com/forums/viewtopic.php?f=5&t=1256)
+Pour cela, il vous faut [`Intelligent Standby List Cleaner`](https://www.wagnardsoft.com/forums/viewtopic.php?f=5&t=1256)
 
 En bas à gauche du logiciel vous aurez 2 lignes : 
 
