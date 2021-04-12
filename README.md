@@ -18,7 +18,8 @@ Je ne parlerai pas d’overclocking processeur et RAM durant ce guide. Mais je v
 
 Pour finir, je ne serai en aucun cas responsable de tout dommage, défaut ou mauvaise manipulation de votre part. Ce guide est rédigé par mes soins après plusieurs tests de ce que j’en ai tiré dans mes recherches et les tutos que j’ai suivis. 
 
-NE FAITES PAS CES MANIPULATIONS SUR PC PORTABLE !!! 
+Si vous êtes sur PC portable, vous pouvez suivre ce guide sans problème, cependant, je ne recommande pas de faire le point "[**Mode MSI**](#mode-msi)" qui pourrait poser problèmes sur votre
+machine. Si vous testez, c'est à vos risques.
 
 JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONSABILITÉS ! LISEZ ATTENTIVEMENT LE GUIDE PAR CHAPITRE ET PRENEZ VOTRE TEMPS ! 
 
