@@ -13,7 +13,6 @@ A noter qu'il y a probablement du copier/coller venant des sources, c'est normal
 Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce qui sera expliqué dans ce manuel d’optimisation : 
 
 Tous les fichiers nécessaires, pour le suivi de ce guide, seront disponibles directement via ce dernier au fur et à mesure des chapitres. 
-Les sources utilisées seront, également, disponibles selon les rubriques. 
 
 Je ne parlerai pas d’overclocking processeur et RAM durant ce guide. Mais je vous redirigerai vers une playlist de tuto qui explique les bases et quoi faire, si vous voulez vous y lancer.
 
