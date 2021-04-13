@@ -116,7 +116,7 @@ Si vous souhaitez utiliser G-SYNC pour vos jeux, voici une vidéo qui vous expli
  - Bloquer vos FPS au nombre de hertz de votre écran - 2 ou 3 (exemple : si tu as un écran 144 Hz, tu bloques les FPS à 142 ou 141 FPS voire 140 FPS si tu veux être sûr) cela peut fonctionner aussi si tu le fais via un jeu en particulier style Valorant, CSGO etc ;
  - Dans l'onglet "Affichage", activer la G-SYNC et cocher "Activer pour le mode fenêtré et plein écran" et cocher au point 3, de cet onglet, "Activer ces paramètres pour le modèle d'écran choisi".
 
- #### Dans les paramères Windows : 
+ ### Dans les paramères Windows : 
 
  Système
  > Affichage
