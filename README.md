@@ -29,6 +29,7 @@ JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONS
  - [**Installation de Windows et de vos Drivers**](#installation-de-windows-et-de-vos-drivers)
  - [**Désactivation des drivers automatiques & Tweaks Regedit**](#désactivation-des-drivers-automatiques--tweaks-regedit)
  - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
+ - [**Réglage du panneau de configuration Nvidia**](#réglage-du-panneau-de-configuration-nvidia)
  - [**Paramètres de Windows**](#paramètres-de-windows)
  - [**W10Privacy**](#w10privacy)
  - [**Windows Defender**](#windows-defender-mis-en-rouge-dans-w10privacy)
@@ -79,6 +80,16 @@ Pour ce faire, je vous redirige vers ce tuto très simple de TopAchat afin de po
 ![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`DRIVER NVIDIA`](https://www.nvidia.com/Download/Find.aspx?lang=fr)
 
 ![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`DRIVER AMD`](https://www.amd.com/fr/graphics/radeon-rx-graphics)
+
+## Réglage du panneau de configuration Nvidia
+
+Je vous mets quelques screens des réglages que j'ai sur mon PC. 
+
+Lisez les commentaires sous les photos, en fonction de ce que vous voulez. 
+
+**Note :** j'ai activé le DSR mode dans les screens, ne l'activez pas. C'est un upscale de résolution. 
+
+![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`Nvidia Control Panel`](https://imgur.com/a/fxx8TNm)
 
 ## Désactivation des drivers automatiques & Tweaks Regedit
 
