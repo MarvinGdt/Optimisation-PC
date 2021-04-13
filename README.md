@@ -37,6 +37,7 @@ JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONS
  - [**Installer le Visual C++ Package et DirectX**](#installer-le-visual-c-package-et-directx)
  - [**Réduire encore plus la latence**](#réduire-encore-plus-la-latence)
  - [**Réactiver les mises à jour automatiques des drivers**](#réactiver-les-mises-à-jour-automatiques-des-drivers)
+ - [**Désactiver les overlays et accélération matérielle**](#désactiver-les-overlays-et-accélération-matérielle)
  - [**(BONUS) Liste des logiciels utiles à installer sur votre PC**](#bonus-liste-des-logiciels-utiles-à-installer-sur-votre-pc)
 
 ## Optimisation du BIOS
@@ -132,6 +133,11 @@ Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en
 >`REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}"`
 >
 >`REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}"`
+
+
+>Désactiver les Prefetch/Superfetch (appelé maintenant SysMain) UNIQUEMENT SI WINDOWS EST INSTALLE SUR UN SSD
+>
+>`REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\SessionManager\Memory Management\PrefetchParameters" /v EnableSuperfetch /t REG_DWORD /d 00000000 /f`
 
 
 >Désactiver "Applications récemments ajoutés" du menu Démarrer
@@ -246,7 +252,7 @@ Si vous avez besoin d'aide, voici une vidéo qui explique l'ensemble des paramè
 
 ### Animation de Windows
 
-Si vous voulez avoir le sensation d'instentaénité sur votre PC, vous pouvez désactiver des effets d'animation. Cela allégera, légerement, la charge CPU.
+Si vous voulez avoir le sensation d'instentaénité sur votre PC, vous pouvez désactiver des effets d'animation. Cela allégera, légerement, la charge CPU et RAM.
 
 Clique droit sur "Ce PC", "Propriétés", "Paramètres avancés", onglet "Performances" cliquez sur "paramètres".
 
@@ -290,7 +296,7 @@ Explication et utilité du mode MSI se trouvent dans la vidéo suivante :
 
 NB : pour les cartes graphiques AMD et les Nvidia Ampere (RTX 3000), le mode MSI est activé par défaut, vous pouvez passer cette étape donc. 
 
-N'est pas recommandé de faire cette étape sur les PC portables ! 
+N'est pas recommandé de faire cette étape sur les PC portables et sur les PC TRES vieux ! 
 
 ## Mode de gestion d'alimentation
 
@@ -302,6 +308,8 @@ Ensuite, allez l'appliquer dans les réglages de gestion d'alimentation.
 Voici une vidéo explicative sur le mode d'alimentation : 
 
 ![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`Mode de gestion d'alimentation`](https://youtu.be/SAlqNxr1eVY)
+
+**Note :** désactivez la suspension séléctive USB dans le profil d'alimentation que vous utilisez.
 
 ## Installer le Visual C++ Package et DirectX
 
@@ -346,6 +354,13 @@ Réactiver les mises à jour automatiques des drivers permet d'éviter de cherch
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching" /v SearchOrderConfig /t REG_DWORD /d 00000001 /f`
 
+## Désactiver les overlays et accélération matérielle
+
+Pour diminuer la charge CPU et GPU (accélération matérielle) : 
+
+- **Discord :** Désactiver l'overlay dans l'onglet "apparence" ainsi que l'accélération matérielle dans l'onglet "système" et l'ouverture au démarrage de Windows ;
+- **Steam et autres launchers :** Désactiver le démarrage de Steam et des autres launchers à l'ouverture de Windows, désactivez l'accélération du rendu GPU ;
+- **Les périphériques non utilisés :** dans le doute, je ne vous conseille pas de faire cette étape, cela ne joue à pas grand chose dans la latence et vous pouvez désactiver des slots PCI (périphériques USB) que vous utilisez par erreur. Ne faites donc pas cette étape si vous n'êtes pas sûr de vous.
 
 ## (BONUS) Liste des logiciels utiles à installer sur votre PC
 
