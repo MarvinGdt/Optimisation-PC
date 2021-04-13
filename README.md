@@ -106,22 +106,22 @@ Si vous souhaitez utiliser G-SYNC pour vos jeux, voici une vidéo qui vous expli
 
 ![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`Activer G-SYNC de la bonne manière`](https://www.youtube.com/watch?v=JVRWjfoj8y8)
 
->### **TL:DR de la vidéo**
->
->#### Dans le panneau de configuration Nvidia, il faut : 
->
->- Activer le mode Faible latence (ON si la CG est à -90% ou ULTRA si la CG atteint + 90% d'utilisation) ;
->- Activer la G-SYNC ;
->- Activer la V-SYNC ;
->- Bloquer vos FPS au nombre de hertz de votre écran - 2 ou 3 (exemple : si tu as un écran 144 Hz, tu bloques les FPS à 142 ou 141 FPS voire 140 FPS si tu veux être sûr) cela peut fonctionner aussi si tu le fais via un jeu en particulier style Valorant, CSGO etc ;
->- Dans l'onglet "Affichage", activer la G-SYNC et cocher "Activer pour le mode fenêtré et plein écran" et cocher au point 3, de cet onglet, "Activer ces paramètres pour le modèle d'écran choisi".
->
->#### Dans les paramères Windows : 
->
->Système
->> Affichage
->>> Paramètres Graphiques
->>>> Sélectionner le mode "Variable Refresh Rate" (utile pour que les jeux du MS Store puissent profiter de la G-SYNC et FreeSync)
+### **TL:DR de la vidéo**
+
+ #### Dans le panneau de configuration Nvidia, il faut : 
+
+ - Activer le mode Faible latence (ON si la CG est à -90% ou ULTRA si la CG atteint + 90% d'utilisation) ;
+ - Activer la G-SYNC ;
+ - Activer la V-SYNC ;
+ - Bloquer vos FPS au nombre de hertz de votre écran - 2 ou 3 (exemple : si tu as un écran 144 Hz, tu bloques les FPS à 142 ou 141 FPS voire 140 FPS si tu veux être sûr) cela peut fonctionner aussi si tu le fais via un jeu en particulier style Valorant, CSGO etc ;
+ - Dans l'onglet "Affichage", activer la G-SYNC et cocher "Activer pour le mode fenêtré et plein écran" et cocher au point 3, de cet onglet, "Activer ces paramètres pour le modèle d'écran choisi".
+
+ #### Dans les paramères Windows : 
+
+ Système
+ > Affichage
+ >> Paramètres Graphiques
+ >>> Sélectionner le mode "Variable Refresh Rate" (utile pour que les jeux du MS Store puissent profiter de la G-SYNC et FreeSync)
 
 ## Désactivation des drivers automatiques & Tweaks Regedit
 
