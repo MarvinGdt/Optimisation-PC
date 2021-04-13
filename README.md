@@ -428,6 +428,7 @@ Une fois réglé, téléchargez le raccourci de Epic Disk Cleanup et lancez le. 
 
 - [`OpenShell`](https://github.com/Open-Shell/Open-Shell-Menu/releases/) : Remplace le menu démarrer natif de Windows 10 par un style Windows 7. Fork de StartMenu 7.
 
+- [`Configurer son navigateur et les extensions que je recommande`](https://docs.google.com/document/d/1vq0me5Gd6WOsz68GHlrAQEBHOJ85Az8pXhY13JV9kLA/edit?usp=sharing) : Voici un document qui vous permettra de bien paramétrer votre navigateur ainsi que les extensions utiles que je recommande.
 
 
 
