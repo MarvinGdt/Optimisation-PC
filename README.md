@@ -2,9 +2,9 @@
 
 Dans ce github, j'ai compilé plusieurs tutos, guides de différentes personnes. Les trouvailles, tutos appartiennent aux personnes qui ont passés du temps à faire toutes ces recherches.
  
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`CAPETLEVRAI`](https://www.twitter.com/capetlevrai)
+![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`CAPETLEVRAI`](https://www.twitter.com/capetlevrai) + [`YOUTUBE`](https://www.youtube.com/user/capetlevrai)
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`PIWI`](https://www.twitter.com/piwielle) + [`GUIDE`](https://piwielle.github.io/oui)
+![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`PIWI`](https://www.twitter.com/piwielle) + [`GUIDE`](https://piwielle.github.io/oui) + [`YOUTUBE`](https://www.youtube.com/c/Piwi_youtube/)
 
 A noter qu'il y a probablement du copier/coller venant des sources, c'est normal car c'est si bien expliqué que j'ai préféré laisser tel quel.
 
@@ -31,7 +31,7 @@ JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONS
  - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
  - [**Paramètres de Windows**](#paramètres-de-windows)
  - [**W10Privacy**](#w10privacy)
- - [**Windows Defender**](#windows-defender)
+ - [**Windows Defender**](#windows-defender-mis-en-rouge-dans-w10privacy)
  - [**Mode MSI**](#mode-msi)
  - [**Mode de gestion d’alimentation**](#mode-de-gestion-dalimentation)
  - [**Installer le Visual C++ Package et DirectX**](#installer-le-visual-c-package-et-directx)
@@ -275,6 +275,10 @@ Cependant, si vous le désactivez (à vos risques et périls), vous pouvez être
 Tout comme les mises à jour qui permettent de mettre à jour la sécurité de votre OS, Defender reçoit aussi ses mises à jour via Windows Update. 
 
 Laissez, donc, Defender et les mises à jour Windows vous assure une sécurité.
+
+Voici une vidéo explicative sur l'impact de Defender sur votre PC : 
+
+![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`Windows Defender`](https://www.youtube.com/watch?v=ZNVDjyE6MyM)
 
 ## Mode MSI
 
