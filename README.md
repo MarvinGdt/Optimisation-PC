@@ -31,10 +31,10 @@ JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONS
 
  - [**Optimisation du BIOS**](#optimisation-du-bios)
  - [**Installation de Windows et de vos Drivers**](#installation-de-windows-et-de-vos-drivers)
- - [**Désactivation des drivers automatiques & Tweaks Regedit**](#désactivation-des-drivers-automatiques--tweaks-regedit)
- - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
  - [**Réglage du panneau de configuration Nvidia**](#réglage-du-panneau-de-configuration-nvidia)
     - [**Activer G-SYNC de la bonne manière**](#activer-g-sync-de-la-bonne-manière)
+ - [**Désactivation des drivers automatiques & Tweaks Regedit**](#désactivation-des-drivers-automatiques--tweaks-regedit)
+ - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
  - [**Paramètres de Windows**](#paramètres-de-windows)
     - [**W10Privacy**](#w10privacy)
     - [**Windows Defender**](#windows-defender-mis-en-rouge-dans-w10privacy)
