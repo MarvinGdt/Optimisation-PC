@@ -277,6 +277,10 @@ Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en
 >
 >`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\bravem" /v Start /t REG_DWORD /d 00000003 /f`
 
+Si vous voulez plus de réglage que ce qui est proposé ci-dessus : 
+
+--> [`Regedit`](https://github.com/MarvinGdt/opti-pc/blob/main/regedit.reg)
+
 ## Mises à jour de Windows
 
 Une fois tous nos drivers à jour, et avant d’entamer la suite des réglages de Windows, on va vérifier les éventuelles mises à jour. 
