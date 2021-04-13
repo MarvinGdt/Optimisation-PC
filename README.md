@@ -3,12 +3,12 @@
 Dans ce github, j'ai compilé plusieurs tutos, guides de différentes personnes. Les trouvailles, tutos appartiennent aux personnes qui ont passés du temps à faire toutes ces recherches.
  
 ![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`CAPETLEVRAI`](https://www.twitter.com/capetlevrai) 
->>[`GUIDE`](https://docs.google.com/document/d/1bfRI8ykV2esBQwy6x_3DX7WR_XLO-Y0bJ-0ds2Mbhek/edit) 
->>>[`YOUTUBE`](https://www.youtube.com/user/capetlevrai)
+>[`GUIDE`](https://docs.google.com/document/d/1bfRI8ykV2esBQwy6x_3DX7WR_XLO-Y0bJ-0ds2Mbhek/edit) 
+>>[`YOUTUBE`](https://www.youtube.com/user/capetlevrai)
 
 ![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`PIWI`](https://www.twitter.com/piwielle) 
->>[`GUIDE`](https://piwielle.github.io/oui) 
->>>[`YOUTUBE`](https://www.youtube.com/c/Piwi_youtube/)
+>[`GUIDE`](https://piwielle.github.io/oui) 
+>>[`YOUTUBE`](https://www.youtube.com/c/Piwi_youtube/)
 
 A noter qu'il y a probablement du copier/coller venant des sources, c'est normal car c'est si bien expliqué que j'ai préféré laisser tel quel.
 
@@ -94,6 +94,33 @@ Lisez les commentaires sous les photos, en fonction de ce que vous voulez.
 **Note :** j'ai activé le DSR mode dans les screens, ne l'activez pas. C'est un upscale de résolution. 
 
 ![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`Nvidia Control Panel`](https://imgur.com/a/fxx8TNm)
+
+### Activer G-SYNC de la bonne manière
+
+La G-SYNC est une altetnative de la V-SYNC qui existe depuis des années afin d'éviter le "tearing". C'est-à-dire une image déchirée. 
+
+L'inconvéniant de la V-SYNC est qu'elle rajoute énormément d'input lag, donc la G-SYNC (ou FreeSync pour les cartes AMD Radeon) permet en plus d'éviter ce déchirement mais en plus d'améliorer la réactivité du jeu en réduisant l'input lag.
+
+Si vous souhaitez utiliser G-SYNC pour vos jeux, voici une vidéo qui vous expliquera pas à pas, comment l'activer correctement. 
+
+![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`Activer G-SYNC de la bonne manière`](https://www.youtube.com/watch?v=JVRWjfoj8y8)
+
+>### **TL:DR de la vidéo**
+>
+>#### Dans le panneau de configuration Nvidia, il faut : 
+>
+>- Activer le mode Faible latence (ON si la CG est à -90% ou ULTRA si la CG atteint + 90% d'utilisation) ;
+>- Activer la G-SYNC ;
+>- Activer la V-SYNC ;
+>- Bloquer vos FPS au nombre de hertz de votre écran - 2 ou 3 (exemple : si tu as un écran 144 Hz, tu bloques les FPS à 142 ou 141 FPS voire 140 FPS si tu veux être sûr) cela peut fonctionner aussi si tu le fais via un jeu en particulier style Valorant, CSGO etc ;
+>- Dans l'onglet "Affichage", activer la G-SYNC et cocher "Activer pour le mode fenêtré et plein écran" et cocher au point 3, de cet onglet, "Activer ces paramètres pour le modèle d'écran choisi".
+>
+>#### Dans les paramères Windows : 
+>
+>Système
+>> Affichage
+>>> Paramètres Graphiques
+>>>> Sélectionner le mode "Variable Refresh Rate" (utile pour que les jeux du MS Store puissent profiter de la G-SYNC et FreeSync)
 
 ## Désactivation des drivers automatiques & Tweaks Regedit
 
