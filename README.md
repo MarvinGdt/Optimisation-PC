@@ -2,9 +2,13 @@
 
 Dans ce github, j'ai compilé plusieurs tutos, guides de différentes personnes. Les trouvailles, tutos appartiennent aux personnes qui ont passés du temps à faire toutes ces recherches.
  
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`CAPETLEVRAI`](https://www.twitter.com/capetlevrai) + [`GUIDE`](https://docs.google.com/document/d/1bfRI8ykV2esBQwy6x_3DX7WR_XLO-Y0bJ-0ds2Mbhek/edit) + [`YOUTUBE`](https://www.youtube.com/user/capetlevrai)
+![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`CAPETLEVRAI`](https://www.twitter.com/capetlevrai) 
+>>[`GUIDE`](https://docs.google.com/document/d/1bfRI8ykV2esBQwy6x_3DX7WR_XLO-Y0bJ-0ds2Mbhek/edit) 
+>>>[`YOUTUBE`](https://www.youtube.com/user/capetlevrai)
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`PIWI`](https://www.twitter.com/piwielle) + [`GUIDE`](https://piwielle.github.io/oui) + [`YOUTUBE`](https://www.youtube.com/c/Piwi_youtube/)
+![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`PIWI`](https://www.twitter.com/piwielle) 
+>>[`GUIDE`](https://piwielle.github.io/oui) 
+>>>[`YOUTUBE`](https://www.youtube.com/c/Piwi_youtube/)
 
 A noter qu'il y a probablement du copier/coller venant des sources, c'est normal car c'est si bien expliqué que j'ai préféré laisser tel quel.
 
