@@ -31,6 +31,7 @@ JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONS
  - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
  - [**Paramètres de Windows**](#paramètres-de-windows)
  - [**W10Privacy**](#w10privacy)
+ - [**Windows Defender**](#windows-defender)
  - [**Mode MSI**](#mode-msi)
  - [**Mode de gestion d’alimentation**](#mode-de-gestion-dalimentation)
  - [**Installer le Visual C++ Package et DirectX**](#installer-le-visual-c-package-et-directx)
@@ -124,7 +125,7 @@ Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f`
 
->QUELQUES COMMANDES BONUS : 
+### QUELQUES COMMANDES BONUS 
 >
 >Supprimer 3D Object de l'explorateur de fichier
 >
@@ -263,6 +264,18 @@ Si vous rencontrez un soucis, vous pourrez décocher l'option qui vous pose prob
 
 ![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`W10Privacy (et d'autres logiciels de "vie privée")`](https://www.youtube.com/watch?v=oPUJThkVmXI) + [`Préréglage et le logiciel`](https://drive.google.com/file/d/1GzAWJxNHv4r2NFH80c1lwg0i0J68AQla/view?usp=sharing)
 
+Tout ce qui est en ROUGE et JAUNE, ne TOUCHEZ PAS ! SAUF si vous savez ce que vous faites et que vous comprenez l'utilité de l'option. 
+
+## Windows Defender (mis en rouge dans [**W10Privacy**](#w10privacy))
+
+Ne désactivez pas Windows Defender ! Cela nous fera pas gagner de FPS en jeu si vous le désactivez, ni en perdre si vous le laissez. 
+
+Cependant, si vous le désactivez (à vos risques et périls), vous pouvez être exposé à de grosse faille de sécurité si vous vous perdez sur internet.
+
+Tout comme les mises à jour qui permettent de mettre à jour la sécurité de votre OS, Defender reçoit aussi ses mises à jour via Windows Update. 
+
+Laissez, donc, Defender et les mises à jour Windows vous assure une sécurité.
+
 ## Mode MSI
 
 Explication et utilité du mode MSI se trouvent dans la vidéo suivante :
@@ -323,7 +336,7 @@ N'oubliez pas de cocher les 2 cases en dessous de ses lignes afin que ISLC déma
 
 Il est utile de laisser cette fonction active une fois que tout le guide a été fait. 
 
-Lorsque vous mettez une nouveau périphérique à brancher en USB sur votre PC, il est parfois pénible de trouver le bon fichier ".cab" afin d'installer manuellement le certificat qui peut ne pas être trouvé du tout ou pas compatible.
+Lorsque vous mettez un nouveau périphérique à brancher en USB sur votre PC, il est parfois pénible de trouver le bon fichier ".cab" afin d'installer manuellement le certificat qui peut ne pas être trouvé du tout ou pas compatible.
 
 Réactiver les mises à jour automatiques des drivers permet d'éviter de chercher des heures ce qui peut être fait en 2 secondes (lancer CMD en administrateur) : 
 
