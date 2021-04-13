@@ -108,7 +108,7 @@ Si vous souhaitez utiliser G-SYNC pour vos jeux, voici une vidéo qui vous expli
 
 ### **TL:DR de la vidéo**
 
- #### Dans le panneau de configuration Nvidia, il faut : 
+ ### Dans le panneau de configuration Nvidia, il faut : 
 
  - Activer le mode Faible latence (ON si la CG est à -90% ou ULTRA si la CG atteint + 90% d'utilisation) ;
  - Activer la G-SYNC ;
