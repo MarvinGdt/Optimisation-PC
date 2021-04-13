@@ -266,7 +266,7 @@ Si vous rencontrez un soucis, vous pourrez décocher l'option qui vous pose prob
 
 Tout ce qui est en ROUGE et JAUNE, ne TOUCHEZ PAS ! SAUF si vous savez ce que vous faites et que vous comprenez l'utilité de l'option. 
 
-## Windows Defender (mis en rouge dans [**W10Privacy**](#w10privacy))
+### Windows Defender (mis en rouge dans [**W10Privacy**](#w10privacy))
 
 Ne désactivez pas Windows Defender ! Cela nous fera pas gagner de FPS en jeu si vous le désactivez, ni en perdre si vous le laissez. 
 
