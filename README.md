@@ -384,7 +384,7 @@ En bas à gauche du logiciel vous aurez 2 lignes :
 
 Sur la 1ère ligne, vous laissez 1024 MB.
 
-Sur la 2nd ligne, vous appliquez au MINIMUM la moitié du nombre total de votre RAM. Personnellement, pour 16 Go de RAM, j'applique 10240 MB afin que la purge se fasse régulièrement. 
+Sur la 2nd ligne, pour 16 Go de RAM, j'applique 10240 MB afin que la purge se fasse régulièrement. 
 
 N'oubliez pas de cocher les 2 cases en dessous de ses lignes afin que ISLC démarre au démarrage et en mode réduit.
 
