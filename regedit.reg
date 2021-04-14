@@ -225,7 +225,7 @@ Windows Registry Editor Version 5.00
 "ShowSecondsInSystemClock"=dword:00000001
     
 ;--------------------SERVICES--------------------
-; DISABLE Services
+; DISABLE Google Chrome Services
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\GoogleChromeElevationService]
 "Start"=dword:00000004
 
@@ -235,6 +235,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\gupdatem]
 "Start"=dword:00000003
 
+; DISABLE Microsoft Edge Services
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MicrosoftEdgeElevationService]
 "Start"=dword:00000004
 
@@ -244,23 +245,33 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\edgeupdatem]
 "Start"=dword:00000003
 
+; DISABLE Brave Browser Services
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\brave]
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\bravem]
 "Start"=dword:00000003
 
+; DISABLE Mozilla's Services
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MozillaMaintenance]
 "Start"=dword:00000004
 
+; DISABLE Origin's Services
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Origin Client Service]
 "Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Origin Web Helper Service]
 "Start"=dword:00000004
 
+; DISABLE Steam's Services
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Steam Client Service]
 "Start"=dword:00000003
 
+; Hide WallpaperEngine icon in tray
 [HKEY_CURRENT_USER\Software\WallpaperEngine]
 "hideTrayIcon"=dword:00000001
+
+; Disable Restore Point (set 3 if needed to re-active the service)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS] 
+"Start"=dword:00000004
+
