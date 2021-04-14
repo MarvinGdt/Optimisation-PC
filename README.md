@@ -145,29 +145,36 @@ Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000000 /f`
 
+
 **=> Désactiver la sortie d'hibernation :** 
 
 `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000000 /f`
+
 
 **=> Désactiver la combinaison de touche Win+Tab :** 
 
 `REG ADD "HKCU\Keyboard Layout\toggle" /v "Language Hotkey" /t REG_SZ /d 3 /f`
 
+
 **=> Désactiver Aero Shake :** 
 
 `REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v DisallowShaking /t REG_DWORD /d 00000001 /f`
+
 
 **=> SUPPRIMER l'hibernation :** (à faire si vous avez désactivé la sortie d'hibernation)
 
 `powercfg -h off`
 
+
 **=> Vérifier le trim du SSD :** 
 
 `fsutil behavior set DisableDeleteNotify 0`
 
+
 **=> Garanti 90% des ressources aux tâches principales :** (si vous streamez, vous pourrez renconter des soucis, si c'est le cas, remettez à 20)
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f`
+
 
 ### QUELQUES COMMANDES BONUS 
 >
@@ -176,11 +183,6 @@ Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en
 >`REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}"`
 >
 >`REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}"`
-
-
->Désactiver la création de points de restauration (remettez la valeur à 3 si besoin)
->
->`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS" /v Start /t REG_DWORD /d 00000004 /f` 
 
 
 >Désactiver les Prefetch/Superfetch (appelé maintenant SysMain) UNIQUEMENT SI WINDOWS EST INSTALLE SUR UN SSD
@@ -276,11 +278,17 @@ Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en
 >
 >`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\edgeupdatem" /v Start /t REG_DWORD /d 00000003 /f`
 
+
 >Services Brave Browser (désactive les mises à jour automatiques)
 >
 >`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\brave" /v Start /t REG_DWORD /d 00000004 /f`
 >
 >`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\bravem" /v Start /t REG_DWORD /d 00000003 /f`
+
+
+>Désactiver la création de points de restauration (remettez la valeur à 3 si besoin)
+>
+>`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS" /v Start /t REG_DWORD /d 00000004 /f`
 
 Si vous voulez plus de réglage que ce qui est proposé ci-dessus : 
 
