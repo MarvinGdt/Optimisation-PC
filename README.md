@@ -370,7 +370,6 @@ Visual C++ à télécharger ici : [`Visual C++ Package AiO`](https://www.techpow
 - Une fois l'archive extraite, ouvrez le dossier de l'archive extraite, faites un clic droit sur le fichier "**install_all**", et cliquez sur "**Lancer en tant qu'administrateur**".
 - Attendre la fin des installations, puis redémarrer le PC.
 
-
 ## Réduire encore plus la latence
 
 Simplement, un logiciel qui réduira la latence de votre Windows mais aussi, cela permet de purger la RAM. 
@@ -385,9 +384,7 @@ En bas à gauche du logiciel vous aurez 2 lignes :
 
 Sur la 1ère ligne, vous laissez 1024 MB.
 
-Sur la 2nd ligne, vous appliquez au MINIMUM la moitié du nombre total de votre RAM. Personnellement, pour 16 Go de RAM, j'applique 8192 MB. 
-
-N'allouez pas tout, laissez au moins 4 Go de RAM de dispo afin que la purge de RAM se fasse régulièrement.
+Sur la 2nd ligne, vous appliquez au MINIMUM la moitié du nombre total de votre RAM. Personnellement, pour 16 Go de RAM, j'applique 10240 MB afin que la purge se fasse régulièrement. 
 
 N'oubliez pas de cocher les 2 cases en dessous de ses lignes afin que ISLC démarre au démarrage et en mode réduit.
 
@@ -421,6 +418,8 @@ Pour diminuer la charge CPU et GPU (accélération matérielle) :
 
 - [`VLC Player`](https://www.videolan.org/vlc/index.fr.html) : bonne alternative au lecteur de base de Windows 10 qui est une infamie ou au Lecteur Windows Media. Plus polyvalent, une meilleure compatibilité des fichiers. Encore une fois, open-source. 
 
+- [`MPC-BE`](https://sourceforge.net/projects/mpcbe/) : si vous préférez un autre lecteur que VLC, je vous propose MPC-BE. Attention toute fois, le projet est assez récent, même s'il s'agit d'un fork de MPC-HC, qui n'est plus mis à jour à ce jour, il se peut que vous ayez des petits bugs. Le soft est régulièrement mis à jour, donc soyez sans crainte.
+
 - [`Epic Disk Cleanup`](https://drive.google.com/open?id=1ORb7otD5bvITT5eBgsMvOz60BWkRp2Wd) : pour ajouter cette fonctionnalité embarquée dans Windows faites windows+r et tapez : cleanmgr.exe /sageset:50 et faites Enter. 
 Permet de nettoyer plus en profondeur votre PC. Pas besoin de logiciel tier, le cleanup embarqué dans Windows est le mieux.
 Cochez tout sauf Corbeille (conseillé de le cocher) et Téléchargement (conseillé de ne pas le cocher afin de garder ce que vous avez besoin). 
@@ -429,17 +428,3 @@ Une fois réglé, téléchargez le raccourci de Epic Disk Cleanup et lancez le. 
 - [`OpenShell`](https://github.com/Open-Shell/Open-Shell-Menu/releases/) : Remplace le menu démarrer natif de Windows 10 par un style Windows 7. Fork de StartMenu 7.
 
 - [`Configurer son navigateur et les extensions que je recommande`](https://docs.google.com/document/d/1vq0me5Gd6WOsz68GHlrAQEBHOJ85Az8pXhY13JV9kLA/edit?usp=sharing) : Voici un document qui vous permettra de bien paramétrer votre navigateur ainsi que les extensions utiles que je recommande.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
