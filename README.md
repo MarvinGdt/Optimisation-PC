@@ -178,6 +178,11 @@ Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en
 >`REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}"`
 
 
+>Désactiver la création de points de restauration (remettez la valeur à 3 si besoin)
+>
+>`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS" /v Start /t REG_DWORD /d 00000004 /f` 
+
+
 >Désactiver les Prefetch/Superfetch (appelé maintenant SysMain) UNIQUEMENT SI WINDOWS EST INSTALLE SUR UN SSD
 >
 >`REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\SessionManager\Memory Management\PrefetchParameters" /v EnableSuperfetch /t REG_DWORD /d 00000000 /f`
