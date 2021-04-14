@@ -225,7 +225,7 @@ Windows Registry Editor Version 5.00
 "ShowSecondsInSystemClock"=dword:00000001
     
 ;--------------------SERVICES--------------------
-; DISABLE Google Chrome Services
+; DISABLE Google Chrome auto-update Services
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\GoogleChromeElevationService]
 "Start"=dword:00000004
 
@@ -235,7 +235,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\gupdatem]
 "Start"=dword:00000003
 
-; DISABLE Microsoft Edge Services
+; DISABLE Microsoft Edge auto-update Services
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MicrosoftEdgeElevationService]
 "Start"=dword:00000004
 
@@ -245,7 +245,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\edgeupdatem]
 "Start"=dword:00000003
 
-; DISABLE Brave Browser Services
+; DISABLE Brave Browser auto-update Services
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\brave]
 "Start"=dword:00000004
 
@@ -263,7 +263,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Origin Web Helper Service]
 "Start"=dword:00000004
 
-; DISABLE Steam's Services
+; Set to MANUAL Steam's Services
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Steam Client Service]
 "Start"=dword:00000003
 
