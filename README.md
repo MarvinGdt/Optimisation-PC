@@ -415,7 +415,7 @@ Réactiver les mises à jour automatiques des drivers permet d'éviter de cherch
 
 Pour diminuer la charge CPU et GPU (accélération matérielle) : 
 
-- **Discord :** Désactiver l'overlay dans l'onglet "apparence" ainsi que l'accélération matérielle dans l'onglet "système" et l'ouverture au démarrage de Windows ;
+- **Discord :** Désactiver l'overlay dans l'onglet "overlay" dans "paramètres de jeu" ainsi que l'accélération matérielle dans l'onglet "avancés" et l'ouverture au démarrage de Windows ;
 - **Steam et autres launchers :** Désactiver le démarrage de Steam et des autres launchers à l'ouverture de Windows, désactivez l'accélération du rendu GPU ;
 - **Les périphériques non utilisés :** dans le doute, je ne vous conseille pas de faire cette étape, cela ne joue à pas grand chose dans la latence et vous pouvez désactiver des slots PCI (périphériques USB) que vous utilisez par erreur. Ne faites donc pas cette étape si vous n'êtes pas sûr de vous.
 
