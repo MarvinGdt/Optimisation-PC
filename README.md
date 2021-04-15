@@ -374,9 +374,9 @@ Voici une vidéo explicative sur le mode d'alimentation :
 
 ## Installer le Visual C++ Package et DirectX
 
-DirectX à télécharger ici : [`DirectX`](https://www.microsoft.com/fr-FR/download/details.aspx?id=35) 
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) DirectX à télécharger ici : [`DirectX`](https://www.microsoft.com/fr-FR/download/details.aspx?id=35) 
 
-Visual C++ à télécharger ici : [`Visual C++ Package AiO`](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) Visual C++ à télécharger ici : [`Visual C++ Package AiO`](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
 
 - Allez sur le lien ci dessus, puis cliquer sur le bouton bleu à gauche de la page marqué "DOWNLOAD"
 - Sur la page qui s'ouvre, cliquez sur n'importe quel drapeau pour lancer le téléchargement.
