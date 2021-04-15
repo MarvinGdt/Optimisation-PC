@@ -2,11 +2,11 @@
 
 Dans ce github, j'ai compilé plusieurs tutos, guides de différentes personnes. Les trouvailles, tutos appartiennent aux personnes qui ont passés du temps à faire toutes ces recherches.
  
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`CAPETLEVRAI`](https://www.twitter.com/capetlevrai) 
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`CAPETLEVRAI`](https://www.twitter.com/capetlevrai) 
 >[`GUIDE`](https://docs.google.com/document/d/1bfRI8ykV2esBQwy6x_3DX7WR_XLO-Y0bJ-0ds2Mbhek/edit) 
 >>[`YOUTUBE`](https://www.youtube.com/user/capetlevrai)
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`PIWI`](https://www.twitter.com/piwielle) 
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`PIWI`](https://www.twitter.com/piwielle) 
 >[`GUIDE`](https://piwielle.github.io/oui) 
 >>[`YOUTUBE`](https://www.youtube.com/c/Piwi_youtube/)
 
@@ -51,21 +51,21 @@ Avant d’entamer l’optimisation de Windows, il est préférable que vous ayez
 Ces optimisations sont utiles, nous ne rentrerons pas dans les détails pour l’overclocking, il existe beaucoup de site qui peuvent vous y guider de manière très explicite et complète. Je vous laisse faire vos recherches à ce sujet. 
 Ci-dessous, je mets les guides vidéos des cartes mères pour AMD et Intel en brutes avec toutes les explications pour effectuer les réglages. S’il vous manque une option qui n’est pas disponible dans votre bios, passez à la suivante, faites le plus de réglage que vous pouvez en suivant le guide. 
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`OPTIMISER SON BIOS AMD - CAPET`](https://www.youtube.com/watch?v=BXpEE3Qz4X4&t)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`OPTIMISER SON BIOS AMD - CAPET`](https://www.youtube.com/watch?v=BXpEE3Qz4X4&t)
 
 -> Dans l'idéal, pour la partie AMD, laissez le SMT en "Auto", quelques personnes ont eu des soucis de stabilité en ayant désactiver le SMT (HyperThreading pour AMD). 
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`OPTIMISER SON BIOS INTEL - CAPET`](https://www.youtube.com/watch?v=xSjLnO5VZEY)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`OPTIMISER SON BIOS INTEL - CAPET`](https://www.youtube.com/watch?v=xSjLnO5VZEY)
 
 -> Laissez également l'HyperThreading sur les CPU Intel. En effet, la majorité des jeux vont bien gérer l'HT et, pour certains jeux, cela fait gagner des performences. Donc laissez activé.
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`OVERCLOCKING CPU/RAM - CAPET`](https://www.youtube.com/playlist?list=PL96Ozk0v-00PNjvTPTvpMlT0sMGZvAXLg)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`OVERCLOCKING CPU/RAM - CAPET`](https://www.youtube.com/playlist?list=PL96Ozk0v-00PNjvTPTvpMlT0sMGZvAXLg)
 
 -> Cette étape est OPTIONNELLE. Vous n'êtes pas obligé de faire cette partie si vous n'êtes pas serein. Je la mets pour les plus téméraires.
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`ClockTuner For Ryzen (EN)`](https://www.guru3d.com/articles-pages/clocktuner-2-for-ryzen-(ctr)-guide,1.html)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`ClockTuner For Ryzen (EN)`](https://www.guru3d.com/articles-pages/clocktuner-2-for-ryzen-(ctr)-guide,1.html)
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`ClockTuner For Ryzen (FR)`](https://overclocking.com/tutoriel-clock-tuner-for-ryzen-version-2-0/)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`ClockTuner For Ryzen (FR)`](https://overclocking.com/tutoriel-clock-tuner-for-ryzen-version-2-0/)
 
 -> Si vous avez un CPU AMD Ryzen à partir de la génération Ryzen 3000, vous pouvez utiliser ce logiciel qui vous permettra d'OC automatiquement votre processeur via Windows directement.
 
@@ -79,11 +79,11 @@ Vous faites l'un OU l'autre. A vous de choisir.
 
 Pour ce faire, je vous redirige vers ce tuto très simple de TopAchat afin de pouvoir préparer votre clé USB bootable, installer Windows. 
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`[TUTO] Installer Windows 10 & Tes Drivers - TopAchat [FR]`](https://www.youtube.com/watch?v=uHOP4UbEGug)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`[TUTO] Installer Windows 10 & Tes Drivers - TopAchat [FR]`](https://www.youtube.com/watch?v=uHOP4UbEGug)
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`DRIVER NVIDIA`](https://www.nvidia.com/Download/Find.aspx?lang=fr)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`DRIVER NVIDIA`](https://www.nvidia.com/Download/Find.aspx?lang=fr)
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`DRIVER AMD`](https://www.amd.com/fr/graphics/radeon-rx-graphics)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`DRIVER AMD`](https://www.amd.com/fr/graphics/radeon-rx-graphics)
 
 ## Réglage du panneau de configuration Nvidia
 
@@ -93,7 +93,7 @@ Lisez les commentaires sous les photos, en fonction de ce que vous voulez.
 
 **Note :** j'ai activé le DSR mode dans les screens, ne l'activez pas. C'est un upscale de résolution. 
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`Nvidia Control Panel`](https://imgur.com/a/fxx8TNm)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Nvidia Control Panel`](https://imgur.com/a/fxx8TNm)
 
 ### Activer G-SYNC de la bonne manière
 
@@ -103,7 +103,7 @@ L'inconvéniant de la V-SYNC est qu'elle rajoute énormément d'input lag, donc 
 
 Si vous souhaitez utiliser G-SYNC pour vos jeux, voici une vidéo qui vous expliquera pas à pas, comment l'activer correctement. 
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`Activer G-SYNC de la bonne manière`](https://www.youtube.com/watch?v=JVRWjfoj8y8)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Activer G-SYNC de la bonne manière`](https://www.youtube.com/watch?v=JVRWjfoj8y8)
 
 ### **TL:DR de la vidéo**
 
@@ -126,7 +126,7 @@ Si vous souhaitez utiliser G-SYNC pour vos jeux, voici une vidéo qui vous expli
 
 Une fois que Windows sera installé, on se retrouve sur le bureau (avec une résolution très faible, ce qui est normal, la résolution normale viendra quand on aura installé les drivers de la carte graphique). La première chose qu’on va faire, c’est désactiver l’installation automatique des drivers de Windows. Pour ce faire, je vous propose de suivre la vidéo suivante :
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`Désactiver l'installation automatique des drivers de Windows Update`](https://www.youtube.com/watch?v=IMmNS6yAK4g)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Désactiver l'installation automatique des drivers de Windows Update`](https://www.youtube.com/watch?v=IMmNS6yAK4g)
 
 Les commandes (à lancer dans CMD en administrateur) : 
 
@@ -136,7 +136,7 @@ Une fois les drivers de Windows désactivés, vous devez impérativement redéma
 Reboot le PC maintenant vous permettra d’avoir accès à internet, et donc de copier/coller les commandes CMD suivantes (si vous les avez pas sauvegardé avant l’install sur un fichier texte dans une clé USB)
 Tant qu’on est à faire des changements dans regedit, je vous propose quelques petits tweaks basiques, qui vont légèrement améliorer les performances de votre PC, mais sans aucun problème de compatibilité, ou risque pour votre PC. La vidéo qui vous donnera des explications et du contexte est la suivante (recommandée).
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`Quelques tweaks regedit (basiques)`](https://www.youtube.com/watch?v=X4AVdnHFn_E)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Quelques tweaks regedit (basiques)`](https://www.youtube.com/watch?v=X4AVdnHFn_E)
 
 Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en admin, encore une fois) : 
 
@@ -291,7 +291,7 @@ Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en
 
 Si vous voulez plus de réglage que ce qui est proposé ci-dessus : 
 
---> [`Regedit`](https://github.com/MarvinGdt/opti-pc/blob/main/regedit.reg)
+--> ![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Regedit`](https://github.com/MarvinGdt/opti-pc/blob/main/regedit.reg)
 
 ## Mises à jour de Windows
 
@@ -307,7 +307,7 @@ Il suffit simplement de se promener dans les paramètres de Windows et de désac
 
 Si vous avez besoin d'aide, voici une vidéo qui explique l'ensemble des paramètres : 
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`Paramètres Windows`](https://www.youtube.com/watch?v=DP0e0xTk0Ck)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Paramètres Windows`](https://www.youtube.com/watch?v=DP0e0xTk0Ck)
 
 ### Animation de Windows
 
@@ -327,7 +327,7 @@ Laissez cocher :
 J'utilise ce logiciel pour automatiser les réglages des paramètres Windows. Simple et clair, il suffit de lire les options avant de cocher. 
 Si vous rencontrez un soucis, vous pourrez décocher l'option qui vous pose problème.
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`W10Privacy (et d'autres logiciels de "vie privée")`](https://www.youtube.com/watch?v=oPUJThkVmXI) + [`Préréglage et le logiciel`](https://drive.google.com/file/d/1GzAWJxNHv4r2NFH80c1lwg0i0J68AQla/view?usp=sharing)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`W10Privacy (et d'autres logiciels de "vie privée")`](https://www.youtube.com/watch?v=oPUJThkVmXI) + [`Préréglage et le logiciel`](https://drive.google.com/file/d/1GzAWJxNHv4r2NFH80c1lwg0i0J68AQla/view?usp=sharing)
 
 Tout ce qui est en ROUGE et JAUNE, ne TOUCHEZ PAS ! SAUF si vous savez ce que vous faites et que vous comprenez l'utilité de l'option. 
 
@@ -343,13 +343,13 @@ Laissez, donc, Defender et les mises à jour Windows vous assure une sécurité.
 
 Voici une vidéo explicative sur l'impact de Defender sur votre PC : 
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`Windows Defender`](https://www.youtube.com/watch?v=ZNVDjyE6MyM)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Windows Defender`](https://www.youtube.com/watch?v=ZNVDjyE6MyM)
 
 ## Mode MSI
 
 Explication et utilité du mode MSI se trouvent dans la vidéo suivante :
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`MSI Mode`](https://youtu.be/eydeMfLlIsA)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`MSI Mode`](https://youtu.be/eydeMfLlIsA)
 
 [`Si vous voulez plus d'information sur ce qu'est le mode MSI`](https://forum.malekal.com/viewtopic.php?t=62058) et [`télécharger MSI Utility`]( https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/)
 
@@ -366,7 +366,7 @@ Ensuite, allez l'appliquer dans les réglages de gestion d'alimentation.
 
 Voici une vidéo explicative sur le mode d'alimentation : 
 
-![#f03c15](http://placehold.it/15/f03c15/000000?text=+) [`Mode de gestion d'alimentation`](https://youtu.be/SAlqNxr1eVY)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Mode de gestion d'alimentation`](https://youtu.be/SAlqNxr1eVY)
 
 **Note :** désactivez la suspension séléctive USB dans le profil d'alimentation que vous utilisez.
 
