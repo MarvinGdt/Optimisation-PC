@@ -16,14 +16,13 @@ A noter qu'il y a probablement du copier/coller venant des sources, c'est normal
 
 Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce qui sera expliqué dans ce manuel d’optimisation : 
 
-Tous les fichiers nécessaires, pour le suivi de ce guide, seront disponibles directement via ce dernier au fur et à mesure des chapitres. 
+- Tous les fichiers nécessaires, pour le suivi de ce guide, seront disponibles directement via ce dernier au fur et à mesure des chapitres. 
 
-Je ne parlerai pas d’overclocking processeur et RAM durant ce guide. Mais je vous redirigerai vers une playlist de tuto qui explique les bases et quoi faire, si vous voulez vous y lancer.
+- Je ne parlerai pas d’overclocking processeur et RAM durant ce guide. Mais je vous redirigerai vers une playlist de tuto qui explique les bases et quoi faire, si vous voulez vous y lancer.
 
-Pour finir, je ne serai en aucun cas responsable de tout dommage, défaut ou mauvaise manipulation de votre part. Ce guide est rédigé par mes soins après plusieurs tests de ce que j’en ai tiré dans mes recherches et les tutos que j’ai suivis. 
+- Pour finir, je ne serai en aucun cas responsable de tout dommage, défaut ou mauvaise manipulation de votre part. Ce guide est rédigé par mes soins après plusieurs tests de ce que j’en ai tiré dans mes recherches et les tutos que j’ai suivis. 
 
-Si vous êtes sur PC portable, vous pouvez suivre ce guide sans problème, cependant, je ne recommande pas de faire le point "[**Mode MSI**](#mode-msi)" qui pourrait poser problèmes sur votre
-machine. Si vous testez, c'est à vos risques.
+- Si vous êtes sur PC portable, vous pouvez suivre ce guide sans problème, cependant, je ne recommande pas de faire le point "[**Mode MSI**](#mode-msi)" qui pourrait poser problèmes sur votre machine. Si vous testez, c'est à vos risques.
 
 JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONSABILITÉS ! LISEZ ATTENTIVEMENT LE GUIDE PAR CHAPITRE ET PRENEZ VOTRE TEMPS ! 
 
