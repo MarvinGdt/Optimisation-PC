@@ -26,6 +26,8 @@ Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce 
 
 JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONSABILITÉS ! LISEZ ATTENTIVEMENT LE GUIDE PAR CHAPITRE ET PRENEZ VOTRE TEMPS ! 
 
+**NB :** cette icône "![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png)" signifie qu'il y a un lien sur lequel vous pouvez cliquer afin d'être redirigé vers une page source ou de téléchargement.
+
 ## Table des matières
 
  - [**Optimisation du BIOS**](#optimisation-du-bios)
@@ -420,23 +422,23 @@ Pour diminuer la charge CPU et GPU (accélération matérielle) :
 
 ## (BONUS) Liste des logiciels utiles à installer sur votre PC
 
-- [`7Zip`](https://www.7-zip.org/download.html) : gratuit et open-source, plus léger et meilleur (à mon sens) que WinRar.
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`7Zip`](https://www.7-zip.org/download.html) : gratuit et open-source, plus léger et meilleur (à mon sens) que WinRar.
 
-- [`NVCleanstall`](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) : alternative à GeForce Experience, plus léger, permet d’installer que le driver vidéo. Vous pouvez donc ne pas installer GeForce Experience, Ansel, ShadowPlay etc. si vous ne les utilisez pas. Vous pouvez aussi les installer si nécessaire. A vous de voir, cela ne joue pas sur les performences en jeu si vous installez toutes les features de Nvidia ou pas.
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`NVCleanstall`](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) : alternative à GeForce Experience, plus léger, permet d’installer que le driver vidéo. Vous pouvez donc ne pas installer GeForce Experience, Ansel, ShadowPlay etc. si vous ne les utilisez pas. Vous pouvez aussi les installer si nécessaire. A vous de voir, cela ne joue pas sur les performences en jeu si vous installez toutes les features de Nvidia ou pas.
 
-- [`LibreOffice`](https://fr.libreoffice.org/download/telecharger-libreoffice/) : Bon remplaçant de la suite Office de Microsoft, prend en charge l’exportation “.docx”, gratuit, interface qui se rapproche beaucoup de Word.
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`LibreOffice`](https://fr.libreoffice.org/download/telecharger-libreoffice/) : Bon remplaçant de la suite Office de Microsoft, prend en charge l’exportation “.docx”, gratuit, interface qui se rapproche beaucoup de Word.
 
-- [`Office 2007`](https://mega.nz/file/lgAjlKab#5JHXgCCO1n9EwRzauOOl_n__bQN1d3C2mGINKf3iH2E) : si vous souhaitez garder la suite Office de Microsoft, alors je vous recommande cette version. Pas de nécessité de se connecter à internet, gère les formats “.docx” sur les documents récents. Outre l’interface qui change un petit peu, vous ne vous perdrez pas car les menus sont identiques aux versions récentes (2013/2016/2019/2021). Aussi, nous pouvons supprimer le service “Office Source Engine” pour ne pas que les mises à jour de Office 2007 se fassent avec Windows Update.
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Office 2007`](https://mega.nz/file/lgAjlKab#5JHXgCCO1n9EwRzauOOl_n__bQN1d3C2mGINKf3iH2E) : si vous souhaitez garder la suite Office de Microsoft, alors je vous recommande cette version. Pas de nécessité de se connecter à internet, gère les formats “.docx” sur les documents récents. Outre l’interface qui change un petit peu, vous ne vous perdrez pas car les menus sont identiques aux versions récentes (2013/2016/2019/2021). Aussi, nous pouvons supprimer le service “Office Source Engine” pour ne pas que les mises à jour de Office 2007 se fassent avec Windows Update.
 
-- [`VLC Player`](https://www.videolan.org/vlc/index.fr.html) : bonne alternative au lecteur de base de Windows 10 qui est une infamie ou au Lecteur Windows Media. Plus polyvalent, une meilleure compatibilité des fichiers. Encore une fois, open-source. 
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`VLC Player`](https://www.videolan.org/vlc/index.fr.html) : bonne alternative au lecteur de base de Windows 10 qui est une infamie ou au Lecteur Windows Media. Plus polyvalent, une meilleure compatibilité des fichiers. Encore une fois, open-source. 
 
-- [`MPC-BE`](https://sourceforge.net/projects/mpcbe/) : si vous préférez un autre lecteur que VLC, je vous propose MPC-BE. Attention toute fois, le projet est assez récent, même s'il s'agit d'un fork de MPC-HC, qui n'est plus mis à jour à ce jour, il se peut que vous ayez des petits bugs. Le soft est régulièrement mis à jour, donc soyez sans crainte.
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`MPC-BE`](https://sourceforge.net/projects/mpcbe/) : si vous préférez un autre lecteur que VLC, je vous propose MPC-BE. Attention toute fois, le projet est assez récent, même s'il s'agit d'un fork de MPC-HC, qui n'est plus mis à jour à ce jour, il se peut que vous ayez des petits bugs. Le soft est régulièrement mis à jour, donc soyez sans crainte.
 
-- [`Epic Disk Cleanup`](https://drive.google.com/open?id=1ORb7otD5bvITT5eBgsMvOz60BWkRp2Wd) : pour ajouter cette fonctionnalité embarquée dans Windows faites windows+r et tapez : cleanmgr.exe /sageset:50 et faites Enter. 
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Epic Disk Cleanup`](https://drive.google.com/open?id=1ORb7otD5bvITT5eBgsMvOz60BWkRp2Wd) : pour ajouter cette fonctionnalité embarquée dans Windows faites windows+r et tapez : cleanmgr.exe /sageset:50 et faites Enter. 
 Permet de nettoyer plus en profondeur votre PC. Pas besoin de logiciel tier, le cleanup embarqué dans Windows est le mieux.
 Cochez tout sauf Corbeille (conseillé de le cocher) et Téléchargement (conseillé de ne pas le cocher afin de garder ce que vous avez besoin). 
 Une fois réglé, téléchargez le raccourci de Epic Disk Cleanup et lancez le. Il fera le travail que vous lui aurez demandé de faire. 
 
-- [`OpenShell`](https://github.com/Open-Shell/Open-Shell-Menu/releases/) : Remplace le menu démarrer natif de Windows 10 par un style Windows 7. Fork de StartMenu 7.
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`OpenShell`](https://github.com/Open-Shell/Open-Shell-Menu/releases/) : Remplace le menu démarrer natif de Windows 10 par un style Windows 7. Fork de StartMenu 7.
 
-- [`Configurer son navigateur et les extensions que je recommande`](https://docs.google.com/document/d/1vq0me5Gd6WOsz68GHlrAQEBHOJ85Az8pXhY13JV9kLA/edit?usp=sharing) : Voici un document qui vous permettra de bien paramétrer votre navigateur ainsi que les extensions utiles que je recommande.
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Configurer son navigateur et les extensions que je recommande`](https://docs.google.com/document/d/1vq0me5Gd6WOsz68GHlrAQEBHOJ85Az8pXhY13JV9kLA/edit?usp=sharing) : Voici un document qui vous permettra de bien paramétrer votre navigateur ainsi que les extensions utiles que je recommande.
