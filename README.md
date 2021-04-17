@@ -434,7 +434,7 @@ Pour diminuer la charge CPU et GPU (accélération matérielle) :
 
 ![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`MPC-BE`](https://sourceforge.net/projects/mpcbe/) : si vous préférez un autre lecteur que VLC, je vous propose MPC-BE. Attention toute fois, le projet est assez récent, même s'il s'agit d'un fork de MPC-HC, qui n'est plus mis à jour à ce jour, il se peut que vous ayez des petits bugs. Le soft est régulièrement mis à jour, donc soyez sans crainte.
 
-![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Epic Disk Cleanup`](https://drive.google.com/open?id=1ORb7otD5bvITT5eBgsMvOz60BWkRp2Wd) : pour ajouter cette fonctionnalité embarquée dans Windows faites windows+r et tapez : cleanmgr.exe /sageset:50 et faites Enter. 
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Epic Disk Cleanup`](https://drive.google.com/open?id=1ORb7otD5bvITT5eBgsMvOz60BWkRp2Wd) : pour ajouter cette fonctionnalité embarquée dans Windows faites windows+r et tapez : [`cleanmgr.exe /sageset:50`] et faites Enter. 
 Permet de nettoyer plus en profondeur votre PC. Pas besoin de logiciel tier, le cleanup embarqué dans Windows est le mieux.
 Cochez tout sauf Corbeille (conseillé de le cocher) et Téléchargement (conseillé de ne pas le cocher afin de garder ce que vous avez besoin). 
 Une fois réglé, téléchargez le raccourci de Epic Disk Cleanup et lancez le. Il fera le travail que vous lui aurez demandé de faire. 
