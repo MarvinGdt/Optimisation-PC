@@ -95,7 +95,7 @@ Lisez les commentaires sous les photos, en fonction de ce que vous voulez.
 
 **Note :** j'ai activé le DSR mode dans les screens, ne l'activez pas. C'est un upscale de résolution. 
 
-![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Nvidia Control Panel`](https://imgur.com/a/fxx8TNm)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Nvidia Control Panel`](https://docs.google.com/document/d/1PEIxcgfH3bZOv8mPKYyepyBaXrlvL3KbErV1srNPIWM/edit?usp=sharing)
 
 ### Activer G-SYNC de la bonne manière
 
