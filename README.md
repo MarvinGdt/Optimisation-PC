@@ -226,6 +226,8 @@ Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en
 > ![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`MarkC - Windows Mouse Things`](https://donewmouseaccel.blogspot.com/2010/03/markc-windows-7-mouse-acceleration-fix.html) 
 > 
 > En cas de soucis, il est possible de revenir aux paramètres par défaut, tout est dans le .zip que vous aurez téléchargé via le lien. Lisez bien la doc sur le site. 
+> 
+> Je l'utilise depuis 2 ans, j'aime bien la sensibilité que cela me donne. Placebo ? Mais en revenant aux paramètres de base, je n'ai pas trop senti de différence, c'est à votre appréciation. 
 
 
 >Désactiver le mode veille
