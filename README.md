@@ -220,6 +220,12 @@ Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en
 >`REG ADD "HKEY_CURRENT_USER\Control Panel\Mouse" /v MouseThreshold1 /t REG_SZ /d 0 /f`
 >
 >`REG ADD "HKEY_CURRENT_USER\Control Panel\Mouse" /v MouseThreshold2 /t REG_SZ /d 0 /f`
+>
+> Je ne l'ai pas mis dans cette liste, ni dans le fichier .reg qui est dans le repo, mais si vous souhaitez bidouiller un petit peu plus votre sensibilité de souris en "1-to-1" selon votre scaling, voici un lien qui vous permettra d'approfondir : 
+>
+> ![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`MarkC - Windows Mouse Things`](https://donewmouseaccel.blogspot.com/2010/03/markc-windows-7-mouse-acceleration-fix.html) 
+> 
+> En cas de soucis, il est possible de revenir aux paramètres par défaut, tout est dans le .zip que vous aurez téléchargé via le lien. Lisez bien la doc sur le site. 
 
 
 >Désactiver le mode veille
