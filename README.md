@@ -31,11 +31,11 @@ JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONS
 ## Table des matières
 
  - [**Optimisation du BIOS**](#optimisation-du-bios)
+    - [**Mise à jour du BIOS**](#mise-à-jour-du-bios)
     - [**CPU AMD RYZEN**](#cpu-amd-ryzen)
-    - [**ClockTuner For Ryzen (recommandé)**](#clocktuner-for-ryzen-recommandé)
+    - [**ClockTuner For Ryzen (recommandé si vous voulez overclock)**](#clocktuner-for-ryzen-recommandé-si-vous-voulez-overclock)
     - [**CPU INTEL**](#cpu-intel)
     - [**(OPTIONNEL) Overclocking**](#optionnel-overclocking)
-    - [**Mise à jour du BIOS**](#mise-à-jour-du-bios)
     - [**Dépannage BIOS**](#dépannage-bios)
  - [**Installation de Windows et de vos Drivers**](#installation-de-windows-et-de-vos-drivers)
  - [**Réglage du panneau de configuration Nvidia**](#réglage-du-panneau-de-configuration-nvidia)
@@ -59,6 +59,18 @@ Avant d’entamer l’optimisation de Windows, il est préférable que vous ayez
 Ces optimisations sont utiles, nous ne rentrerons pas dans les détails pour l’overclocking, il existe beaucoup de site qui peuvent vous y guider de manière très explicite et complète. Je vous laisse faire vos recherches à ce sujet. 
 Ci-dessous, je mets les guides vidéos des cartes mères pour AMD et Intel en brutes avec toutes les explications pour effectuer les réglages. S’il vous manque une option qui n’est pas disponible dans votre bios, passez à la suivante, faites le plus de réglage que vous pouvez en suivant le guide. 
 
+## Mise à jour du BIOS
+
+N'hésitez pas à mettre votre BIOS à jour régulièrement ! Des corrections de bugs y sont souvent apportés et cela permet de gagner en stabilité et performence sur votre PC. 
+
+Vous trouverez le fichier de mise à jour de votre modèle PRECIS de carte mère sur le site de votre constructeur (Asus, Gigabyte, MSI etc.). Voici un tuto si vous avez besoin d'avoir les étapes pour vous rassurer : 
+
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`[DÉPANNAGE] Mettre ton BIOS à jour - TopAchat`](https://www.youtube.com/watch?v=HB8my058LQ0) 
+
+**NB :** N'oubliez pas que vous pouvez sauver votre configuration de BIOS en sauvegardant un profil afin de pouvoir le récupérer par après. En effet, une fois le BIOS mis à jour, il est remis à 0, donc par défaut, comme sorti d'usine. Sauver un profil permet de gagner simplement du temps. 
+
+Vous avez l'explication de comment sauver un profil dans le tuto optimisation de BIOS Intel mais cela est pareil pour AMD.
+
 ## CPU AMD RYZEN
 
 **Note :** Dans l'idéal, laissez le SMT en "Auto", quelques personnes ont eu des soucis de stabilité en ayant désactiver le SMT (HyperThreading pour AMD).
@@ -75,15 +87,31 @@ Je recommande, pour ma part :
 - Activer le PBO ;
 - Vous pouvez combiner le PBO ainsi qu'un OC avec CTR et activer la fonction "Hybrid OC" dans CTR. Tout est dans le tuto plus bas. 
 
-## ClockTuner For Ryzen (recommandé)
+## ClockTuner For Ryzen (recommandé si vous voulez overclock)
+
+Pour la majorité d'entre vous, le PBO vous conviendra parfaitement, pas besoin de faire quelconque manipulation, tout est géré automatiquement par votre carte mère.
 
 Si vous avez un CPU AMD Ryzen à partir de la génération Ryzen 3000, vous pouvez utiliser ce logiciel qui vous permettra d'OC automatiquement votre processeur via Windows directement.
 
+<details>
+  <summary>CTR - CONFIGURATION</summary> 
+
+![CTR](https://i.imgur.com/MSSfGvE.png)
+</details>
+
+Le développeur de CTR insiste sur le fait que nous devons avoir une fréquence RAM stable, donc, on va activer le DOCP :
+
+<details>
+ <summary>Activer le DOCP</summary>
+ 
+![DOCP](https://i.imgur.com/aucst3P.png)
+</details>
+
+=> NE TOUCHEZ A RIEN D'AUTRE ! Tout se fait automatiquement une fois le mode DOCP actif.
+
 ![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`ClockTuner For Ryzen`](https://overclocking.com/tutoriel-clock-tuner-for-ryzen-version-2-0)
 
-Suivez le guide, afin de préparer votre BIOS comme il se doit. Si vous utilisez CTR, ne faites pas le tuto vidéo pour AMD. 
-
-Vous faites l'un OU l'autre. A vous de choisir.
+Suivez et LISEZ BIEN le guide, afin de préparer votre BIOS comme il se doit. 
 
 ## CPU INTEL
 
@@ -98,17 +126,6 @@ Vous faites l'un OU l'autre. A vous de choisir.
 -> Ces étapes sont OPTIONNELLES. Vous n'êtes pas obligé de faire cette partie si vous n'êtes pas serein. Je la mets pour les plus téméraires.
 
 Pour les CPU AMD Ryzen 3000 +, référez vous plutôt à cette étape : [**ClockTuner For Ryzen**](#clocktuner-for-ryzen)
-
-## Mise à jour du BIOS
-
-N'hésitez pas à mettre votre BIOS à jour régulièrement ! Des corrections de bugs y sont souvent apportés et cela permet de gagner en stabilité et performence sur votre PC. 
-
-Vous trouverez le fichier de mise à jour de votre modèle PRECIS de carte mère sur le site de votre constructeur (Asus, Gigabyte, MSI etc.). Voici un tuto si vous avez besoin d'avoir les étapes pour vous rassurer : 
-
-![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`[DÉPANNAGE] Mettre ton BIOS à jour - TopAchat`](https://www.youtube.com/watch?v=HB8my058LQ0) 
-
-**NB :** N'oubliez pas que vous pouvez sauver votre configuration de BIOS en sauvegardant un profil afin de pouvoir le récupérer par après. En effet, une fois le BIOS mis à jour, il est remis à 0, donc par défaut, comme sorti d'usine. Sauver un profil permet de gagner simplement du temps. 
-Vous avez l'explication de comment sauver un profil dans les tutos optimisation de BIOS Intel et AMD plus haut.
 
 ## Dépannage BIOS
 
