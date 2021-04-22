@@ -79,7 +79,7 @@ Je recommande, pour ma part :
 
 Si vous avez un CPU AMD Ryzen à partir de la génération Ryzen 3000, vous pouvez utiliser ce logiciel qui vous permettra d'OC automatiquement votre processeur via Windows directement.
 
-![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`ClockTuner For Ryzen`](https://overclocking.com/tutoriel-clock-tuner-for-ryzen-version-2-0/)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`ClockTuner For Ryzen`](https://overclocking.com/tutoriel-clock-tuner-for-ryzen-version-2-0)
 
 Suivez le guide, afin de préparer votre BIOS comme il se doit. Si vous utilisez CTR, ne faites pas le tuto vidéo pour AMD. 
 
