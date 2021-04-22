@@ -31,6 +31,10 @@ JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONS
 ## Table des matières
 
  - [**Optimisation du BIOS**](#optimisation-du-bios)
+    - [**CPU AMD RYZEN**](#cpu-amd-ryzen)
+    - [**CPU INTEL**](#cpu-intel)
+    - [**Mise à jour du BIOS**](#mise-à-jour-du-bios)
+    - [**Dépannage BIOS**](#dépannage-bios)
  - [**Installation de Windows et de vos Drivers**](#installation-de-windows-et-de-vos-drivers)
  - [**Réglage du panneau de configuration Nvidia**](#réglage-du-panneau-de-configuration-nvidia)
     - [**Activer G-SYNC de la bonne manière**](#activer-g-sync-de-la-bonne-manière)
@@ -53,17 +57,25 @@ Avant d’entamer l’optimisation de Windows, il est préférable que vous ayez
 Ces optimisations sont utiles, nous ne rentrerons pas dans les détails pour l’overclocking, il existe beaucoup de site qui peuvent vous y guider de manière très explicite et complète. Je vous laisse faire vos recherches à ce sujet. 
 Ci-dessous, je mets les guides vidéos des cartes mères pour AMD et Intel en brutes avec toutes les explications pour effectuer les réglages. S’il vous manque une option qui n’est pas disponible dans votre bios, passez à la suivante, faites le plus de réglage que vous pouvez en suivant le guide. 
 
-![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`OPTIMISER SON BIOS AMD - CAPET`](https://www.youtube.com/watch?v=BXpEE3Qz4X4&t)
+## CPU AMD RYZEN
 
--> Dans l'idéal, pour la partie AMD, laissez le SMT en "Auto", quelques personnes ont eu des soucis de stabilité en ayant désactiver le SMT (HyperThreading pour AMD). 
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`OPTIMISER SON BIOS AMD - CAPET`](https://www.youtube.com/watch?v=BXpEE3Qz4X4)
 
-![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`OPTIMISER SON BIOS INTEL - CAPET`](https://www.youtube.com/watch?v=xSjLnO5VZEY)
+-> Dans l'idéal, pour la partie AMD, laissez le SMT en "Auto", quelques personnes ont eu des soucis de stabilité en ayant désactiver le SMT (HyperThreading pour AMD).
 
--> Laissez également l'HyperThreading sur les CPU Intel. En effet, la majorité des jeux vont bien gérer l'HT et, pour certains jeux, cela fait gagner des performences. Donc laissez activé.
+<details>
+  <summary>Soucis SMT (tiré du guide de Capet qui a eu ce retour par sa communauté)</summary> 
+  
+![SMT](https://i.imgur.com/yjXXdQE.png)
+</details>
 
-![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`OVERCLOCKING CPU/RAM - CAPET`](https://www.youtube.com/playlist?list=PL96Ozk0v-00PNjvTPTvpMlT0sMGZvAXLg)
+Je recommande, pour ma part :  
+- Laisser par défaut la plus part des options par défaut ;
+- Activer le C-STATE (ne pas laisser sur "Auto" mais le passer en "Enable") ;
+- Activer le PBO ;
+- Vous pouvez combiner le PBO ainsi qu'un OC avec CTR et activer la fonction "Hybrid OC" dans CTR. Tout est dans le tuto plus bas. 
 
--> Cette étape est OPTIONNELLE. Vous n'êtes pas obligé de faire cette partie si vous n'êtes pas serein. Je la mets pour les plus téméraires.
+### ClockTuner For Ryzen
 
 ![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`ClockTuner For Ryzen (EN)`](https://www.guru3d.com/articles-pages/clocktuner-2-for-ryzen-(ctr)-guide,1.html)
 
@@ -74,6 +86,33 @@ Ci-dessous, je mets les guides vidéos des cartes mères pour AMD et Intel en br
 Suivez les guides anglais ou français, afin de préparer votre BIOS comme il se doit. Si vous utilisez CTR, ne faites pas le tuto vidéo pour AMD. 
 
 Vous faites l'un OU l'autre. A vous de choisir.
+
+## CPU INTEL
+
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`OPTIMISER SON BIOS INTEL - CAPET`](https://www.youtube.com/watch?v=xSjLnO5VZEY)
+
+-> Laissez également l'HyperThreading sur les CPU Intel. En effet, la majorité des jeux vont bien gérer l'HT et, pour certains jeux, cela fait gagner des performences. Donc laissez activé.
+
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`OVERCLOCKING CPU/RAM - CAPET`](https://www.youtube.com/playlist?list=PL96Ozk0v-00PNjvTPTvpMlT0sMGZvAXLg)
+
+-> Cees étapes sont OPTIONNELLES. Vous n'êtes pas obligé de faire cette partie si vous n'êtes pas serein. Je la mets pour les plus téméraires.
+
+## Mise à jour du BIOS
+
+N'hésitez pas à mettre votre BIOS à jour régulièrement ! Des corrections de bugs y sont souvent apportés et cela permet de gagner en stabilité et performence sur votre PC. 
+
+Vous trouverez le fichier de mise à jour de votre modèle PRECIS de carte mère sur le site de votre constructeur (Asus, Gigabyte, MSI etc.). Voici un tuto si vous avez besoin d'avoir les étapes pour vous rassurer : 
+
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`[DÉPANNAGE] Mettre ton BIOS à jour - TopAchat`](https://www.youtube.com/watch?v=HB8my058LQ0) 
+
+**NB :** N'oubliez pas que vous pouvez sauver votre configuration de BIOS en sauvegardant un profil afin de pouvoir le récupérer par après. En effet, une fois le BIOS mis à jour, il est remis à 0, donc par défaut, comme sorti d'usine. Sauver un profil permet de gagner simplement du temps. 
+Vous avez l'explication de comment sauver un profil dans les tutos optimisation de BIOS Intel et AMD plus haut.
+
+## Dépannage BIOS
+
+En cas de tout soucis (BIOS qui ne démarre pas notamment) pas de panique, faites un clear CMOS afin de remettre tout par défaut et repartir sur de bonnes bases :
+
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Faire un clear CMOS - TopAchat`](https://www.youtube.com/watch?v=Fc0HIDKC1U0)
 
 ## Installation de Windows et de vos Drivers
 
