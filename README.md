@@ -61,9 +61,7 @@ Ci-dessous, je mets les guides vidéos des cartes mères pour AMD et Intel en br
 
 ## CPU AMD RYZEN
 
-![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`OPTIMISER SON BIOS AMD - CAPET`](https://www.youtube.com/watch?v=BXpEE3Qz4X4)
-
--> Dans l'idéal, pour la partie AMD, laissez le SMT en "Auto", quelques personnes ont eu des soucis de stabilité en ayant désactiver le SMT (HyperThreading pour AMD).
+**Note :** Dans l'idéal, laissez le SMT en "Auto", quelques personnes ont eu des soucis de stabilité en ayant désactiver le SMT (HyperThreading pour AMD).
 
 <details>
   <summary>Soucis SMT (tiré du guide de Capet qui a eu ce retour par sa communauté)</summary> 
@@ -89,9 +87,9 @@ Vous faites l'un OU l'autre. A vous de choisir.
 
 ## CPU INTEL
 
-![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`OPTIMISER SON BIOS INTEL - CAPET`](https://www.youtube.com/watch?v=xSjLnO5VZEY)
+**Note :** Laissez également l'HyperThreading sur les CPU Intel. En effet, la majorité des jeux vont bien gérer l'HT et, pour certains jeux, cela fait gagner des performences. Donc laissez activé.
 
--> Laissez également l'HyperThreading sur les CPU Intel. En effet, la majorité des jeux vont bien gérer l'HT et, pour certains jeux, cela fait gagner des performences. Donc laissez activé.
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`OPTIMISER SON BIOS INTEL - CAPET`](https://www.youtube.com/watch?v=xSjLnO5VZEY)
 
 ## (OPTIONNEL) Overclocking
 
