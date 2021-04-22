@@ -40,9 +40,11 @@ JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONS
    - [**CPU INTEL**](#cpu-intel)
    - [**(OPTIONNEL) Overclocking**](#optionnel-overclocking)
    - [**Dépannage BIOS**](#dépannage-bios)
-- [**Installation de Windows et de vos Drivers**](#installation-de-windows-et-de-vos-drivers)
+- [**Installation de Windows**](#installation-de-windows)
+- [**Installation de vos drivers**](#installation-de-vos-drivers)
 - [**Réglage du panneau de configuration Nvidia**](#réglage-du-panneau-de-configuration-nvidia)
    - [**Activer G-SYNC de la bonne manière**](#activer-g-sync-de-la-bonne-manière)
+   - [**MSI Afterburner**](#msi-afterburner)
 - [**Désactivation des drivers automatiques & Tweaks Regedit**](#désactivation-des-drivers-automatiques--tweaks-regedit)
 - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
 - [**Paramètres de Windows**](#paramètres-de-windows)
@@ -136,13 +138,25 @@ En cas de tout soucis (BIOS qui ne démarre pas notamment) pas de panique, faite
 
 <img src="images/w10.png"> [`Faire un clear CMOS - TopAchat`](https://www.youtube.com/watch?v=Fc0HIDKC1U0)
 
-## Installation de Windows et de vos Drivers
+## Installation de Windows
 
 **Note :** Je préconise de partir sur un formatage complet de votre PC afin que tout ce guide se passe sans problème.
 
 Pour ce faire, je vous redirige vers ce tuto très simple de TopAchat afin de pouvoir préparer votre clé USB bootable, installer Windows. 
 
 <img src="images/w10.png"> [`[TUTO] Installer Windows 10 & Tes Drivers - TopAchat [FR]`](https://www.youtube.com/watch?v=uHOP4UbEGug)
+
+## Installation de vos drivers
+
+Je vous **DÉCONSEILLE** fortement d'utiliser les softs style "DriverCloud" ou "DriverBooster" qui peuvent créer des conflits, installer des versions datées des drivers. Même s'il est rarement arrivé que des problèmes se montrent. 
+
+Je vous recommande **FORTEMENT** de passer par le site de votre constructeur de votre carte mère (Asus, Gigabyte, MSI notamment) afin que les bons drivers soient installés et également des drivers à jour. Le tuto du point [**Installation de Windows**](#installation-de-windows) vous en dira d'avantage. 
+
+Sinon, voici une autre vidéo de Piwi qui explique comment faire : 
+
+<img src="images/w10.png"> [`INSTALLER/UPDATE DE SES DRIVERS`](https://www.youtube.com/watch?v=TzSJ_DTLfqY) 
+
+Pour les drivers de votre carte graphique, voici ces deux liens dépendant de ce que vous avez comme modèle :
 
 <img src="images/w10.png"> [`DRIVER NVIDIA`](https://www.nvidia.com/Download/Find.aspx?lang=fr)
 
@@ -163,6 +177,17 @@ L'inconvéniant de la V-SYNC est qu'elle rajoute énormément d'input lag, donc 
 Si vous souhaitez utiliser G-SYNC pour vos jeux, voici une vidéo qui vous expliquera pas à pas, comment l'activer correctement. 
 
 <img src="images/w10.png"> [`Activer G-SYNC de la bonne manière`](https://www.youtube.com/watch?v=JVRWjfoj8y8)
+
+### MSI Afterburner
+
+Il s'agit d'un logiciel puissant qui vous permettra : 
+- Gérer la vitesse des ventilateurs de votre carte graphique (automatiquement ou manuellement) ;
+- Overclocker votre carte graphique pour gagner en performence ;
+- Voir en temps réel l'ensemble de l'utilisation de votre PC mais également les températures (CPU, GPU, RAM etc) ; 
+
+<img src="images/w10.png"> [`Utiliser MSI Afterburner - PIWI`](https://www.youtube.com/watch?v=eydeMfLlIsA)
+
+<img src="images/w10.png"> [`[TUTO] Overclocker ta carte graphique - TopAchat`](https://www.youtube.com/watch?v=64GJck-GWaM)
 
 ### **TL:DR de la vidéo**
 
@@ -436,6 +461,8 @@ Voici une vidéo explicative sur le mode d'alimentation :
 <img src="images/w10.png"> [`Mode de gestion d'alimentation`](https://youtu.be/SAlqNxr1eVY)
 
 **Note :** désactivez la suspension séléctive USB dans le profil d'alimentation que vous utilisez.
+
+**Note 2 :** Si vous avez installé vos drivers chipset AMD (ex: X570, B550 etc), vous avez des profils d'alimentations AMD qui viennent avec, je vous conseille d'utiliser ces profils si vous avez un CPU Ryzen. 
 
 ## Installer le Visual C++ Package et DirectX
 
