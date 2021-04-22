@@ -10,6 +10,9 @@ Dans ce github, j'ai compilé plusieurs tutos, guides de différentes personnes.
 >[`GUIDE`](https://piwielle.github.io/oui) 
 >>[`YOUTUBE`](https://www.youtube.com/c/Piwi_youtube/)
 
+<img src="images/w10.png"> [`TOPACHAT`](https://www.twitter.com/topachat)
+>[`YOUTUBE`](https://www.youtube.com/user/topachat) 
+
 A noter qu'il y a probablement du copier/coller venant des sources, c'est normal car c'est si bien expliqué que j'ai préféré laisser tel quel.
 
 # DISCLAIMER
