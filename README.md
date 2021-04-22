@@ -1,4 +1,4 @@
-# Optimiser son PC et Windows 10 sans risque
+# Optimiser son PC et Windows 10 sans risque 
 
 Dans ce github, j'ai compilé plusieurs tutos, guides de différentes personnes. Les trouvailles, tutos appartiennent aux personnes qui ont passés du temps à faire toutes ces recherches.
  
@@ -78,7 +78,7 @@ Vous avez l'explication de comment sauver un profil dans le tuto optimisation de
 <details>
   <summary>Soucis SMT (tiré du guide de Capet qui a eu ce retour par sa communauté)</summary> 
   
-![SMT](https://raw.githubusercontent.com/MarvinGdt/opti-pc/main/images/smt.png)
+![SMT](images/smt.png "Soucis SMT")
 </details>
 
 Je recommande, pour ma part :  
