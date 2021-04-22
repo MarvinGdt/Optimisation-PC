@@ -105,7 +105,7 @@ Si vous avez un CPU AMD Ryzen à partir de la génération Ryzen 3000, vous pouv
 Le développeur de CTR insiste sur le fait que nous devons avoir une fréquence RAM stable, donc, on va activer le DOCP :
 
 <details>
- <summary><img src="images/w10.png"> Activer le DOCP</summary>
+ <summary><img src="images/w10.png"> ACTIVER LE DOCP</summary>
  
 <img src="images/docp.png">
 </details>
