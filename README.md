@@ -154,13 +154,25 @@ Je vous recommande **FORTEMENT** de passer par le site de votre constructeur de 
 
 Sinon, voici une autre vidéo de Piwi qui explique comment faire : 
 
-<img src="images/w10.png"> [`INSTALLER/UPDATE DE SES DRIVERS`](https://www.youtube.com/watch?v=TzSJ_DTLfqY) 
+<img src="images/w10.png"> [`INSTALLER/UPDATE SES DRIVERS`](https://www.youtube.com/watch?v=TzSJ_DTLfqY) 
 
 Pour les drivers de votre carte graphique, voici ces deux liens dépendant de ce que vous avez comme modèle :
 
 <img src="images/w10.png"> [`DRIVER NVIDIA`](https://www.nvidia.com/Download/Find.aspx?lang=fr)
 
 <img src="images/w10.png"> [`DRIVER AMD`](https://www.amd.com/fr/graphics/radeon-rx-graphics)
+
+## (BONUS) Désinstaller son pilote graphique proprement avec DDU 
+
+Cet outil va simplement supprimer votre driver de carte graphique proprement pour, ainsi, réinstaller une autre version du driver. 
+
+Cela est utile lorsque le pilote déjà installé bug, n'est pas stable et a besoin d'être réinstallé.
+
+**Note :** Je recommande cette méthode plutôt que de cocher l'option "nouvelle installation" via l'installer officiel de votre driver qui peut ne pas nettoyer correctement.
+
+<img src="images/w10.png"> [`[TUTO] Désinstaller son pilote graphique proprement avec DDU`](https://www.youtube.com/watch?v=0L2XpBGKUa4) 
+
+<img src="images/w10.png"> [`Télécharger DDU`](https://www.wagnardsoft.com/forums/viewtopic.php?p=7079) 
 
 # Réglage du panneau de configuration Nvidia
 
