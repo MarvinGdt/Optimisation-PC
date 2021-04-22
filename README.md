@@ -151,8 +151,6 @@ Je vous mets quelques screens des réglages que j'ai sur mon PC.
 
 Lisez les commentaires sous les photos, en fonction de ce que vous voulez. 
 
-**Note :** j'ai activé le DSR mode dans les screens, ne l'activez pas. C'est un upscale de résolution. 
-
 <img src="images/w10.png"> [`Nvidia Control Panel`](https://docs.google.com/document/d/1PEIxcgfH3bZOv8mPKYyepyBaXrlvL3KbErV1srNPIWM/edit?usp=sharing)
 
 ### Activer G-SYNC de la bonne manière
