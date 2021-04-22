@@ -125,7 +125,7 @@ Suivez et LISEZ BIEN le guide, afin de préparer votre BIOS comme il se doit.
 
 -> Ces étapes sont OPTIONNELLES. Vous n'êtes pas obligé de faire cette partie si vous n'êtes pas serein. Je la mets pour les plus téméraires.
 
-Pour les CPU AMD Ryzen 3000 +, référez vous plutôt à cette étape : [**ClockTuner For Ryzen**](#clocktuner-for-ryzen)
+Pour les CPU AMD Ryzen 3000 +, référez vous plutôt à cette étape : [**ClockTuner For Ryzen (recommandé si vous voulez overclock)**](#clocktuner-for-ryzen-recommandé-si-vous-voulez-overclock)
 
 ## Dépannage BIOS
 
