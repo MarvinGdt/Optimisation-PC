@@ -45,7 +45,7 @@ Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce 
 - [**Réglage du panneau de configuration Nvidia**](#réglage-du-panneau-de-configuration-nvidia)
    - [**Activer G-SYNC de la bonne manière**](#activer-g-sync-de-la-bonne-manière)
    - [**MSI Afterburner**](#msi-afterburner)
-   - [**(BONUS) Désinstaller son pilote graphique proprement avec DDU**](#bonus-désinstaller-son-pilote-graphique-proprement-avec-ddu)
+   - [**Désinstaller son pilote graphique proprement avec DDU**](#désinstaller-son-pilote-graphique-proprement-avec-ddu)
 - [**Désactivation des drivers automatiques & Tweaks Regedit**](#désactivation-des-drivers-automatiques--tweaks-regedit)
 - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
 - [**Paramètres de Windows**](#paramètres-de-windows)
@@ -207,7 +207,7 @@ Il s'agit d'un logiciel puissant qui vous permettra :
 
 <img src="images/w10.png"> [`[TUTO] Overclocker ta carte graphique - TopAchat`](https://www.youtube.com/watch?v=64GJck-GWaM)
 
-## (BONUS) Désinstaller son pilote graphique proprement avec DDU 
+## Désinstaller son pilote graphique proprement avec DDU 
 
 Cet outil va simplement supprimer votre driver de carte graphique proprement pour, ainsi, réinstaller une autre version du driver. 
 
