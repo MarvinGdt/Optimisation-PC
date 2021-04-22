@@ -401,7 +401,7 @@ Si vous avez besoin d'aide, voici une vidéo qui explique l'ensemble des paramè
 
 <img src="images/w10.png"> [`Paramètres Windows`](https://www.youtube.com/watch?v=DP0e0xTk0Ck)
 
-### Animation de Windows
+## Animation de Windows
 
 Si vous voulez avoir le sensation d'instentaénité sur votre PC, vous pouvez désactiver des effets d'animation. Cela allégera, légerement, la charge CPU et RAM.
 
