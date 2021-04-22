@@ -78,7 +78,7 @@ Vous avez l'explication de comment sauver un profil dans le tuto optimisation de
 <details>
   <summary>Soucis SMT (tiré du guide de Capet qui a eu ce retour par sa communauté)</summary> 
   
-![SMT](images/smt.png "Soucis SMT")
+<img src="images/smt.png">
 </details>
 
 Je recommande, pour ma part :  
@@ -96,7 +96,7 @@ Si vous avez un CPU AMD Ryzen à partir de la génération Ryzen 3000, vous pouv
 <details>
   <summary>CTR - CONFIGURATION</summary> 
 
-![CTR](https://raw.githubusercontent.com/MarvinGdt/opti-pc/main/images/ctr.png)
+<img src="images/ctr.png">
 </details>
 
 Le développeur de CTR insiste sur le fait que nous devons avoir une fréquence RAM stable, donc, on va activer le DOCP :
@@ -104,7 +104,7 @@ Le développeur de CTR insiste sur le fait que nous devons avoir une fréquence 
 <details>
  <summary>Activer le DOCP</summary>
  
-![DOCP](https://raw.githubusercontent.com/MarvinGdt/opti-pc/main/images/docp.png)
+<img src="images/docp.png">
 </details>
 
 => NE TOUCHEZ A RIEN D'AUTRE ! Tout se fait automatiquement une fois le mode DOCP actif.
