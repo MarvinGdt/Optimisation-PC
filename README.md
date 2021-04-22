@@ -45,6 +45,7 @@ Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce 
 - [**Réglage du panneau de configuration Nvidia**](#réglage-du-panneau-de-configuration-nvidia)
    - [**Activer G-SYNC de la bonne manière**](#activer-g-sync-de-la-bonne-manière)
    - [**MSI Afterburner**](#msi-afterburner)
+   - [**(BONUS) Désinstaller son pilote graphique proprement avec DDU**](#bonus-désinstaller-son-pilote-graphique-proprement-avec-ddu)
 - [**Désactivation des drivers automatiques & Tweaks Regedit**](#désactivation-des-drivers-automatiques--tweaks-regedit)
 - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
 - [**Paramètres de Windows**](#paramètres-de-windows)
@@ -162,18 +163,6 @@ Pour les drivers de votre carte graphique, voici ces deux liens dépendant de ce
 
 <img src="images/w10.png"> [`DRIVER AMD`](https://www.amd.com/fr/graphics/radeon-rx-graphics)
 
-## (BONUS) Désinstaller son pilote graphique proprement avec DDU 
-
-Cet outil va simplement supprimer votre driver de carte graphique proprement pour, ainsi, réinstaller une autre version du driver. 
-
-Cela est utile lorsque le pilote déjà installé bug, n'est pas stable et a besoin d'être réinstallé.
-
-**Note :** Je recommande cette méthode plutôt que de cocher l'option "nouvelle installation" via l'installer officiel de votre driver qui peut ne pas nettoyer correctement.
-
-<img src="images/w10.png"> [`[TUTO] Désinstaller son pilote graphique proprement avec DDU`](https://www.youtube.com/watch?v=0L2XpBGKUa4) 
-
-<img src="images/w10.png"> [`Télécharger DDU`](https://www.wagnardsoft.com/forums/viewtopic.php?p=7079) 
-
 # Réglage du panneau de configuration Nvidia
 
 Je vous mets quelques screens des réglages du panneau Nvidia que j'ai sur mon PC. Rien de plus classique, configurez à votre convenance encore une fois. 
@@ -217,6 +206,18 @@ Il s'agit d'un logiciel puissant qui vous permettra :
 <img src="images/w10.png"> [`Utiliser MSI Afterburner - PIWI`](https://www.youtube.com/watch?v=eydeMfLlIsA)
 
 <img src="images/w10.png"> [`[TUTO] Overclocker ta carte graphique - TopAchat`](https://www.youtube.com/watch?v=64GJck-GWaM)
+
+## (BONUS) Désinstaller son pilote graphique proprement avec DDU 
+
+Cet outil va simplement supprimer votre driver de carte graphique proprement pour, ainsi, réinstaller une autre version du driver. 
+
+Cela est utile lorsque le pilote déjà installé bug, n'est pas stable et a besoin d'être réinstallé.
+
+**Note :** Je recommande cette méthode plutôt que de cocher l'option "nouvelle installation" via l'installer officiel de votre driver qui peut ne pas nettoyer correctement.
+
+<img src="images/w10.png"> [`[TUTO] Désinstaller son pilote graphique proprement avec DDU`](https://www.youtube.com/watch?v=0L2XpBGKUa4) 
+
+<img src="images/w10.png"> [`Télécharger DDU`](https://www.wagnardsoft.com/forums/viewtopic.php?p=7079) 
 
 # Désactivation des drivers automatiques & Tweaks Regedit
 
