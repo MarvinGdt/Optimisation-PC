@@ -85,9 +85,9 @@ Vous avez l'explication de comment sauver un profil dans le tuto optimisation de
 </details>
 
 Je recommande, pour ma part :  
-- Laisser par défaut la plus part des options par défaut ;
+- Laisser par défaut la plus part des options ;
 - Activer le C-STATE (ne pas laisser sur "Auto" mais le passer en "Enable") ;
-- Activer le PBO ;
+- Activer le PBO (Precision Boost Overdrive) ;
 - Vous pouvez combiner le PBO ainsi qu'un OC avec CTR et activer la fonction "Hybrid OC" dans CTR. Tout est dans le tuto plus bas. 
 
 ## ClockTuner For Ryzen (recommandé si vous voulez overclock)
@@ -110,7 +110,7 @@ Le développeur de CTR insiste sur le fait que nous devons avoir une fréquence 
 <img src="images/docp.png">
 </details>
 
-=> NE TOUCHEZ A RIEN D'AUTRE ! Tout se fait automatiquement une fois le mode DOCP actif.
+=> **NE TOUCHEZ A RIEN D'AUTRE !** Tout se fait automatiquement une fois le mode DOCP actif.
 
 <img src="images/w10.png"> [`ClockTuner For Ryzen`](https://overclocking.com/tutoriel-clock-tuner-for-ryzen-version-2-0)
 
