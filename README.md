@@ -99,7 +99,7 @@ Lisez les commentaires sous les photos, en fonction de ce que vous voulez.
 
 ### Activer G-SYNC de la bonne manière
 
-La G-SYNC est une altetnative de la V-SYNC qui existe depuis des années afin d'éviter le "tearing". C'est-à-dire une image déchirée. 
+La G-SYNC est une alternative de la V-SYNC qui existe depuis des années afin d'éviter le "tearing". C'est-à-dire une image déchirée. 
 
 L'inconvéniant de la V-SYNC est qu'elle rajoute énormément d'input lag, donc la G-SYNC (ou FreeSync pour les cartes AMD Radeon) permet en plus d'éviter ce déchirement mais en plus d'améliorer la réactivité du jeu en réduisant l'input lag.
 
@@ -397,7 +397,7 @@ Voici une vidéo explicative sur le mode d'alimentation :
 Simplement, un logiciel qui réduira la latence de votre Windows mais aussi, cela permet de purger la RAM. 
 Aucune bidouille nécessaire. 
 
-Pour cela, il vous faut [`Intelligent Standby List Cleaner`](https://www.wagnardsoft.com/forums/viewtopic.php?f=5&t=1256)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Intelligent Standby List Cleaner`](https://www.wagnardsoft.com/forums/viewtopic.php?f=5&t=1256)
 
 En bas à gauche du logiciel vous aurez 2 lignes : 
 
@@ -449,4 +449,4 @@ Une fois réglé, téléchargez le raccourci de Epic Disk Cleanup et lancez le. 
 
 ![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`OpenShell`](https://github.com/Open-Shell/Open-Shell-Menu/releases/) : Remplace le menu démarrer natif de Windows 10 par un style Windows 7. Fork de StartMenu 7.
 
-![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Configurer son navigateur et les extensions que je recommande`](https://docs.google.com/document/d/1vq0me5Gd6WOsz68GHlrAQEBHOJ85Az8pXhY13JV9kLA/edit?usp=sharing) : Voici un document qui vous permettra de bien paramétrer votre navigateur ainsi que les extensions utiles que je recommande.
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`Configurer son navigateur et les extensions que je recommande (OPTIONNEL)`](https://docs.google.com/document/d/1vq0me5Gd6WOsz68GHlrAQEBHOJ85Az8pXhY13JV9kLA/edit?usp=sharing) : Voici un document qui vous permettra de bien paramétrer votre navigateur ainsi que les extensions utiles que je recommande.
