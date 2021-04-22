@@ -2,16 +2,11 @@
 
 Dans ce github, j'ai compilé plusieurs tutos, guides de différentes personnes. Les trouvailles, tutos appartiennent aux personnes qui ont passés du temps à faire toutes ces recherches.
  
-<img src="images/w10.png"> [`CAPETLEVRAI`](https://www.twitter.com/capetlevrai) 
->[`GUIDE`](https://docs.google.com/document/d/1bfRI8ykV2esBQwy6x_3DX7WR_XLO-Y0bJ-0ds2Mbhek/edit) 
->>[`YOUTUBE`](https://www.youtube.com/user/capetlevrai)
+<img src="images/w10.png"> [`CAPETLEVRAI`](https://www.twitter.com/capetlevrai) + [`GUIDE`](https://docs.google.com/document/d/1bfRI8ykV2esBQwy6x_3DX7WR_XLO-Y0bJ-0ds2Mbhek/edit) + [`YOUTUBE`](https://www.youtube.com/user/capetlevrai)
 
-<img src="images/w10.png"> [`PIWI`](https://www.twitter.com/piwielle) 
->[`GUIDE`](https://piwielle.github.io/oui) 
->>[`YOUTUBE`](https://www.youtube.com/c/Piwi_youtube/)
+<img src="images/w10.png"> [`PIWI`](https://www.twitter.com/piwielle) + [`GUIDE`](https://piwielle.github.io/oui) + [`YOUTUBE`](https://www.youtube.com/c/Piwi_youtube/)
 
-<img src="images/w10.png"> [`TOPACHAT`](https://www.twitter.com/topachat)
->[`YOUTUBE`](https://www.youtube.com/user/topachat) 
+<img src="images/w10.png"> [`TOPACHAT`](https://www.twitter.com/topachat) + [`YOUTUBE`](https://www.youtube.com/user/topachat) 
 
 A noter qu'il y a probablement du copier/coller venant des sources, c'est normal car c'est si bien expliqué que j'ai préféré laisser tel quel.
 
