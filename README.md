@@ -494,6 +494,11 @@ Sur la 2nd ligne, pour 16 Go de RAM, j'applique 10240 MB afin que la purge se fa
 
 N'oubliez pas de cocher les 2 cases en dessous de ses lignes afin que ISLC démarre au démarrage et en mode réduit.
 
+Voici une vidéo explicative de ce que fait ISLC :
+
+<img src="images/w10.png"> [`ISLC - vidéo Piwi`](https://www.youtube.com/watch?v=QV8IojCtoOQ)
+
+
 # Réactiver les mises à jour automatiques des drivers
 
 Il est utile de laisser cette fonction active une fois que tout le guide a été fait. 
