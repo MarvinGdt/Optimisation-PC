@@ -31,7 +31,7 @@ Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce 
 
 **NB :** cette icône "<img src="images/w10.png">" signifie qu'il y a un lien sur lequel vous pouvez cliquer afin d'être redirigé vers une page source, de téléchargement ou un menu déroulant.
 
-## Table des matières
+# Table des matières
 
 - [**Optimisation du BIOS**](#optimisation-du-bios)
    - [**Mise à jour du BIOS**](#mise-à-jour-du-bios)
