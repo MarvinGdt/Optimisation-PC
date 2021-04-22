@@ -21,13 +21,13 @@ Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce 
 
 - Tous les fichiers nécessaires, pour le suivi de ce guide, seront disponibles directement via ce dernier au fur et à mesure des chapitres. 
 
-- Je ne parlerai pas d’overclocking processeur et RAM durant ce guide. Mais je vous redirigerai vers une playlist de tuto qui explique les bases et quoi faire, si vous voulez vous y lancer.
-
-- Pour finir, je ne serai en aucun cas responsable de tout dommage, défaut ou mauvaise manipulation de votre part. Ce guide est rédigé par mes soins après plusieurs tests de ce que j’en ai tiré dans mes recherches et les tutos que j’ai suivis. 
+- Je ne serai en aucun cas responsable de tout dommage, défaut ou mauvaise manipulation de votre part. Ce guide est rédigé par mes soins après plusieurs tests de ce que j’en ai tiré dans mes recherches et les tutos que j’ai suivis. 
 
 - Si vous êtes sur PC portable, vous pouvez suivre ce guide sans problème, cependant, je ne recommande pas de faire le point "[**Mode MSI**](#mode-msi)" qui pourrait poser problèmes sur votre machine. Si vous testez, c'est à vos risques.
 
-JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONSABILITÉS ! LISEZ ATTENTIVEMENT LE GUIDE PAR CHAPITRE ET PRENEZ VOTRE TEMPS ! 
+- **Toutes les étapes overclockings sont facultatives ! Vous pouvez les passer si vous ne voulez pas faire n'importe quoi car vous n'êtes pas sereins !**
+
+**JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONSABILITÉS ! LISEZ ATTENTIVEMENT LE GUIDE PAR CHAPITRE ET PRENEZ VOTRE TEMPS !** 
 
 **NB :** cette icône "<img src="images/w10.png">" signifie qu'il y a un lien sur lequel vous pouvez cliquer afin d'être redirigé vers une page source, de téléchargement ou un menu déroulant.
 
@@ -58,7 +58,7 @@ JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONS
 - [**Désactiver les overlays et accélération matérielle**](#désactiver-les-overlays-et-accélération-matérielle)
 - [**(BONUS) Liste des logiciels utiles à installer sur votre PC**](#bonus-liste-des-logiciels-utiles-à-installer-sur-votre-pc)
 
-## Optimisation du BIOS
+# Optimisation du BIOS
 
 Avant d’entamer l’optimisation de Windows, il est préférable que vous ayez un bios bien réglé afin de pouvoir profiter du plein potentiel de votre ordinateur. 
 Ces optimisations sont utiles, nous ne rentrerons pas dans les détails pour l’overclocking, il existe beaucoup de site qui peuvent vous y guider de manière très explicite et complète. Je vous laisse faire vos recherches à ce sujet. 
@@ -138,7 +138,7 @@ En cas de tout soucis (BIOS qui ne démarre pas notamment) pas de panique, faite
 
 <img src="images/w10.png"> [`Faire un clear CMOS - TopAchat`](https://www.youtube.com/watch?v=Fc0HIDKC1U0)
 
-## Installation de Windows
+# Installation de Windows
 
 **Note :** Je préconise de partir sur un formatage complet de votre PC afin que tout ce guide se passe sans problème.
 
@@ -146,7 +146,7 @@ Pour ce faire, je vous redirige vers ce tuto très simple de TopAchat afin de po
 
 <img src="images/w10.png"> [`[TUTO] Installer Windows 10 & Tes Drivers - TopAchat [FR]`](https://www.youtube.com/watch?v=uHOP4UbEGug)
 
-## Installation de vos drivers
+# Installation de vos drivers
 
 Je vous **DÉCONSEILLE** fortement d'utiliser les softs style "DriverCloud" ou "DriverBooster" qui peuvent créer des conflits, installer des versions datées des drivers. Même s'il est rarement arrivé que des problèmes se montrent. 
 
@@ -162,7 +162,7 @@ Pour les drivers de votre carte graphique, voici ces deux liens dépendant de ce
 
 <img src="images/w10.png"> [`DRIVER AMD`](https://www.amd.com/fr/graphics/radeon-rx-graphics)
 
-## Réglage du panneau de configuration Nvidia
+# Réglage du panneau de configuration Nvidia
 
 Je vous mets quelques screens des réglages du panneau Nvidia que j'ai sur mon PC. Rien de plus classique, configurez à votre convenance encore une fois. 
 
@@ -177,17 +177,6 @@ L'inconvéniant de la V-SYNC est qu'elle rajoute énormément d'input lag, donc 
 Si vous souhaitez utiliser G-SYNC pour vos jeux, voici une vidéo qui vous expliquera pas à pas, comment l'activer correctement. 
 
 <img src="images/w10.png"> [`Activer G-SYNC de la bonne manière`](https://www.youtube.com/watch?v=JVRWjfoj8y8)
-
-### MSI Afterburner
-
-Il s'agit d'un logiciel puissant qui vous permettra : 
-- Gérer la vitesse des ventilateurs de votre carte graphique (automatiquement ou manuellement) ;
-- Overclocker votre carte graphique pour gagner en performence ;
-- Voir en temps réel l'ensemble de l'utilisation de votre PC mais également les températures (CPU, GPU, RAM etc) ; 
-
-<img src="images/w10.png"> [`Utiliser MSI Afterburner - PIWI`](https://www.youtube.com/watch?v=eydeMfLlIsA)
-
-<img src="images/w10.png"> [`[TUTO] Overclocker ta carte graphique - TopAchat`](https://www.youtube.com/watch?v=64GJck-GWaM)
 
 ### **TL:DR de la vidéo**
 
@@ -206,7 +195,18 @@ Il s'agit d'un logiciel puissant qui vous permettra :
  >> Paramètres Graphiques
  >>> Sélectionner le mode "Variable Refresh Rate" (utile pour que les jeux du MS Store puissent profiter de la G-SYNC et FreeSync)
 
-## Désactivation des drivers automatiques & Tweaks Regedit
+### MSI Afterburner
+
+Il s'agit d'un logiciel puissant qui vous permettra : 
+- Gérer la vitesse des ventilateurs de votre carte graphique (automatiquement ou manuellement) ;
+- Overclocker votre carte graphique pour gagner en performence ;
+- Voir en temps réel l'ensemble de l'utilisation de votre PC mais également les températures (CPU, GPU, RAM etc) ; 
+
+<img src="images/w10.png"> [`Utiliser MSI Afterburner - PIWI`](https://www.youtube.com/watch?v=eydeMfLlIsA)
+
+<img src="images/w10.png"> [`[TUTO] Overclocker ta carte graphique - TopAchat`](https://www.youtube.com/watch?v=64GJck-GWaM)
+
+# Désactivation des drivers automatiques & Tweaks Regedit
 
 Une fois que Windows sera installé, on se retrouve sur le bureau (avec une résolution très faible, ce qui est normal, la résolution normale viendra quand on aura installé les drivers de la carte graphique). La première chose qu’on va faire, c’est désactiver l’installation automatique des drivers de Windows. Pour ce faire, je vous propose de suivre la vidéo suivante :
 
@@ -385,7 +385,7 @@ Si vous voulez plus de réglage que ce qui est proposé ci-dessus :
 
 --> <img src="images/w10.png"> [`Regedit`](https://github.com/MarvinGdt/opti-pc/blob/main/regedit.reg)
 
-## Mises à jour de Windows
+# Mises à jour de Windows
 
 Une fois tous nos drivers à jour, et avant d’entamer la suite des réglages de Windows, on va vérifier les éventuelles mises à jour. 
 On le fait maintenant, parce que certaines grosses mises à jour peuvent réinitialiser certains paramètres de windows, ça nous évitera de faire les réglages 2 fois. 
@@ -393,7 +393,7 @@ Il suffit d’aller dans les options de windows, cliquer sur windows update, et 
 Une fois le PC redémarré, refaites une vérification de mise à jour. Des fois, le fait d’avoir fait une màj va débloquer l’installation d’autres màj, d’ou le fait de devoir faire la vérification deux fois de suite. 
 Si il y a de nouvelles mises à jour, répéter l’opération, jusqu’à avoir windows à jour.
 
-## Paramètres de Windows
+# Paramètres de Windows
 
 Il suffit simplement de se promener dans les paramètres de Windows et de désactiver ce qui ne vous est pas nécessaire. 
 
@@ -419,11 +419,11 @@ Laissez cocher :
 J'utilise ce logiciel pour automatiser les réglages des paramètres Windows. Simple et clair, il suffit de lire les options avant de cocher. 
 Si vous rencontrez un soucis, vous pourrez décocher l'option qui vous pose problème.
 
-<img src="images/w10.png"> [`W10Privacy (et d'autres logiciels de "vie privée")`](https://www.youtube.com/watch?v=oPUJThkVmXI) + [`Préréglage et le logiciel`](https://drive.google.com/file/d/1GzAWJxNHv4r2NFH80c1lwg0i0J68AQla/view?usp=sharing)
+<img src="images/w10.png"> [`W10Privacy (et d'autres logiciels de "vie privée")`](https://www.youtube.com/watch?v=oPUJThkVmXI)
 
 Tout ce qui est en ROUGE et JAUNE, ne TOUCHEZ PAS ! SAUF si vous savez ce que vous faites et que vous comprenez l'utilité de l'option. 
 
-### Windows Defender (mis en rouge dans [**W10Privacy**](#w10privacy))
+## Windows Defender (mis en rouge dans [**W10Privacy**](#w10privacy))
 
 Ne désactivez pas Windows Defender ! Cela nous fera pas gagner de FPS en jeu si vous le désactivez, ni en perdre si vous le laissez. 
 
@@ -437,7 +437,7 @@ Voici une vidéo explicative sur l'impact de Defender sur votre PC :
 
 <img src="images/w10.png"> [`Windows Defender`](https://www.youtube.com/watch?v=ZNVDjyE6MyM)
 
-## Mode MSI
+# Mode MSI
 
 Explication et utilité du mode MSI se trouvent dans la vidéo suivante :
 
@@ -449,7 +449,7 @@ NB : pour les cartes graphiques AMD et les Nvidia Ampere (RTX 3000), le mode MSI
 
 N'est pas recommandé de faire cette étape sur les PC portables et sur les PC TRES vieux ! 
 
-## Mode de gestion d'alimentation
+# Mode de gestion d'alimentation
 
 Un réglage important que vous pouvez faire sur votre PC est de changer le mode d'alimentation.
 Pour installer le mode "Performances Optimales" de Windows, lancez le CMD en administrateur et coller cette ligne : `powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61`.
@@ -464,7 +464,7 @@ Voici une vidéo explicative sur le mode d'alimentation :
 
 **Note 2 :** Si vous avez installé vos drivers chipset AMD (ex: X570, B550 etc), vous avez des profils d'alimentations AMD qui viennent avec, je vous conseille d'utiliser ces profils si vous avez un CPU Ryzen. 
 
-## Installer le Visual C++ Package et DirectX
+# Installer le Visual C++ Package et DirectX
 
 <img src="images/w10.png"> DirectX à télécharger ici : [`DirectX`](https://www.microsoft.com/fr-FR/download/details.aspx?id=35) 
 
@@ -476,7 +476,7 @@ Voici une vidéo explicative sur le mode d'alimentation :
 - Une fois l'archive extraite, ouvrez le dossier de l'archive extraite, faites un clic droit sur le fichier "**install_all**", et cliquez sur "**Lancer en tant qu'administrateur**".
 - Attendre la fin des installations, puis redémarrer le PC.
 
-## Réduire encore plus la latence
+# Réduire encore plus la latence
 
 Simplement, un logiciel qui réduira la latence de votre Windows mais aussi, cela permet de purger la RAM. 
 Aucune bidouille nécessaire. 
@@ -494,7 +494,7 @@ Sur la 2nd ligne, pour 16 Go de RAM, j'applique 10240 MB afin que la purge se fa
 
 N'oubliez pas de cocher les 2 cases en dessous de ses lignes afin que ISLC démarre au démarrage et en mode réduit.
 
-## Réactiver les mises à jour automatiques des drivers
+# Réactiver les mises à jour automatiques des drivers
 
 Il est utile de laisser cette fonction active une fois que tout le guide a été fait. 
 
@@ -504,7 +504,7 @@ Réactiver les mises à jour automatiques des drivers permet d'éviter de cherch
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching" /v SearchOrderConfig /t REG_DWORD /d 00000001 /f`
 
-## Désactiver les overlays et accélération matérielle
+# Désactiver les overlays et accélération matérielle
 
 Pour diminuer la charge CPU et GPU (accélération matérielle) : 
 
@@ -512,7 +512,7 @@ Pour diminuer la charge CPU et GPU (accélération matérielle) :
 - **Steam et autres launchers :** Désactiver le démarrage de Steam et des autres launchers à l'ouverture de Windows, désactivez l'accélération du rendu GPU ;
 - **Les périphériques non utilisés :** dans le doute, je ne vous conseille pas de faire cette étape, cela ne joue à pas grand chose dans la latence et vous pouvez désactiver des slots PCI (périphériques USB) que vous utilisez par erreur. Ne faites donc pas cette étape si vous n'êtes pas sûr de vous.
 
-## (BONUS) Liste des logiciels utiles à installer sur votre PC
+# (BONUS) Liste des logiciels utiles à installer sur votre PC
 
 <img src="images/w10.png"> [`7Zip`](https://www.7-zip.org/download.html) : gratuit et open-source, plus léger et meilleur (à mon sens) que WinRar.
 
