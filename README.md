@@ -32,7 +32,9 @@ JE NE FOURNIRAI PAS DE SUPPORT TECHNIQUE, VOUS ÊTES SEUL MAÎTRE DE VOS RESPONS
 
  - [**Optimisation du BIOS**](#optimisation-du-bios)
     - [**CPU AMD RYZEN**](#cpu-amd-ryzen)
+    - [**ClockTuner For Ryzen (recommandé)**](#clocktuner-for-ryzen-recommandé)
     - [**CPU INTEL**](#cpu-intel)
+    - [**(OPTIONNEL) Overclocking**](#optionnel-overclocking)
     - [**Mise à jour du BIOS**](#mise-à-jour-du-bios)
     - [**Dépannage BIOS**](#dépannage-bios)
  - [**Installation de Windows et de vos Drivers**](#installation-de-windows-et-de-vos-drivers)
@@ -75,15 +77,13 @@ Je recommande, pour ma part :
 - Activer le PBO ;
 - Vous pouvez combiner le PBO ainsi qu'un OC avec CTR et activer la fonction "Hybrid OC" dans CTR. Tout est dans le tuto plus bas. 
 
-### ClockTuner For Ryzen
+## ClockTuner For Ryzen (recommandé)
 
-![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`ClockTuner For Ryzen (EN)`](https://www.guru3d.com/articles-pages/clocktuner-2-for-ryzen-(ctr)-guide,1.html)
+Si vous avez un CPU AMD Ryzen à partir de la génération Ryzen 3000, vous pouvez utiliser ce logiciel qui vous permettra d'OC automatiquement votre processeur via Windows directement.
 
-![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`ClockTuner For Ryzen (FR)`](https://overclocking.com/tutoriel-clock-tuner-for-ryzen-version-2-0/)
+![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`ClockTuner For Ryzen`](https://overclocking.com/tutoriel-clock-tuner-for-ryzen-version-2-0/)
 
--> Si vous avez un CPU AMD Ryzen à partir de la génération Ryzen 3000, vous pouvez utiliser ce logiciel qui vous permettra d'OC automatiquement votre processeur via Windows directement.
-
-Suivez les guides anglais ou français, afin de préparer votre BIOS comme il se doit. Si vous utilisez CTR, ne faites pas le tuto vidéo pour AMD. 
+Suivez le guide, afin de préparer votre BIOS comme il se doit. Si vous utilisez CTR, ne faites pas le tuto vidéo pour AMD. 
 
 Vous faites l'un OU l'autre. A vous de choisir.
 
@@ -93,9 +93,13 @@ Vous faites l'un OU l'autre. A vous de choisir.
 
 -> Laissez également l'HyperThreading sur les CPU Intel. En effet, la majorité des jeux vont bien gérer l'HT et, pour certains jeux, cela fait gagner des performences. Donc laissez activé.
 
+## (OPTIONNEL) Overclocking
+
 ![#f03c15](https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/16/MetroUI-Folder-OS-Windows-8-icon.png) [`OVERCLOCKING CPU/RAM - CAPET`](https://www.youtube.com/playlist?list=PL96Ozk0v-00PNjvTPTvpMlT0sMGZvAXLg)
 
--> Cees étapes sont OPTIONNELLES. Vous n'êtes pas obligé de faire cette partie si vous n'êtes pas serein. Je la mets pour les plus téméraires.
+-> Ces étapes sont OPTIONNELLES. Vous n'êtes pas obligé de faire cette partie si vous n'êtes pas serein. Je la mets pour les plus téméraires.
+
+Pour les CPU AMD Ryzen 3000 +, référez vous plutôt à cette étape : [**ClockTuner For Ryzen**](#clocktuner-for-ryzen)
 
 ## Mise à jour du BIOS
 
