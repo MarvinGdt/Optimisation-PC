@@ -147,9 +147,7 @@ Pour ce faire, je vous redirige vers ce tuto très simple de TopAchat afin de po
 
 ## Réglage du panneau de configuration Nvidia
 
-Je vous mets quelques screens des réglages que j'ai sur mon PC. 
-
-Lisez les commentaires sous les photos, en fonction de ce que vous voulez. 
+Je vous mets quelques screens des réglages du panneau Nvidia que j'ai sur mon PC. Rien de plus classique, configurez à votre convenance encore une fois. 
 
 <img src="images/w10.png"> [`Nvidia Control Panel`](https://docs.google.com/document/d/1PEIxcgfH3bZOv8mPKYyepyBaXrlvL3KbErV1srNPIWM/edit?usp=sharing)
 
