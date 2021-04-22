@@ -76,7 +76,7 @@ Vous avez l'explication de comment sauver un profil dans le tuto optimisation de
 **Note :** Dans l'idéal, laissez le SMT en "Auto", quelques personnes ont eu des soucis de stabilité en ayant désactiver le SMT (HyperThreading pour AMD).
 
 <details>
-  <summary>Soucis SMT (tiré du guide de Capet qui a eu ce retour par sa communauté)</summary> 
+  <summary><img src="images/w10.png"> Soucis SMT (tiré du guide de Capet qui a eu ce retour par sa communauté)</summary> 
   
 <img src="images/smt.png">
 </details>
@@ -94,7 +94,7 @@ Pour la majorité d'entre vous, le PBO vous conviendra parfaitement, pas besoin 
 Si vous avez un CPU AMD Ryzen à partir de la génération Ryzen 3000, vous pouvez utiliser ce logiciel qui vous permettra d'OC automatiquement votre processeur via Windows directement.
 
 <details>
-  <summary> CTR - CONFIGURATION</summary> 
+  <summary><img src="images/w10.png"> CTR - CONFIGURATION</summary> 
 
 <img src="images/ctr.png">
 </details>
@@ -102,7 +102,7 @@ Si vous avez un CPU AMD Ryzen à partir de la génération Ryzen 3000, vous pouv
 Le développeur de CTR insiste sur le fait que nous devons avoir une fréquence RAM stable, donc, on va activer le DOCP :
 
 <details>
- <summary>Activer le DOCP</summary>
+ <summary><img src="images/w10.png"> Activer le DOCP</summary>
  
 <img src="images/docp.png">
 </details>
