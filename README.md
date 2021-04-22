@@ -124,7 +124,7 @@ Suivez et LISEZ BIEN le guide, afin de préparer votre BIOS comme il se doit.
 
 <img src="images/w10.png"> [`OPTIMISER SON BIOS INTEL - CAPET`](https://www.youtube.com/watch?v=xSjLnO5VZEY)
 
-## (OPTIONNEL) Overclocking
+# (OPTIONNEL) Overclocking
 
 <img src="images/w10.png"> [`OVERCLOCKING CPU/RAM - CAPET`](https://www.youtube.com/playlist?list=PL96Ozk0v-00PNjvTPTvpMlT0sMGZvAXLg)
 
