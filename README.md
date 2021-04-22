@@ -76,7 +76,7 @@ Vous trouverez le fichier de mise à jour de votre modèle PRECIS de carte mère
 
 Vous avez l'explication de comment sauver un profil dans le tuto optimisation de BIOS Intel mais cela est pareil pour AMD.
 
-## CPU AMD RYZEN
+# CPU AMD RYZEN
 
 **Note :** Dans l'idéal, laissez le SMT en "Auto", quelques personnes ont eu des soucis de stabilité en ayant désactiver le SMT (HyperThreading pour AMD).
 
@@ -118,7 +118,7 @@ Le développeur de CTR insiste sur le fait que nous devons avoir une fréquence 
 
 Suivez et LISEZ BIEN le guide, afin de préparer votre BIOS comme il se doit. 
 
-## CPU INTEL
+# CPU INTEL
 
 **Note :** Laissez également l'HyperThreading sur les CPU Intel. En effet, la majorité des jeux vont bien gérer l'HT et, pour certains jeux, cela fait gagner des performences. Donc laissez activé.
 
