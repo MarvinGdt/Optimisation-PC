@@ -95,7 +95,9 @@ Si vous avez un CPU AMD Ryzen à partir de la génération Ryzen 3000, vous pouv
 
 <details>
   <summary>CTR - CONFIGURATION</summary> 
+ 
 <blockquote class="imgur-embed-pub" lang="en" data-id="MSSfGvE"><a href="//imgur.com/MSSfGvE"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
 </details>
 
 Le développeur de CTR insiste sur le fait que nous devons avoir une fréquence RAM stable, donc, on va activer le DOCP :
