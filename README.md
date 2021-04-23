@@ -31,7 +31,7 @@ Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce 
 - [**Optimisation du BIOS**](#optimisation-du-bios)
    - [**Mise à jour du BIOS**](#mise-à-jour-du-bios)
    - [**CPU AMD RYZEN**](#cpu-amd-ryzen)
-   - [**ClockTuner For Ryzen (recommandé si vous voulez overclock)**](#clocktuner-for-ryzen-recommandé-si-vous-voulez-overclock)
+      - [**ClockTuner For Ryzen**](#clocktuner-for-ryzen-recommandé-si-vous-voulez-overclock)
    - [**CPU INTEL**](#cpu-intel)
    - [**(OPTIONNEL) Overclocking**](#optionnel-overclocking)
    - [**Dépannage BIOS**](#dépannage-bios)
@@ -46,7 +46,7 @@ Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce 
 - [**Paramètres de Windows**](#paramètres-de-windows)
    - [**Animations de Windows**](#animations-de-windows)
    - [**W10Privacy**](#w10privacy)
-   - [**Windows Defender**](#windows-defender-mis-en-rouge-dans-w10privacy)
+      - [**Windows Defender**](#windows-defender-mis-en-rouge-dans-w10privacy)
 - [**Mode MSI**](#mode-msi)
 - [**Mode de gestion d’alimentation**](#mode-de-gestion-dalimentation)
 - [**Installer le Visual C++ Package et DirectX**](#installer-le-visual-c-package-et-directx)
@@ -127,7 +127,7 @@ Suivez et LISEZ BIEN le guide, afin de préparer votre BIOS comme il se doit.
 
 -> Ces étapes sont OPTIONNELLES. Vous n'êtes pas obligé de faire cette partie si vous n'êtes pas serein. Je la mets pour les plus téméraires.
 
-Pour les CPU AMD Ryzen 3000 +, référez vous plutôt à cette étape : [**ClockTuner For Ryzen (recommandé si vous voulez overclock)**](#clocktuner-for-ryzen-recommandé-si-vous-voulez-overclock)
+Pour les CPU AMD Ryzen 3000 +, référez vous plutôt à cette étape : [**ClockTuner For Ryzen**](#clocktuner-for-ryzen-recommandé-si-vous-voulez-overclock)
 
 ## Dépannage BIOS
 
@@ -163,7 +163,7 @@ Pour les drivers de votre carte graphique, voici ces deux liens dépendant de ce
 
 Je vous mets quelques screens des réglages du panneau Nvidia que j'ai sur mon PC. Rien de plus classique, configurez à votre convenance encore une fois. 
 
-<img src="images/w10.png"> [`Nvidia Control Panel`](https://docs.google.com/document/d/1PEIxcgfH3bZOv8mPKYyepyBaXrlvL3KbErV1srNPIWM/edit?usp=sharing)
+<img src="images/w10.png"> [`Panneau de configuration Nvidia`](https://docs.google.com/document/d/1PEIxcgfH3bZOv8mPKYyepyBaXrlvL3KbErV1srNPIWM/edit?usp=sharing)
 
 ### Activer G-SYNC de la bonne manière
 
