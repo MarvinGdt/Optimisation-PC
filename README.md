@@ -483,6 +483,12 @@ Voici une vidéo explicative sur le mode d'alimentation :
 
 **Note :** désactivez la suspension séléctive USB dans le profil d'alimentation que vous utilisez.
 
+<details>
+  <summary><img src="images/w10.png"> Suspension sélective USB</summary> 
+  
+<img src="images/usb.png">
+</details>
+
 **Note 2 :** Si vous avez installé vos drivers chipset AMD (ex: X570, B550 etc), vous avez des profils d'alimentations AMD qui viennent avec, je vous conseille d'utiliser ces profils si vous avez un CPU Ryzen. 
 
 # Installer le Visual C++ Package et DirectX
