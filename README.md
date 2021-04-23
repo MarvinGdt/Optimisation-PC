@@ -431,7 +431,7 @@ Si vous rencontrez un soucis, vous pourrez décocher l'option qui vous pose prob
 
 <img src="images/w10.png"> [`W10Privacy (et d'autres logiciels de "vie privée")`](https://www.youtube.com/watch?v=oPUJThkVmXI)
 
-<img src="images/w10.png"> [`Télcharger W10Privacy`](https://www.w10privacy.de/deutsch-start/download/)
+<img src="images/w10.png"> [`Télécharger W10Privacy`](https://www.w10privacy.de/deutsch-start/download/)
 
 
 Tout ce qui est en ROUGE et JAUNE, ne TOUCHEZ PAS ! SAUF si vous savez ce que vous faites et que vous comprenez l'utilité de l'option. 
