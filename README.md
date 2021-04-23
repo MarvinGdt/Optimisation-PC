@@ -44,6 +44,7 @@ Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce 
 - [**Désactivation des drivers automatiques & Tweaks Regedit**](#désactivation-des-drivers-automatiques--tweaks-regedit)
 - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
 - [**Paramètres de Windows**](#paramètres-de-windows)
+   - [**Animations de Windows**](#animations-de-windows)
    - [**W10Privacy**](#w10privacy)
    - [**Windows Defender**](#windows-defender-mis-en-rouge-dans-w10privacy)
 - [**Mode MSI**](#mode-msi)
@@ -411,7 +412,7 @@ Si vous avez besoin d'aide, voici une vidéo qui explique l'ensemble des paramè
 
 <img src="images/w10.png"> [`Paramètres Windows`](https://www.youtube.com/watch?v=DP0e0xTk0Ck)
 
-## Animation de Windows
+## Animations de Windows
 
 Si vous voulez avoir le sensation d'instentaénité sur votre PC, vous pouvez désactiver des effets d'animation. Cela allégera, légerement, la charge CPU et RAM.
 
@@ -424,6 +425,12 @@ Laissez cocher :
 - Animer les contrôles et les éléments à l'intérieur des fenêtres ;
 - Lisser les polices écran. 
 
+<details>
+  <summary><img src="images/w10.png"> Réglages animations de Windows</summary> 
+  
+<img src="images/anim-win.png">
+</details>
+
 ## W10Privacy
 
 J'utilise ce logiciel pour automatiser les réglages des paramètres Windows. Simple et clair, il suffit de lire les options avant de cocher. 
@@ -432,7 +439,6 @@ Si vous rencontrez un soucis, vous pourrez décocher l'option qui vous pose prob
 <img src="images/w10.png"> [`W10Privacy (et d'autres logiciels de "vie privée")`](https://www.youtube.com/watch?v=oPUJThkVmXI)
 
 <img src="images/w10.png"> [`Télécharger W10Privacy`](https://www.w10privacy.de/deutsch-start/download/)
-
 
 Tout ce qui est en ROUGE et JAUNE, ne TOUCHEZ PAS ! SAUF si vous savez ce que vous faites et que vous comprenez l'utilité de l'option. 
 
