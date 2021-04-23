@@ -495,13 +495,17 @@ Voici une vidéo explicative sur le mode d'alimentation :
 
 <img src="images/w10.png"> DirectX à télécharger ici : [`DirectX`](https://www.microsoft.com/fr-FR/download/details.aspx?id=35) 
 
-<img src="images/w10.png"> Visual C++ à télécharger ici : [`Visual C++ Package AiO`](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
+<img src="images/w10.png"> Visual C++ à télécharger ici : [`Visual C++ Package AiO (TechPowerUp)`](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
 
 - Allez sur le lien ci dessus, puis cliquer sur le bouton bleu à gauche de la page marqué "DOWNLOAD"
 - Sur la page qui s'ouvre, cliquez sur n'importe quel drapeau pour lancer le téléchargement.
 - Vous avez téléchargé une archive. Utilisez winRAR, ou 7-zip, ou le gestionnaire d'archive de windows pour extraire cette archive (clic droit -> extraire).
 - Une fois l'archive extraite, ouvrez le dossier de l'archive extraite, faites un clic droit sur le fichier "**install_all**", et cliquez sur "**Lancer en tant qu'administrateur**".
 - Attendre la fin des installations, puis redémarrer le PC.
+
+ou
+
+<img src="images/w10.png"> Visual C++ à télécharger ici : [`Visual C++ Package AiO (Github)`](https://github.com/abbodi1406/vcredist/releases)
 
 # Réduire encore plus la latence
 
