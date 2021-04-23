@@ -198,6 +198,8 @@ Il s'agit d'un logiciel puissant qui vous permettra :
 - Overclocker votre carte graphique pour gagner en performence ;
 - Voir en temps réel l'ensemble de l'utilisation de votre PC mais également les températures (CPU, GPU, RAM etc) ; 
 
+<img src="images/w10.png"> [`Télécharger MSI Afterburner`](https://www.guru3d.com/files-details/msi-afterburner-beta-download.html) 
+
 <img src="images/w10.png"> [`Utiliser MSI Afterburner - PIWI`](https://www.youtube.com/watch?v=eydeMfLlIsA)
 
 <img src="images/w10.png"> [`[TUTO] Overclocker ta carte graphique - TopAchat`](https://www.youtube.com/watch?v=64GJck-GWaM)
@@ -429,6 +431,9 @@ Si vous rencontrez un soucis, vous pourrez décocher l'option qui vous pose prob
 
 <img src="images/w10.png"> [`W10Privacy (et d'autres logiciels de "vie privée")`](https://www.youtube.com/watch?v=oPUJThkVmXI)
 
+<img src="images/w10.png"> [`Télcharger W10Privacy`](https://www.w10privacy.de/deutsch-start/download/)
+
+
 Tout ce qui est en ROUGE et JAUNE, ne TOUCHEZ PAS ! SAUF si vous savez ce que vous faites et que vous comprenez l'utilité de l'option. 
 
 ## Windows Defender (mis en rouge dans [**W10Privacy**](#w10privacy))
@@ -451,7 +456,9 @@ Explication et utilité du mode MSI se trouvent dans la vidéo suivante :
 
 <img src="images/w10.png"> [`MSI Mode`](https://youtu.be/eydeMfLlIsA)
 
-<img src="images/w10.png"> [`Si vous voulez plus d'information sur ce qu'est le mode MSI`](https://forum.malekal.com/viewtopic.php?t=62058) et [`télécharger MSI Utility`](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044)
+<img src="images/w10.png"> [`Si vous voulez plus d'information sur ce qu'est le mode MSI`](https://forum.malekal.com/viewtopic.php?t=62058) 
+
+<img src="images/w10.png"> [`Télécharger MSI Utility`](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044)
 
 NB : pour les cartes graphiques AMD et les Nvidia Ampere (RTX 3000), le mode MSI est activé par défaut, vous pouvez passer cette étape donc. 
 
