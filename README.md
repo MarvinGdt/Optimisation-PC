@@ -41,7 +41,8 @@ Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce 
    - [**Activer G-SYNC de la bonne manière**](#activer-g-sync-de-la-bonne-manière)
    - [**MSI Afterburner**](#msi-afterburner)
    - [**Désinstaller son pilote graphique proprement avec DDU**](#désinstaller-son-pilote-graphique-proprement-avec-ddu)
-- [**Désactivation des drivers automatiques & Tweaks Regedit**](#désactivation-des-drivers-automatiques--tweaks-regedit)
+- [**Désactivation des drivers automatiques**](#désactivation-des-drivers-automatiques)
+- [**Tweaks Regedit (les basiques)**](#tweaks-regedit-les-basiques)
 - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
 - [**Paramètres de Windows**](#paramètres-de-windows)
    - [**Animations de Windows**](#animations-de-windows)
@@ -217,7 +218,7 @@ Cela est utile lorsque le pilote déjà installé bug, n'est pas stable et a bes
 
 <img src="images/w10.png"> [`Télécharger DDU`](https://www.wagnardsoft.com/forums/viewtopic.php?p=7079) 
 
-# Désactivation des drivers automatiques & Tweaks Regedit
+# Désactivation des drivers automatiques
 
 Une fois que Windows sera installé, on se retrouve sur le bureau (avec une résolution très faible, ce qui est normal, la résolution normale viendra quand on aura installé les drivers de la carte graphique). La première chose qu’on va faire, c’est désactiver l’installation automatique des drivers de Windows. Pour ce faire, je vous propose de suivre la vidéo suivante :
 
@@ -230,6 +231,8 @@ Les commandes (à lancer dans CMD en administrateur) :
 Une fois les drivers de Windows désactivés, vous devez impérativement redémarrer le PC. Une fois que c’est fait, vous pouvez rebrancher internet
 Reboot le PC maintenant vous permettra d’avoir accès à internet, et donc de copier/coller les commandes CMD suivantes (si vous les avez pas sauvegardé avant l’install sur un fichier texte dans une clé USB)
 Tant qu’on est à faire des changements dans regedit, je vous propose quelques petits tweaks basiques, qui vont légèrement améliorer les performances de votre PC, mais sans aucun problème de compatibilité, ou risque pour votre PC. La vidéo qui vous donnera des explications et du contexte est la suivante (recommandée).
+
+# Tweaks Regedit (les basiques)
 
 <img src="images/w10.png"> [`Quelques tweaks regedit (basiques)`](https://www.youtube.com/watch?v=X4AVdnHFn_E)
 
