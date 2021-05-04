@@ -397,6 +397,10 @@ Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en
 >
 >`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS" /v Start /t REG_DWORD /d 00000004 /f`
 
+>Désactiver la Gamebar (si vous ne l'utilisez pas)
+>
+>`REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Gaming.GameBar.PresenceServer.Internal.PresenceWriter" /v ActivationType /t REG_DWORD /d 00000000 /f`
+
 Si vous voulez plus de réglage que ce qui est proposé ci-dessus : 
 
 --> <img src="images/w10.png"> [`Regedit`](https://github.com/MarvinGdt/opti-pc/blob/main/regedit.reg)
