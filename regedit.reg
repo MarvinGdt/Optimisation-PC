@@ -1,5 +1,7 @@
 Windows Registry Editor Version 5.00
 
+; !!!!! use this file with nsudo otherwise it won't work  !!!!!
+
 ;--------------------ICP--------------------
 ;-----PRIVACY-----
 ; TURN OFF Let apps run in the background
