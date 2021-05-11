@@ -599,10 +599,14 @@ Je vous mets la liste complète des services qui sont désactivés (si vous utli
 Quand vous aurez décompresser le dossier, vous aurez 2 sous-dossiers : 
 
 <details>
-  <summary><img src="images/w10.png"> Décompression du .zip</summary> 
+  <summary><img src="images/w10.png"> Décompression du .zip et son contenu</summary> 
   
 <img src="images/services1.png">
+<img src="images/services11.png">
+<img src="images/services12.png">
 </details>
+
+**NB :** Dans tous les cas, collez OBLIGATOIREMENT *"PowerRun.exe"* dans le dossier *"Windows"* pour que cela fonctionne avec les fichiers .cmd.
 
 Le dossier *"C Drive"* contient les .cmd, à mettre à la racine de votre disque C comme ceci : 
 
