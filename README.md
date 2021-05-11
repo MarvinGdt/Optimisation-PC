@@ -53,6 +53,7 @@ Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce 
 - [**Installer le Visual C++ Package et DirectX**](#installer-le-visual-c-package-et-directx)
 - [**Réduire encore plus la latence**](#réduire-encore-plus-la-latence)
 - [**Réactiver les mises à jour automatiques des drivers**](#réactiver-les-mises-à-jour-automatiques-des-drivers)
+- [**Désactivation de certains services (facultatif)**](#désactivation-de-certains-services-facultatif)
 - [**Désactiver les overlays et accélération matérielle**](#désactiver-les-overlays-et-accélération-matérielle)
 - [**(BONUS) Liste des logiciels utiles à installer sur votre PC**](#bonus-liste-des-logiciels-utiles-à-installer-sur-votre-pc)
 
@@ -548,6 +549,51 @@ Lorsque vous mettez un nouveau périphérique à brancher en USB sur votre PC, i
 Réactiver les mises à jour automatiques des drivers permet d'éviter de chercher des heures ce qui peut être fait en 2 secondes (lancer CMD en administrateur) : 
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching" /v SearchOrderConfig /t REG_DWORD /d 00000001 /f`
+
+# Désactivation de certains services (facultatif)
+
+Je vous mets un pack de tweaks de services afiin d'en désactiver certains dépendants de votre utilisation de votre PC. 
+
+Je tiens à préciser que vous ne **GAGNEREZ RIEN** en performence si vous en désactivez. Cela peut alléger l'utilisation de votre RAM de quelques Mo ou Go. Donc, si vous êtes du genre à tester des trucs à tout va sur votre machine. 
+
+Je vous mets à disposition tout le nécessaire dépendant de votre utilisation. Utilisez donc ce pack à votre convenance. Je rajoute aussi un .reg nommé *"Default_Services.reg"* qui remet tout vos services par défaut en cas de problème quelconque.
+
+Pour ma part, je n'ai pas rencontré de soucis, notamment, pour : 
+
+- les mises à jour Windows
+- installation d'application du Windows Store.
+
+Je les note particulièrement car ces derniers sont très fragiles sur une désactivation quelconque d'un service et peut ne plus fonctionner correctement. 
+
+## *Utilisation du pack*
+
+Quand vous aurez décompresser le dossier, vous aurez 2 sous-dossiers : 
+
+<details>
+  <summary><img src="images/w10.png"> Décompression du .zip</summary> 
+  
+<img src="images/services1.png">
+</details>
+
+Le dossier *"C Drive"* contient les .cmd, à mettre à la racine de votre disque C comme ceci : 
+
+<details>
+  <summary><img src="images/w10.png"> .cmd dans le disque C</summary> 
+  
+<img src="images/services2.png">
+</details>
+
+Ensute, glissez les fichiers du dossier Windows dans le dossier du même nom situé dans votre disque C : 
+
+<details>
+  <summary><img src="images/w10.png"> .reg dans le disque C</summary> 
+  
+<img src="images/services3.png">
+</details>
+
+J'ai utilisé celui qui désactive le plus mais vous pouvez copier celui qui vous convient le mieux. Les noms sont explicites donc vous ne pouvez pas vous tromper. 
+
+<img src="images/w10.png"> [`Services Tweaks`](https://drive.google.com/file/d/1JTFnwnxdjbzSMi0JYcrZSO-erk5OO4Jy/view?usp=sharing)
 
 # Désactiver les overlays et accélération matérielle
 
