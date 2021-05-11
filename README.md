@@ -593,6 +593,8 @@ Ensute, glissez les fichiers du dossier Windows dans le dossier du même nom sit
 
 J'ai utilisé celui qui désactive le plus mais vous pouvez copier celui qui vous convient le mieux. Les noms sont explicites donc vous ne pouvez pas vous tromper. 
 
+Vous pouvez télécharger le pack ci-dessous : 
+
 <img src="images/w10.png"> [`Services Tweaks`](https://drive.google.com/file/d/1JTFnwnxdjbzSMi0JYcrZSO-erk5OO4Jy/view?usp=sharing)
 
 # Désactiver les overlays et accélération matérielle
