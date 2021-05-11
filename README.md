@@ -565,6 +565,35 @@ Pour ma part, je n'ai pas rencontré de soucis, notamment, pour :
 
 Je les note particulièrement car ces derniers sont très fragiles sur une désactivation quelconque d'un service et peut ne plus fonctionner correctement. 
 
+## *Qu'est-ce que ce pack désactive ?* 
+
+Ce pack désactive la plupart des services qui peuvent être lié à : 
+
+- La virtualisation (Hyper-V)
+- Imprimante
+- Téléphone (si vous n'utilisez pas votre portable avec votre PC)
+- Géolocalisation
+- Télémétrie (pas mal)
+- Envoie de rapport de diagnostic
+- Donnée cellulaire
+- Bureau à distance
+- Biométrie (Windows Hello, capteur d'empreinte)
+- Service pour Kit de developpement
+- De la gestion audio (QWAVE)
+- ...
+
+Je vous mets la liste complète des services qui sont désactivés (si vous utlisez celui qui désactive tout, donc *"Services Tweaks.reg"*) : 
+
+<details>
+  <summary><img src="images/w10.png"> Services désactivés</summary> 
+  
+<img src="images/services0.png">
+<img src="images/services01.png">
+<img src="images/services02.png">
+</details>
+
+**NB :** Les services "Origin" et "Galaxy" ne sont pas inclus dans ce pack mais ne les touchez pas pour un bon fonctionnement de vos launchers. Je n'ai pas rencontré de soucis en les ayant désactivé mais, dans le doute, laissez tel quel.
+
 ## *Utilisation du pack*
 
 Quand vous aurez décompresser le dossier, vous aurez 2 sous-dossiers : 
