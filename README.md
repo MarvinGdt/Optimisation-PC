@@ -103,6 +103,12 @@ Si vous avez un CPU AMD Ryzen à partir de la génération Ryzen 3000, vous pouv
 <img src="images/ctr.png">
 </details>
 
+<details>
+  <summary><img src="images/w10.png"> CTR 2.1 - CONFIGURATION</summary> 
+
+<img src="images/ctr2.1.png">
+</details>
+
 Le développeur de CTR insiste sur le fait que nous devons avoir une fréquence RAM stable, donc, on va activer le DOCP :
 
 <details>
