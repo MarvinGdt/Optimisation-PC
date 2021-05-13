@@ -119,7 +119,7 @@ Le développeur de CTR insiste sur le fait que nous devons avoir une fréquence 
 
 => **NE TOUCHEZ A RIEN D'AUTRE !** Tout se fait automatiquement une fois le mode DOCP actif.
 
-<img src="images/w10.png"> [`ClockTuner For Ryzen`](https://overclocking.com/tutoriel-clock-tuner-for-ryzen-version-2-0)
+<img src="images/w10.png"> [`ClockTuner For Ryzen`](https://www.guru3d.com/articles-pages/clocktuner-2-1-for-ryzen-(ctr)-guide,1.html)
 
 Suivez et LISEZ BIEN le guide, afin de préparer votre BIOS comme il se doit. 
 
