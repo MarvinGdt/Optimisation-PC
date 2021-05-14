@@ -507,6 +507,22 @@ Voici une vidéo explicative sur le mode d'alimentation :
 
 **Note 2 :** Si vous avez installé vos drivers chipset AMD (ex: X570, B550 etc), vous avez des profils d'alimentations AMD qui viennent avec, je vous conseille d'utiliser ces profils si vous avez un CPU Ryzen. 
 
+<details>
+  <summary><img src="images/w10.png"> Mesure DPC Latency sur un Ryzen 7 3700X (sur 30 secondes)</summary> 
+  
+<img src="images/1usmus.jpg">
+<img src="images/high.jpg">
+<img src="images/optimal.jpg">
+</details>
+
+**Note 3 :** Dans l'exemple ci-dessus, nous pouvons noté que la différence est fortement minime d'un profil à l'autre. Dans la pratique, le ressenti est quasiment, voire, totalement invisible. *Latency Monitor* donne un ordre d'idée mais n'est pas fiable à 100% sur la latence de votre ordinateur. Il vous permettra de voir si vous avez des *spikes* de latence. Si c'est le cas, alors vous avez un problème quelque part sur votre PC qui nuira à votre expérience (jeux vidéo, latence audio pour production musicale etc).
+
+Pour de plus ample information, je vous redirige vers 2 vidéo, de Piwi. Une qui vous explique comment bien comprendre *Latency Monitor* et une autre vidéo pour mesurer plus efficacement la latence : 
+
+<img src="images/w10.png"> [`Comprendre Latency Monitor`](https://www.youtube.com/watch?v=NuwhG9GHZ2Y)
+
+<img src="images/w10.png"> [`Mesurer son input lag`](https://www.youtube.com/watch?v=bB8JWe0vTyA)
+
 # Installer le Visual C++ Package et DirectX
 
 <img src="images/w10.png"> DirectX à télécharger ici : [`DirectX`](https://www.microsoft.com/fr-FR/download/details.aspx?id=35) 
