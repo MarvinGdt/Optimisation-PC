@@ -561,6 +561,19 @@ Voici une vidéo explicative de ce que fait ISLC :
 
 <img src="images/w10.png"> [`ISLC - vidéo Piwi`](https://www.youtube.com/watch?v=QV8IojCtoOQ)
 
+De plus, vous pouvez fixer votre timer à 0.5ms, ce qui vous permettra d'avoir un PC un peu plus stable, on gratte un peu de latence également. 
+
+Pour ce faire, lancez l'invité de commande en administrateur et collez cette ligne : 
+
+`bcdedit /set useplatformtick yes` puis enter et redémarrez votre PC. 
+
+Voici mon résultat après 1 minute sur Latency Monitor, avant/après : 
+
+<details>
+  <summary><img src="images/w10.png"> Mesure latence Nvidia, kernel Windows et DirectX (1min de Latency Monitor)</summary> 
+  
+<img src="images/0.5-timer.png">
+</details>
 
 # Réactiver les mises à jour automatiques des drivers
 
