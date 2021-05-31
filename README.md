@@ -687,7 +687,7 @@ Meilleure alternative à Google Chrome, aussi rapide que Chrome, adblocker inté
 
 <img src="images/w10.png"> [`LibreOffice`](https://fr.libreoffice.org/download/telecharger-libreoffice/) : Bon remplaçant de la suite Office de Microsoft, prend en charge l’exportation “.docx”, gratuit, interface qui se rapproche beaucoup de Word.
 
-<img src="images/w10.png"> [`Office 2007`](https://mega.nz/file/lgAjlKab#5JHXgCCO1n9EwRzauOOl_n__bQN1d3C2mGINKf3iH2E) : si vous souhaitez garder la suite Office de Microsoft, alors je vous recommande cette version. Pas de nécessité de se connecter à internet, gère les formats “.docx” sur les documents récents. Outre l’interface qui change un petit peu, vous ne vous perdrez pas car les menus sont identiques aux versions récentes (2013/2016/2019/2021). 
+<img src="images/w10.png"> [`Office 2007`](https://drive.google.com/file/d/1kPPVj9b3SNFY6sHGxfvdnRnestCEgAUA/view?usp=sharing) : si vous souhaitez garder la suite Office de Microsoft, alors je vous recommande cette version. Pas de nécessité de se connecter à internet, gère les formats “.docx” sur les documents récents. Outre l’interface qui change un petit peu, vous ne vous perdrez pas car les menus sont identiques aux versions récentes (2013/2016/2019/2021). 
 
 <img src="images/w10.png"> [`VLC Player`](https://www.videolan.org/vlc/index.fr.html) : bonne alternative au lecteur de base de Windows 10 qui est une infamie ou au Lecteur Windows Media. Plus polyvalent, une meilleure compatibilité des fichiers. Encore une fois, open-source. 
 
