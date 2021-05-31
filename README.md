@@ -680,6 +680,9 @@ Pour diminuer la charge CPU et GPU (accélération matérielle) :
 
 <img src="images/w10.png"> [`7Zip`](https://www.7-zip.org/download.html) : gratuit et open-source, plus léger et meilleur (à mon sens) que WinRar.
 
+<img src="images/w10.png"> [`Brave`](https://brave.com/) : Navigateur web open source gratuit, qui a pour objectif de protéger la vie privée en bloquant par défaut les pisteurs et en favorisant une navigation via les pages en HTTPS, grâce à l'extension HTTPS Everywhere, ou en permettant de naviguer via le réseau Tor. Brave est construit sur Chromium.
+Meilleure alternative à Google Chrome, aussi rapide que Chrome, adblocker intégré, contre beaucoup de trackers de Google. A un système de synchronisation maison avec une liste de mot généré (à garder précieuseuement) afin de récupérer vos données.
+
 <img src="images/w10.png"> [`NVCleanstall`](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) : alternative à GeForce Experience, plus léger, permet d’installer que le driver vidéo. Vous pouvez donc ne pas installer GeForce Experience, Ansel, ShadowPlay etc. si vous ne les utilisez pas. Vous pouvez aussi les installer si nécessaire. A vous de voir, cela ne joue pas sur les performences en jeu si vous installez toutes les features de Nvidia ou pas.
 
 <img src="images/w10.png"> [`LibreOffice`](https://fr.libreoffice.org/download/telecharger-libreoffice/) : Bon remplaçant de la suite Office de Microsoft, prend en charge l’exportation “.docx”, gratuit, interface qui se rapproche beaucoup de Word.
