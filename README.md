@@ -654,7 +654,7 @@ Le dossier *"C Drive"* contient les .cmd, à mettre à la racine de votre disque
 <img src="images/services2.png">
 </details>
 
-Ensute, glissez les fichiers du dossier Windows dans le dossier du même nom situé dans votre disque C : 
+Ensuite, glissez les fichiers du dossier Windows dans le dossier du même nom situé dans votre disque C : 
 
 <details>
   <summary><img src="images/w10.png"> .reg dans le disque C > dossier "Windows"</summary> 
