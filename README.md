@@ -281,8 +281,9 @@ Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f`
 
-
-### QUELQUES COMMANDES BONUS 
+<details>
+ <summary><img src="images/w10.png"> QUELQUES COMMANDES BONUS </summary>
+ 
 >
 >Supprimer 3D Object de l'explorateur de fichier
 >
@@ -407,6 +408,8 @@ Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en
 >Désactiver la Gamebar (si vous ne l'utilisez pas)
 >
 >`REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Gaming.GameBar.PresenceServer.Internal.PresenceWriter" /v ActivationType /t REG_DWORD /d 00000000 /f`
+ 
+ </details>
 
 Si vous voulez plus de réglage que ce qui est proposé ci-dessus : 
 
