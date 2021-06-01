@@ -285,41 +285,41 @@ Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en
  <summary><img src="images/w10.png"> QUELQUES COMMANDES BONUS </summary>
  
 
-Supprimer 3D Object de l'explorateur de fichier
+=> Supprimer 3D Object de l'explorateur de fichier
 
 `REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}"`
 
 `REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}"`
 
 
-Désactiver les Prefetch/Superfetch (appelé maintenant SysMain) UNIQUEMENT SI WINDOWS EST INSTALLE SUR UN SSD
+=> Désactiver les Prefetch/Superfetch (appelé maintenant SysMain) UNIQUEMENT SI WINDOWS EST INSTALLE SUR UN SSD
 
 `REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\SessionManager\Memory Management\PrefetchParameters" /v EnableSuperfetch /t REG_DWORD /d 00000000 /f`
 
 
-Désactiver "Applications récemments ajoutés" du menu Démarrer
+=> Désactiver "Applications récemments ajoutés" du menu Démarrer
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v HideRecentlyAddedApps /t REG_DWORD /d 00000001 /f`
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideRecentlyAddedApps /t REG_DWORD /d 00000001 /f`
 
 
-Screen snip sur la touche "impr écran"
+=> Screen snip sur la touche "impr écran"
 
 `REG ADD "HKEY_CURRENT_USER\Control Panel\Keyboard" /v PrintScreenKeyForSnippingEnabled /t REG_DWORD /d 00000001 /f`
 
 
-Ouvrir l'explorateur windows vous dirige à "Ce PC"
+=> Ouvrir l'explorateur windows vous dirige à "Ce PC"
 
 `REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v LaunchTo /t REG_DWORD /d 00000001 /f`
 
 
-Afficher les extensions des fichiers connus
+=> Afficher les extensions des fichiers connus
 
 `REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v HideFileExt /t REG_DWORD /d 00000000 /f`
 
 
-Désactiver la précision de la souris
+=> Désactiver la précision de la souris
 
 `REG ADD "HKEY_CURRENT_USER\Control Panel\Mouse" /v MouseSpeed /t REG_SZ /d 0 /f`
 
@@ -336,47 +336,47 @@ En cas de soucis, il est possible de revenir aux paramètres par défaut, tout e
 Je l'utilise depuis 2 ans, j'aime bien la sensibilité que cela me donne. Placebo ? Mais en revenant aux paramètres de base, je n'ai pas trop senti de différence, c'est à votre appréciation. 
 
 
-Désactiver le mode veille
+=> Désactiver le mode veille
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSettings" /v ShowSleepOption /t REG_DWORD /d 00000000 /f`
 
 
-Désactiver le verrouillage de session
+=> Désactiver le verrouillage de session
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSettings" /v ShowLockOption /t REG_DWORD /d 00000000 /f`
 
 
-Qualité du fond d'écran à 100%
+=> Qualité du fond d'écran à 100%
 
 `REG ADD "HKEY_CURRENT_USER\Control Panel\Desktop" /v JPEGImportQuality /t REG_DWORD /d 00000100 /f`
 
 
-Délai du menu
+=> Délai du menu
 
 `REG ADD "HKEY_CURRENT_USER\Control Panel\Desktop" /v MenuShowDelay /t REG_SZ /d 0 /f`
 
 
-Désactiver le Power Throttling
+=> Désactiver le Power Throttling
 
 `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling" /v PowerThrottlingOff /t REG_DWORD /d 00000001 /f`
 
 
-Changer la taille des miniatures de la barre des tâches (très gros)
+=> Changer la taille des miniatures de la barre des tâches (très gros)
 
 `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Taskband" /v MaxThumbSizePx /t REG_DWORD /d 000001f4 /f`
 
 
-Désactiver le texte " - raccourci"
+=> Désactiver le texte " - raccourci"
 
 `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v link /t REG_BINARY /d 00000000 /f`
 
 
-Afficher les secondes sur l'horloge de la barre des tâches
+=> Afficher les secondes sur l'horloge de la barre des tâches
 
 `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ShowSecondsInSystemClock /t REG_DWORD /d 00000001 /f`
 
 
-Services Google Chrome (désactive les mises à jour automatiques)
+=> Services Google Chrome (désactive les mises à jour automatiques)
 
 `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\GoogleChromeElevationService" /v Start /t REG_DWORD /d 00000004 /f`
 
@@ -385,7 +385,7 @@ Services Google Chrome (désactive les mises à jour automatiques)
 `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\gupdatem" /v Start /t REG_DWORD /d 00000003 /f`
 
 
-Services Microsoft Edge (désactive les mises à jour automatiques)
+=> Services Microsoft Edge (désactive les mises à jour automatiques)
 
 `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MicrosoftEdgeElevationService" /v Start /t REG_DWORD /d 00000004 /f`
 
@@ -394,18 +394,18 @@ Services Microsoft Edge (désactive les mises à jour automatiques)
 `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\edgeupdatem" /v Start /t REG_DWORD /d 00000003 /f`
 
 
-Services Brave Browser (désactive les mises à jour automatiques)
+=> Services Brave Browser (désactive les mises à jour automatiques)
 
 `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\brave" /v Start /t REG_DWORD /d 00000004 /f`
 
 `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\bravem" /v Start /t REG_DWORD /d 00000003 /f`
 
 
-Désactiver la création de points de restauration (remettez la valeur à 3 si besoin)
+=> Désactiver la création de points de restauration (remettez la valeur à 3 si besoin)
 
 `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS" /v Start /t REG_DWORD /d 00000004 /f`
 
-Désactiver la Gamebar (si vous ne l'utilisez pas)
+=> Désactiver la Gamebar (si vous ne l'utilisez pas)
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Gaming.GameBar.PresenceServer.Internal.PresenceWriter" /v ActivationType /t REG_DWORD /d 00000000 /f`
  
