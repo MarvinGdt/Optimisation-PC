@@ -522,7 +522,9 @@ Pour de plus ample information, je vous redirige vers 2 vidéo, de Piwi. Une qui
 
 <img src="images/w10.png"> [`Comprendre Latency Monitor`](https://www.youtube.com/watch?v=NuwhG9GHZ2Y)
 
-<img src="images/w10.png"> [`Mesurer son input lag`](https://www.youtube.com/watch?v=bB8JWe0vTyA)
+<img src="images/w10.png"> [`Mesurer son input lag souris`](https://basro.github.io/input-lag-measuring-tool)
+
+<img src="images/w10.png"> [`Mesurer son input lag en jeu`](https://www.youtube.com/watch?v=bB8JWe0vTyA)
 
 # Installer le Visual C++ Package et DirectX
 
