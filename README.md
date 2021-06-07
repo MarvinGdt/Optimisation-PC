@@ -678,26 +678,57 @@ Pour diminuer la charge CPU et GPU (accélération matérielle) :
 
 # (BONUS) Liste des logiciels utiles à installer sur votre PC
 
-<img src="images/w10.png"> [`7Zip`](https://www.7-zip.org/download.html) : gratuit et open-source, plus léger et meilleur (à mon sens) que WinRar.
+**Note :** *Cette liste regroupe des logiciels que JE recommande et également safe. Je noterai beaucoup d'alternative à tel ou tel logiciel, je privilégirai les softs open-source. Pourquoi ? Tout simplement car les softs open-source permettent à d'autres devs de passer au crible le code source du logiciel, boucher les failles et les faire remonter aux auteurs. Elle montre aussi la transparence d'un soft qui se dit "respectueux de la vie privée.* 
+
+## Navigateur Internet
 
 <img src="images/w10.png"> [`Brave`](https://brave.com/) : Navigateur web open source gratuit, qui a pour objectif de protéger la vie privée en bloquant par défaut les pisteurs et en favorisant une navigation via les pages en HTTPS, grâce à l'extension HTTPS Everywhere, ou en permettant de naviguer via le réseau Tor. Brave est construit sur Chromium.
 Meilleure alternative à Google Chrome, aussi rapide que Chrome, adblocker intégré, contre beaucoup de trackers de Google. A un système de synchronisation maison avec une liste de mots générés (à garder précieuseuement) afin de récupérer vos données.
 
+<img src="images/w10.png"> [`Firefox`](https://firefox.com/) : Navigateur web open source gratuit, qui a pour objectif de protéger la vie privée en bloquant par défaut les pisteurs et en favorisant une navigation via les pages en HTTPS, grâce à l'extension HTTPS Everywhere. Développé par la fondation Mozilla, Firefox a pour but de protéger votre vie privée. Firefox n'est pas basée sur le moteur Chromium mais le moteur maison de Mozilla : Gecko. 
+
+**Bonus (facultatif) :** <img src="images/w10.png"> [`Configurer son navigateur et les extensions que je recommande (OPTIONNEL)`](https://docs.google.com/document/d/1vq0me5Gd6WOsz68GHlrAQEBHOJ85Az8pXhY13JV9kLA/edit?usp=sharing) : Voici un document qui vous permettra de bien paramétrer votre navigateur ainsi que les extensions utiles que je recommande.
+
+## Logiciels utilitaires
+
+<img src="images/w10.png"> [`7Zip`](https://www.7-zip.org/download.html) : gratuit et open-source, plus léger et meilleur (à mon sens) que WinRar.
+
 <img src="images/w10.png"> [`NVCleanstall`](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) : alternative à GeForce Experience, plus léger, permet d’installer que le driver vidéo. Vous pouvez donc ne pas installer GeForce Experience, Ansel, ShadowPlay etc. si vous ne les utilisez pas. Vous pouvez aussi les installer si nécessaire. A vous de voir, cela ne joue pas sur les performences en jeu si vous installez toutes les features de Nvidia ou pas.
+
+<img src="images/w10.png"> [`Office 2007`](https://drive.google.com/file/d/1kPPVj9b3SNFY6sHGxfvdnRnestCEgAUA/view?usp=sharing) : si vous souhaitez garder la suite Office de Microsoft, alors je vous recommande cette version. Pas de nécessité de se connecter à internet, gère les formats “.docx” sur les documents récents. Outre l’interface qui change un petit peu, vous ne vous perdrez pas car les menus sont identiques aux versions récentes (2013/2016/2019/2021). 
 
 <img src="images/w10.png"> [`LibreOffice`](https://fr.libreoffice.org/download/telecharger-libreoffice/) : Bon remplaçant de la suite Office de Microsoft, prend en charge l’exportation “.docx”, gratuit, interface qui se rapproche beaucoup de Word.
 
-<img src="images/w10.png"> [`Office 2007`](https://drive.google.com/file/d/1kPPVj9b3SNFY6sHGxfvdnRnestCEgAUA/view?usp=sharing) : si vous souhaitez garder la suite Office de Microsoft, alors je vous recommande cette version. Pas de nécessité de se connecter à internet, gère les formats “.docx” sur les documents récents. Outre l’interface qui change un petit peu, vous ne vous perdrez pas car les menus sont identiques aux versions récentes (2013/2016/2019/2021). 
+<img src="images/w10.png"> [`Epic Disk Cleanup`](https://drive.google.com/open?id=1ORb7otD5bvITT5eBgsMvOz60BWkRp2Wd) : pour ajouter cette fonctionnalité embarquée dans Windows faites windows+r et tapez : `cleanmgr.exe /sageset:50` et faites Enter. Permet de nettoyer plus en profondeur votre PC. Pas besoin de logiciel tier, le cleanup embarqué dans Windows est le mieux. Cochez tout sauf Corbeille (conseillé de le cocher) et Téléchargement (conseillé de ne pas le cocher afin de garder ce que vous avez besoin). Une fois réglé, téléchargez le raccourci de Epic Disk Cleanup et lancez le. Il fera le travail que vous lui aurez demandé de faire. 
+
+<img src="images/w10.png"> [`OpenShell`](https://github.com/Open-Shell/Open-Shell-Menu/releases/) : Remplace le menu démarrer natif de Windows 10 par un style Windows 7. Fork de StartMenu 7.
+
+<img src="images/w10.png"> [`Geek Uninstaller`](https://geekuninstaller.com/) : ce petit soft léger vous aidera à désinstaller proprement et à 100% un logiciel. Il scannera votre registe windows, fera un tour sur vos disques durs pour voir s'il ne reste pas de dossier lié à ce logiciel. Si c'est le cas, il affichera tout ça et les supprimera. 
+
+<img src="images/w10.png"> [`qbittorent`](https://www.qbittorrent.org/) : alternative open-source à µTorrent. Depuis le mineur de crypto qui a été ajouté dans le code de µTorrent, je n'utilise plus que qbittorrent. 
+
+<img src="images/w10.png"> [`JDownloader 2`](https://jdownloader.org/jdownloader2) : JDownloader est en open source, plateforme indépendante et totalement écrit en Java. Il offre un téléchargement en flux continu (Mega, GDrive, Mediafire etc), la reconnaissance Captcha, la décompression automatique des fichiers et bien plus. Bien sur, JDownloader est entièrement gratuit. De plus, de nombreux "liens d'encodage" sont supportés - il vous suffit de coller le lien "codé" et JD fera le reste. JD peut importer les CCF, RSDF et les nouveaux fichiers DLC.
+
+## Lecteur audio/vidéo
 
 <img src="images/w10.png"> [`VLC Player`](https://www.videolan.org/vlc/index.fr.html) : bonne alternative au lecteur de base de Windows 10 qui est une infamie ou au Lecteur Windows Media. Plus polyvalent, une meilleure compatibilité des fichiers. Encore une fois, open-source. 
 
 <img src="images/w10.png"> [`MPC-BE`](https://sourceforge.net/projects/mpcbe/) : si vous préférez un autre lecteur que VLC, je vous propose MPC-BE. Attention toute fois, le projet est assez récent, même s'il s'agit d'un fork de MPC-HC, qui n'est plus mis à jour à ce jour, il se peut que vous ayez des petits bugs. Le soft est régulièrement mis à jour, donc soyez sans crainte.
 
-<img src="images/w10.png"> [`Epic Disk Cleanup`](https://drive.google.com/open?id=1ORb7otD5bvITT5eBgsMvOz60BWkRp2Wd) : pour ajouter cette fonctionnalité embarquée dans Windows faites windows+r et tapez : `cleanmgr.exe /sageset:50` et faites Enter. 
-Permet de nettoyer plus en profondeur votre PC. Pas besoin de logiciel tier, le cleanup embarqué dans Windows est le mieux.
-Cochez tout sauf Corbeille (conseillé de le cocher) et Téléchargement (conseillé de ne pas le cocher afin de garder ce que vous avez besoin). 
-Une fois réglé, téléchargez le raccourci de Epic Disk Cleanup et lancez le. Il fera le travail que vous lui aurez demandé de faire. 
+## Logiciels gaming
 
-<img src="images/w10.png"> [`OpenShell`](https://github.com/Open-Shell/Open-Shell-Menu/releases/) : Remplace le menu démarrer natif de Windows 10 par un style Windows 7. Fork de StartMenu 7.
+<img src="images/w10.png"> [`DS4Windows`](https://github.com/Ryochan7/DS4Windows/releases) : ce soft vous permettra d'apairer votre manette PS4™ ET PS5™ à votre PC pour jouer à vos jeux si vous n'avez pas de manette Xbox. (Steam gère nativement les manettes PlayStation™ donc, il n'est pas nécessaire le lancer DS4Windows sous peine de créer des conflits)
 
-<img src="images/w10.png"> [`Configurer son navigateur et les extensions que je recommande (OPTIONNEL)`](https://docs.google.com/document/d/1vq0me5Gd6WOsz68GHlrAQEBHOJ85Az8pXhY13JV9kLA/edit?usp=sharing) : Voici un document qui vous permettra de bien paramétrer votre navigateur ainsi que les extensions utiles que je recommande.
+<img src="images/w10.png"> [`Flawless Widescreen`](https://flawlesswidescreen.org/) : si vous jouez à des jeux beaucoup plus anciens (comme Resident Evil 4 par exemple), et que vous avez un écran 21/9 ou 32/9, il se peut que le jeu ne gère pas ce format d'écran nativement. Ce soft permettra d'arranger cela simplement.
+
+<img src="images/w10.png"> [`Vortex Mod Manager`](https://www.nexusmods.com/about/vortex/) : si vous aimez modder vos jeux (Skyrim par exemple), je vous conseille ce manager. Simple d'utilisation, complet, il détecte aussi les mods qui peuvent entrer en conflit et propose de les désactiver. 
+
+<img src="images/w10.png"> [`RomStation`](https://www.romstation.fr/) : on ne le présente plus, RomStation est un gestionnaire d'émulateur qui embarque un catalogue de jeu rétro énorme (Atari, NES, SNES, PS1, PS2, GameCube etc). Cependant, le téléchargement est bridé pour les comptes gratuits, un abonnement payant est nécessaire afin de débrider cela. A vous de voir. 
+
+<img src="images/w10.png"> [`RetroArch`](https://www.retroarch.com/) : open-source, Retroarch est un soft tout-en-un de tous les coeurs des consoles rétro, redeveloppé avec des moteurs open-source. Cependant, vous devez dumper (extraire) vos propres jeux afin de pouvoir jouer. 
+
+<img src="images/w10.png"> [`Yuzu`](https://yuzu-emu.org/) : émulateur open-source pour la Nintendo Switch, régulièrement mis à jour, Yuzu apporte une compatibilité de jeu constante. Surveillez bien les changelogs et la liste des jeux. 
+
+<img src="images/w10.png"> [`CEMU`](https://Cemu.info/) : émulateur pour la WII U, malheureusement, il est closed-source, mais c'est un émulateur performant et safe. 
+
+<img src="images/w10.png"> [`RPCS3`](https://rpcs3.net/) : RPCS3 est un émulateur pour la PS3. Open-source, constamment mis à jour, il s'agit, à ce jour, de l'émulateur PS3 le plus abouti (en même temps, c'est le seul). Surveillez bien les wiki, les jeux demandent parfois une configuration particulière pour bien fonctionner ! 
