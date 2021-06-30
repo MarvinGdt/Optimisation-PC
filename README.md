@@ -701,9 +701,6 @@ Prêt à l’emploi, l’utilisation de ce dernier est identique à Google Chrom
 
 Pour bien paramétrer ce navigateur, je vous recommande de suivre le petit guide juste après et aller dans la section ***ungoogled-chromium (pour le lol)***.
 
-Pour installer vos extensions, suivez ce guide : https://chromium.woolyss.com/#external-extension-installation.
-
-
 **Bonus (facultatif) :** <img src="images/w10.png"> [`Configurer son navigateur et les extensions que je recommande (OPTIONNEL)`](https://docs.google.com/document/d/1vq0me5Gd6WOsz68GHlrAQEBHOJ85Az8pXhY13JV9kLA/edit?usp=sharing) : Voici un document qui vous permettra de bien paramétrer votre navigateur ainsi que les extensions utiles que je recommande.
 
 ## Logiciels utilitaires
