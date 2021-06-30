@@ -687,6 +687,23 @@ Meilleure alternative à Google Chrome, aussi rapide que Chrome, adblocker inté
 
 <img src="images/w10.png"> [`Firefox`](https://firefox.com/) : Navigateur web open source gratuit, qui a pour objectif de protéger la vie privée en bloquant par défaut les pisteurs et en favorisant une navigation via les pages en HTTPS, grâce à l'extension HTTPS Everywhere. Développé par la fondation Mozilla, Firefox a pour but de protéger votre vie privée. Firefox n'est pas basée sur le moteur Chromium mais le moteur maison de Mozilla : Gecko. 
 
+<img src="images/w10.png"> [`Ungoogled Chromium`](https://chromium.woolyss.com/) : *Prenez la version archive si vous souhaitez l'utiliser en mode portable*. 
+
+Cette version de chromium est totalement dépourvue de quelconque tracker/API de Google, choses qui sont encore disponibles sur Chromium de base.
+
+Prêt à l’emploi, l’utilisation de ce dernier est identique à Google Chrome. Cependant, il y a quelques contraintes : 
+
+- Pas de synchronisation 
+
+- **=> pour récupérer vos données** : ***Win+R*** et tapez ***appdata***, puis allez dans le dossier ***Local*** et copiez le dossier ***Chromium*** sur une clé USB ou ailleurs pour stocker vos données et extensions installées avant un formatage. Une fois fait, retournez dans le même chemin de dossier et coller votre dossier ***Chromium*** ;
+
+- Les extensions ne sont pas installables nativement. 
+
+Pour bien paramétrer ce navigateur, je vous recommande de suivre le petit guide juste après et aller dans la section ***ungoogled-chromium (pour le lol)***.
+
+Pour installer vos extensions, suivez ce guide : https://chromium.woolyss.com/#external-extension-installation.
+
+
 **Bonus (facultatif) :** <img src="images/w10.png"> [`Configurer son navigateur et les extensions que je recommande (OPTIONNEL)`](https://docs.google.com/document/d/1vq0me5Gd6WOsz68GHlrAQEBHOJ85Az8pXhY13JV9kLA/edit?usp=sharing) : Voici un document qui vous permettra de bien paramétrer votre navigateur ainsi que les extensions utiles que je recommande.
 
 ## Logiciels utilitaires
