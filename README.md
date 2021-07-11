@@ -51,7 +51,6 @@ Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce 
 - [**Mode MSI**](#mode-msi)
 - [**Mode de gestion d’alimentation**](#mode-de-gestion-dalimentation)
 - [**Installer le Visual C++ Package et DirectX**](#installer-le-visual-c-package-et-directx)
-- [**Réduire encore plus la latence**](#réduire-encore-plus-la-latence)
 - [**Réactiver les mises à jour automatiques des drivers**](#réactiver-les-mises-à-jour-automatiques-des-drivers)
 - [**Désactivation de certains services (facultatif)**](#désactivation-de-certains-services-facultatif)
 - [**Désactiver les overlays et accélération matérielle**](#désactiver-les-overlays-et-accélération-matérielle)
