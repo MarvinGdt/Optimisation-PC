@@ -542,42 +542,6 @@ ou
 
 <img src="images/w10.png"> Visual C++ à télécharger ici : [`Visual C++ Package AiO (Github)`](https://github.com/abbodi1406/vcredist/releases)
 
-# Réduire encore plus la latence
-
-Simplement, un logiciel qui réduira la latence de votre Windows mais aussi, cela permet de purger la RAM. 
-Aucune bidouille nécessaire. 
-
-<img src="images/w10.png"> [`Intelligent Standby List Cleaner`](https://www.wagnardsoft.com/forums/viewtopic.php?f=5&t=1256)
-
-En bas à gauche du logiciel vous aurez 2 lignes : 
-
-- The list size is at least
-- Free Memory is lower than
-
-Sur la 1ère ligne, vous laissez 1024 MB.
-
-Sur la 2nd ligne, pour 16 Go de RAM, j'applique 10240 MB afin que la purge se fasse régulièrement. 
-
-N'oubliez pas de cocher les 2 cases en dessous de ses lignes afin que ISLC démarre au démarrage et en mode réduit.
-
-Voici une vidéo explicative de ce que fait ISLC :
-
-<img src="images/w10.png"> [`ISLC - vidéo Piwi`](https://www.youtube.com/watch?v=QV8IojCtoOQ)
-
-De plus, vous pouvez fixer votre timer à 0.5ms, ce qui vous permettra d'avoir un PC un peu plus stable, on gratte un peu de latence également. 
-
-Pour ce faire, lancez l'invité de commande en administrateur et collez cette ligne : 
-
-`bcdedit /set useplatformtick yes` puis enter et redémarrez votre PC. 
-
-Voici mon résultat après 1 minute sur Latency Monitor, avant/après : 
-
-<details>
-  <summary><img src="images/w10.png"> Mesure latence Nvidia, kernel Windows et DirectX (1min de Latency Monitor)</summary> 
-  
-<img src="images/0.5-timer.png">
-</details>
-
 # Réactiver les mises à jour automatiques des drivers
 
 Il est utile de laisser cette fonction active une fois que tout le guide a été fait. 
