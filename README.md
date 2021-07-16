@@ -188,7 +188,7 @@ Si vous souhaitez utiliser G-SYNC pour vos jeux, voici une vidéo qui vous expli
 
  - Activer le mode Faible latence (ON si la CG est à -90% ou ULTRA si la CG atteint + 90% d'utilisation)
 
- *Note : J'ai eu plusieurs echos comme quoi il ne faut pas activer le mode "Faible Latence" dans le panneau Nvidia si on active Nvidia Reflex en jeu. IL faut savoir que Nvidia Reflex prend le dessus sur le mode "Faible Latence" si ce dernier est actif dans le panneau Nvidia. Aucun conflit ne sera donc créé.*  ;
+ *Note : J'ai eu plusieurs echos comme quoi il ne faut pas activer le mode "Faible Latence" dans le panneau Nvidia si on active Nvidia Reflex en jeu. Il faut savoir que Nvidia Reflex prend le dessus sur le mode "Faible Latence" si ce dernier est actif dans le panneau Nvidia. Aucun conflit ne sera donc créé.*  ;
  - Activer la G-SYNC ;
  - Activer la V-SYNC ;
  - Bloquer vos FPS au nombre de hertz de votre écran - 2 ou 3 (exemple : si tu as un écran 144 Hz, tu bloques les FPS à 142 ou 141 FPS voire 140 FPS si tu veux être sûr) cela peut fonctionner aussi si tu le fais via un jeu en particulier style Valorant, CSGO etc ;
