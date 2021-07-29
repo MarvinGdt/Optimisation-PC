@@ -329,10 +329,7 @@ Je ne l'ai pas mis dans cette liste, ni dans le fichier .reg qui est dans le rep
 
 <img src="images/w10.png"> [`MarkC - Windows Mouse Things`](https://donewmouseaccel.blogspot.com/2010/03/markc-windows-7-mouse-acceleration-fix.html) 
  
-En cas de soucis, il est possible de revenir aux paramètres par défaut, tout est dans le .zip que vous aurez téléchargé via le lien. Lisez bien la doc sur le site. 
- 
-Je l'utilise depuis 2 ans, j'aime bien la sensibilité que cela me donne. Placebo ? Mais en revenant aux paramètres de base, je n'ai pas trop senti de différence, c'est à votre appréciation. 
-
+A quoi cela sert ? Voici une vidéo qui vous explique comment cela fonctionne et si c'est utile pour la majorité du temps : https://youtube.com/watch?v=YM9SdIT6K20 
 
 => Désactiver le mode veille
 
