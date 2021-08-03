@@ -329,7 +329,7 @@ Je ne l'ai pas mis dans cette liste, ni dans le fichier .reg qui est dans le rep
 
 <img src="images/w10.png"> [`MarkC - Windows Mouse Things`](https://donewmouseaccel.blogspot.com/2010/03/markc-windows-7-mouse-acceleration-fix.html) 
  
-A quoi cela sert ? Voici une vidéo qui vous explique comment cela fonctionne et si c'est utile pour la majorité du temps : https://youtube.com/watch?v=YM9SdIT6K20 
+A quoi cela sert ? Voici une vidéo qui vous explique comment cela fonctionne et si c'est utile pour la majorité du temps : <img src="images/w10.png"> [`Le MarkC mouse acceleration fix, ça marche comment ? - Piwi`](https://youtube.com/watch?v=YM9SdIT6K20) 
 
 => Désactiver le mode veille
 
