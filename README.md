@@ -1,4 +1,4 @@
-# Optimiser son PC et Windows 10 sans risque 
+# Optimiser son PC et Windows 
 
 Dans ce github, j'ai compilé plusieurs tutos, guides de différentes personnes. Les trouvailles, tutos appartiennent aux personnes qui ont passés du temps à faire toutes ces recherches.
  
