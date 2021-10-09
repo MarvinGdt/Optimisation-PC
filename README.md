@@ -1,6 +1,8 @@
 # Optimiser son PC et Windows 
 
 Dans ce github, j'ai compilé plusieurs tutos, guides de différentes personnes. Les trouvailles, tutos appartiennent aux personnes qui ont passés du temps à faire toutes ces recherches.
+
+***Ce guide est compatible avec Windows 10 mais également Windows 11.***
  
 <img src="images/w10.png"> [`CAPETLEVRAI`](https://www.twitter.com/capetlevrai) + [`GUIDE`](https://docs.google.com/document/d/1bfRI8ykV2esBQwy6x_3DX7WR_XLO-Y0bJ-0ds2Mbhek/edit) + [`YOUTUBE`](https://www.youtube.com/user/capetlevrai)
 
