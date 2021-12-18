@@ -574,6 +574,10 @@ Pour diminuer la charge CPU et GPU (accélération matérielle) :
 <img src="images/w10.png"> [`Brave`](https://brave.com/) : Navigateur web open source gratuit, qui a pour objectif de protéger la vie privée en bloquant par défaut les pisteurs et en favorisant une navigation via les pages en HTTPS, grâce à l'extension HTTPS Everywhere, ou en permettant de naviguer via le réseau Tor. Brave est construit sur Chromium.
 Meilleure alternative à Google Chrome, aussi rapide que Chrome, adblocker intégré, contre beaucoup de trackers de Google. A un système de synchronisation maison avec une liste de mots générés (à garder précieuseuement) afin de récupérer vos données.
 
+<img src="images/w10.png"> [`Google Chrome`](https://www.google.com/intl/fr/chrome/) : Basé sur le projet Chromium, Google Chrome est l'un des navigateurs les plus sécurisés. Rapide, il vous permet de synchroniser vos favoris, mots de passe (privilégiez un gestionnaire de mot de passe externe comme Bitwarden), extensions etc. grâce à votre simple compte Google. 
+
+Tips : Si vous préférez Chrome à Brave cité juste avant, pensez bien à bloquer les cookies tiers dans les paramètres afin d'acroitre un peu votre sécurité et de cocher "Envoyer une demande "Interdire de me suivre" pendant la navigation". Malgré un envoi de vos données à Google, même si cela est temporaire, activez aussi le mode "Protection renforcée" afin de vous prémunir des sites référencés qui ont mauvaises réputations dans la base de donnée de Google.
+
 <img src="images/w10.png"> [`Firefox`](https://firefox.com/) : Navigateur web open source gratuit, qui a pour objectif de protéger la vie privée en bloquant par défaut les pisteurs et en favorisant une navigation via les pages en HTTPS, grâce à l'extension HTTPS Everywhere. Développé par la fondation Mozilla, Firefox a pour but de protéger votre vie privée. Firefox n'est pas basée sur le moteur Chromium mais le moteur maison de Mozilla : Gecko. 
 
 ## Logiciels utilitaires
