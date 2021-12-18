@@ -172,7 +172,13 @@ Pour les drivers de votre carte graphique, voici ces deux liens dépendant de ce
 
 Je vous mets quelques screens des réglages du panneau Nvidia que j'ai sur mon PC. Rien de plus classique, configurez à votre convenance encore une fois. 
 
-<img src="images/w10.png"> [`Panneau de configuration Nvidia`](https://docs.google.com/document/d/1PEIxcgfH3bZOv8mPKYyepyBaXrlvL3KbErV1srNPIWM/edit?usp=sharing)
+<details>
+  <summary><img src="images/w10.png"> Exemple image (G-Sync actif)</summary> 
+  
+<img src="images/nvidia1.bmp">
+<img src="images/nvidia2.bmp">
+<img src="images/nvidia3.bmp">
+</details>
 
 ### Activer G-SYNC de la bonne manière
 
