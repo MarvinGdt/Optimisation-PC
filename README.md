@@ -273,7 +273,7 @@ Tant qu’on est à faire des changements dans regedit, je vous propose quelques
 
 => Désactiver les Prefetch/Superfetch (appelé maintenant SysMain) UNIQUEMENT SI WINDOWS EST INSTALLE SUR UN SSD
 
-`REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\SessionManager\Memory Management\PrefetchParameters" /v EnableSuperfetch /t REG_DWORD /d 00000000 /f`
+`sc stop “SysMain” & sc config “SysMain” start=disabled`
 
 => Screen snip sur la touche "impr écran"
 
