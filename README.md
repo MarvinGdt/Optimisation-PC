@@ -159,7 +159,7 @@ Je vous recommande **FORTEMENT** de passer par le site de votre constructeur de 
 
 Sinon, voici une autre vidéo de Piwi qui explique comment faire : 
 
-<img src="images/w10.png"> [`INSTALLER/UPDATE SES DRIVERS`](https://www.youtube.com/watch?v=TzSJ_DTLfqY) 
+<img src="images/w10.png"> [`INSTALLER/UPDATE SES DRIVERS`](https://www.youtube.com/watch?v=LJ1tgPLHmG0) 
 
 Pour les drivers de votre carte graphique, voici ces deux liens dépendant de ce que vous avez comme modèle :
 
