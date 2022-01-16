@@ -165,6 +165,8 @@ Pour les drivers de votre carte graphique, voici ces deux liens dépendant de ce
 
 <img src="images/w10.png"> [`DRIVER NVIDIA`](https://www.nvidia.com/Download/Find.aspx?lang=fr)
 
+*NB : Téléchargez bien la version DCH du driver Nvidia. Les versions standards ne sont plus mis à jour depuis quelques temps. Si vous avez une version standard déjà installée, procédez à [une désinstallation avec DDU](#désinstaller-son-pilote-graphique-proprement-avec-ddu) ensuite installez la version DCH téléchargée précédément.* 
+
 <img src="images/w10.png"> [`DRIVER AMD`](https://www.amd.com/fr/graphics/radeon-rx-graphics)
 
 # Réglage du panneau de configuration Nvidia
