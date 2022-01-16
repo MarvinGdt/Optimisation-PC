@@ -251,8 +251,6 @@ Tant qu’on est à faire des changements dans regedit, je vous propose quelques
 
 # Tweaks Regedit (les basiques)
 
-<img src="images/w10.png"> [`Quelques tweaks regedit (basiques)`](https://www.youtube.com/watch?v=X4AVdnHFn_E)
-
 Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en admin, encore une fois) : 
 
 **=> Désactiver la sortie d'hibernation :** 
