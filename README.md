@@ -44,7 +44,7 @@ Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce 
    - [**MSI Afterburner**](#msi-afterburner)
    - [**Désinstaller son pilote graphique proprement avec DDU**](#désinstaller-son-pilote-graphique-proprement-avec-ddu)
 - [**Désactivation des drivers automatiques**](#désactivation-des-drivers-automatiques)
-- [**Tweaks Regedit (les basiques)**](#tweaks-regedit-les-basiques)
+- [**Tweaks Regedit**](#tweaks-regedit)
 - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
 - [**Paramètres de Windows**](#paramètres-de-windows)
    - [**Animations de Windows**](#animations-de-windows)
@@ -249,9 +249,7 @@ Une fois les drivers de Windows désactivés, vous devez impérativement redéma
 Reboot le PC maintenant vous permettra d’avoir accès à internet, et donc de copier/coller les commandes CMD suivantes (si vous les avez pas sauvegardé avant l’install sur un fichier texte dans une clé USB)
 Tant qu’on est à faire des changements dans regedit, je vous propose quelques petits tweaks basiques, qui vont légèrement améliorer les performances de votre PC, mais sans aucun problème de compatibilité, ou risque pour votre PC. La vidéo qui vous donnera des explications et du contexte est la suivante (recommandée).
 
-# Tweaks Regedit (les basiques)
-
-Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en admin, encore une fois) : 
+# Tweaks Regedit
 
 **=> Désactiver la sortie d'hibernation :** 
 
@@ -284,7 +282,6 @@ Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en
 => Afficher les extensions des fichiers connus
 
 `REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v HideFileExt /t REG_DWORD /d 00000000 /f`
-
 
 => Désactiver la précision de la souris
 
