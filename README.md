@@ -623,3 +623,5 @@ Tips : Si vous préférez Chrome à Brave cité juste avant, pensez bien à bloq
 <img src="images/w10.png"> [`CEMU`](https://Cemu.info/) : émulateur pour la WII U, malheureusement, il est closed-source, mais c'est un émulateur performant et safe. 
 
 <img src="images/w10.png"> [`RPCS3`](https://rpcs3.net/) : RPCS3 est un émulateur pour la PS3. Open-source, constamment mis à jour, il s'agit, à ce jour, de l'émulateur PS3 le plus abouti (en même temps, c'est le seul). Surveillez bien les wiki, les jeux demandent parfois une configuration particulière pour bien fonctionner ! 
+
+*Dernière mise à jour : 16/01/2022*
