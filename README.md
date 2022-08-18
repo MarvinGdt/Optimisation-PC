@@ -48,6 +48,7 @@ Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce 
    - [**Animations de Windows**](#animations-de-windows)
    - [**W10Privacy**](#w10privacy)
       - [**Windows Defender**](#windows-defender-mis-en-rouge-dans-w10privacy)
+      - [**Windows CTT Tool (by ChrisTitus)**](#windows-ctt-tool-by-christitus)
 - [**Mode MSI**](#mode-msi)
 - [**Mode de gestion d’alimentation**](#mode-de-gestion-dalimentation)
 - [**Installer le Visual C++ Package et DirectX**](#installer-le-visual-c-package-et-directx)
