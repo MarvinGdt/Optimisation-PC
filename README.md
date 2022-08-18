@@ -1,8 +1,6 @@
-# Optimiser son PC et Windows 
+# Optimiser son PC et Windows 10 sans risque 
 
 Dans ce github, j'ai compilé plusieurs tutos, guides de différentes personnes. Les trouvailles, tutos appartiennent aux personnes qui ont passés du temps à faire toutes ces recherches.
-
-***Ce guide est compatible avec Windows 10 mais également Windows 11.***
  
 <img src="images/w10.png"> [`CAPETLEVRAI`](https://www.twitter.com/capetlevrai) + [`GUIDE`](https://docs.google.com/document/d/1bfRI8ykV2esBQwy6x_3DX7WR_XLO-Y0bJ-0ds2Mbhek/edit) + [`YOUTUBE`](https://www.youtube.com/user/capetlevrai)
 
@@ -44,7 +42,7 @@ Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce 
    - [**MSI Afterburner**](#msi-afterburner)
    - [**Désinstaller son pilote graphique proprement avec DDU**](#désinstaller-son-pilote-graphique-proprement-avec-ddu)
 - [**Désactivation des drivers automatiques**](#désactivation-des-drivers-automatiques)
-- [**Tweaks Regedit**](#tweaks-regedit)
+- [**Tweaks Regedit (les basiques)**](#tweaks-regedit-les-basiques)
 - [**Mises à jour de Windows**](#mises-à-jour-de-windows)
 - [**Paramètres de Windows**](#paramètres-de-windows)
    - [**Animations de Windows**](#animations-de-windows)
@@ -54,6 +52,7 @@ Avant de commencer ce guide, je tiens à faire quelques “disclaimer” sur ce 
 - [**Mode de gestion d’alimentation**](#mode-de-gestion-dalimentation)
 - [**Installer le Visual C++ Package et DirectX**](#installer-le-visual-c-package-et-directx)
 - [**Réactiver les mises à jour automatiques des drivers**](#réactiver-les-mises-à-jour-automatiques-des-drivers)
+- [**Désactivation de certains services (facultatif)**](#désactivation-de-certains-services-facultatif)
 - [**Désactiver les overlays et accélération matérielle**](#désactiver-les-overlays-et-accélération-matérielle)
 - [**(BONUS) Liste des logiciels utiles à installer sur votre PC**](#bonus-liste-des-logiciels-utiles-à-installer-sur-votre-pc)
 
@@ -159,13 +158,11 @@ Je vous recommande **FORTEMENT** de passer par le site de votre constructeur de 
 
 Sinon, voici une autre vidéo de Piwi qui explique comment faire : 
 
-<img src="images/w10.png"> [`INSTALLER/UPDATE SES DRIVERS`](https://www.youtube.com/watch?v=LJ1tgPLHmG0) 
+<img src="images/w10.png"> [`INSTALLER/UPDATE SES DRIVERS`](https://www.youtube.com/watch?v=TzSJ_DTLfqY) 
 
 Pour les drivers de votre carte graphique, voici ces deux liens dépendant de ce que vous avez comme modèle :
 
 <img src="images/w10.png"> [`DRIVER NVIDIA`](https://www.nvidia.com/Download/Find.aspx?lang=fr)
-
-*NB : Téléchargez bien la version DCH du driver Nvidia. Les versions standards ne sont plus mis à jour depuis quelques temps. Si vous avez une version standard déjà installée, procédez à [une désinstallation avec DDU](#désinstaller-son-pilote-graphique-proprement-avec-ddu) ensuite installez la version DCH téléchargée précédément.* 
 
 <img src="images/w10.png"> [`DRIVER AMD`](https://www.amd.com/fr/graphics/radeon-rx-graphics)
 
@@ -173,13 +170,7 @@ Pour les drivers de votre carte graphique, voici ces deux liens dépendant de ce
 
 Je vous mets quelques screens des réglages du panneau Nvidia que j'ai sur mon PC. Rien de plus classique, configurez à votre convenance encore une fois. 
 
-<details>
-  <summary><img src="images/w10.png"> Exemple image (G-Sync actif)</summary> 
-  
-<img src="images/nvidia1.bmp">
-<img src="images/nvidia2.bmp">
-<img src="images/nvidia3.bmp">
-</details>
+<img src="images/w10.png"> [`Panneau de configuration Nvidia`](https://docs.google.com/document/d/1PEIxcgfH3bZOv8mPKYyepyBaXrlvL3KbErV1srNPIWM/edit?usp=sharing)
 
 ### Activer G-SYNC de la bonne manière
 
@@ -249,39 +240,82 @@ Une fois les drivers de Windows désactivés, vous devez impérativement redéma
 Reboot le PC maintenant vous permettra d’avoir accès à internet, et donc de copier/coller les commandes CMD suivantes (si vous les avez pas sauvegardé avant l’install sur un fichier texte dans une clé USB)
 Tant qu’on est à faire des changements dans regedit, je vous propose quelques petits tweaks basiques, qui vont légèrement améliorer les performances de votre PC, mais sans aucun problème de compatibilité, ou risque pour votre PC. La vidéo qui vous donnera des explications et du contexte est la suivante (recommandée).
 
-# Tweaks Regedit
+# Tweaks Regedit (les basiques)
+
+<img src="images/w10.png"> [`Quelques tweaks regedit (basiques)`](https://www.youtube.com/watch?v=X4AVdnHFn_E)
+
+Et la liste des tweaks proposés par Piwi dans sa vidéo (à rentrer dans CMD en admin, encore une fois) : 
+
+**=> Désactiver Cortana :** 
+
+`REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000000 /f`
+
 
 **=> Désactiver la sortie d'hibernation :** 
 
 `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000000 /f`
 
+
+**=> Désactiver la combinaison de touche Win+Tab :** 
+
+`REG ADD "HKCU\Keyboard Layout\toggle" /v "Language Hotkey" /t REG_SZ /d 3 /f`
+
+
 **=> Désactiver Aero Shake :** 
 
 `REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v DisallowShaking /t REG_DWORD /d 00000001 /f`
+
 
 **=> SUPPRIMER l'hibernation :** (à faire si vous avez désactivé la sortie d'hibernation)
 
 `powercfg -h off`
 
+
 **=> Vérifier le trim du SSD :** 
 
 `fsutil behavior set DisableDeleteNotify 0`
+
 
 **=> Garanti 90% des ressources aux tâches principales :** (si vous streamez, vous pourrez renconter des soucis, si c'est le cas, remettez à 20)
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f`
 
+## QUELQUES COMMANDES BONUS
+ 
+
+=> Supprimer 3D Object de l'explorateur de fichier
+
+`REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}"`
+
+`REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}"`
+
+
 => Désactiver les Prefetch/Superfetch (appelé maintenant SysMain) UNIQUEMENT SI WINDOWS EST INSTALLE SUR UN SSD
 
-`sc stop "SysMain" & sc config "SysMain" start=disabled`
+`REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\SessionManager\Memory Management\PrefetchParameters" /v EnableSuperfetch /t REG_DWORD /d 00000000 /f`
+
+
+=> Désactiver "Applications récemments ajoutés" du menu Démarrer
+
+`REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v HideRecentlyAddedApps /t REG_DWORD /d 00000001 /f`
+
+`REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideRecentlyAddedApps /t REG_DWORD /d 00000001 /f`
+
 
 => Screen snip sur la touche "impr écran"
 
 `REG ADD "HKEY_CURRENT_USER\Control Panel\Keyboard" /v PrintScreenKeyForSnippingEnabled /t REG_DWORD /d 00000001 /f`
 
+
+=> Ouvrir l'explorateur windows vous dirige à "Ce PC"
+
+`REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v LaunchTo /t REG_DWORD /d 00000001 /f`
+
+
 => Afficher les extensions des fichiers connus
 
 `REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v HideFileExt /t REG_DWORD /d 00000000 /f`
+
 
 => Désactiver la précision de la souris
 
@@ -295,9 +329,85 @@ Je ne l'ai pas mis dans cette liste, ni dans le fichier .reg qui est dans le rep
 
 <img src="images/w10.png"> [`MarkC - Windows Mouse Things`](https://donewmouseaccel.blogspot.com/2010/03/markc-windows-7-mouse-acceleration-fix.html) 
  
-A quoi cela sert ? Voici une vidéo qui vous explique comment cela fonctionne et si c'est utile pour la majorité du temps : 
+A quoi cela sert ? Voici une vidéo qui vous explique comment cela fonctionne et si c'est utile pour la majorité du temps : <img src="images/w10.png"> [`Le MarkC mouse acceleration fix, ça marche comment ? - Piwi`](https://youtube.com/watch?v=YM9SdIT6K20) 
 
-<img src="images/w10.png"> [`Le MarkC mouse acceleration fix, ça marche comment ? - Piwi`](https://youtube.com/watch?v=YM9SdIT6K20) 
+=> Désactiver le mode veille
+
+`REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSettings" /v ShowSleepOption /t REG_DWORD /d 00000000 /f`
+
+
+=> Désactiver le verrouillage de session
+
+`REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSettings" /v ShowLockOption /t REG_DWORD /d 00000000 /f`
+
+
+=> Qualité du fond d'écran à 100%
+
+`REG ADD "HKEY_CURRENT_USER\Control Panel\Desktop" /v JPEGImportQuality /t REG_DWORD /d 00000100 /f`
+
+
+=> Délai du menu
+
+`REG ADD "HKEY_CURRENT_USER\Control Panel\Desktop" /v MenuShowDelay /t REG_SZ /d 0 /f`
+
+
+=> Désactiver le Power Throttling
+
+`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling" /v PowerThrottlingOff /t REG_DWORD /d 00000001 /f`
+
+
+=> Changer la taille des miniatures de la barre des tâches (très gros)
+
+`REG ADD "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Taskband" /v MaxThumbSizePx /t REG_DWORD /d 000001f4 /f`
+
+
+=> Désactiver le texte " - raccourci"
+
+`REG ADD "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v link /t REG_BINARY /d 00000000 /f`
+
+
+=> Afficher les secondes sur l'horloge de la barre des tâches
+
+`REG ADD "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ShowSecondsInSystemClock /t REG_DWORD /d 00000001 /f`
+
+
+=> Services Google Chrome (désactive les mises à jour automatiques)
+
+`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\GoogleChromeElevationService" /v Start /t REG_DWORD /d 00000004 /f`
+
+`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\gupdate" /v Start /t REG_DWORD /d 00000004 /f`
+
+`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\gupdatem" /v Start /t REG_DWORD /d 00000003 /f`
+
+
+=> Services Microsoft Edge (désactive les mises à jour automatiques)
+
+`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MicrosoftEdgeElevationService" /v Start /t REG_DWORD /d 00000004 /f`
+
+`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\edgeupdate" /v Start /t REG_DWORD /d 00000004 /f`
+
+`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\edgeupdatem" /v Start /t REG_DWORD /d 00000003 /f`
+
+
+=> Services Brave Browser (désactive les mises à jour automatiques)
+
+`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\brave" /v Start /t REG_DWORD /d 00000004 /f`
+
+`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\bravem" /v Start /t REG_DWORD /d 00000003 /f`
+
+
+=> Désactiver la création de points de restauration (remettez la valeur à 3 si besoin)
+
+`REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS" /v Start /t REG_DWORD /d 00000004 /f`
+
+=> Désactiver la Gamebar (si vous ne l'utilisez pas)
+
+`REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Gaming.GameBar.PresenceServer.Internal.PresenceWriter" /v ActivationType /t REG_DWORD /d 00000000 /f`
+
+
+Si vous voulez plus de réglage que ce qui est proposé ci-dessus : 
+
+--> <img src="images/w10.png"> [`Regedit`](https://github.com/MarvinGdt/opti-pc/blob/main/regedit.reg)
 
 # Mises à jour de Windows
 
@@ -344,6 +454,21 @@ Si vous rencontrez un soucis, vous pourrez décocher l'option qui vous pose prob
 <img src="images/w10.png"> [`Télécharger W10Privacy`](https://www.w10privacy.de/deutsch-start/download/)
 
 Tout ce qui est en ROUGE et JAUNE, ne TOUCHEZ PAS ! SAUF si vous savez ce que vous faites et que vous comprenez l'utilité de l'option. 
+
+## Windows CTT Tool (by ChrisTitus)
+
+Une alternative en ligne gratuite (la version offline coûte 5€ pour aider ChrisTitus au développement de l'outil) pour accélérer le réglage et la désactivation de certains paramètres de Windows. Tout est pré-réglé, il suffit juste de cocher et lancer l'outil. 
+Lancez PowerShell en administrateur et coller ce lien : *iwr -useb https://christitus.com/win | iex*
+
+<details>
+  <summary><img src="images/w10.png"> Windows CTT Tool</summary> 
+  
+<img src="images/install.png">
+<img src="images/tweaks-desktop.png">
+<img src="images/tweaks-laptop.png">
+<img src="images/config.png">
+<img src="images/updates.png">
+</details>
 
 ## Windows Defender (mis en rouge dans [**W10Privacy**](#w10privacy))
 
@@ -438,6 +563,86 @@ Réactiver les mises à jour automatiques des drivers permet d'éviter de cherch
 
 `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching" /v SearchOrderConfig /t REG_DWORD /d 00000001 /f`
 
+# Désactivation de certains services (facultatif)
+
+Je vous mets un pack de tweaks de services afiin d'en désactiver certains dépendants de votre utilisation de votre PC. 
+
+Je tiens à préciser que vous ne **GAGNEREZ RIEN** en performence si vous en désactivez. Cela peut alléger l'utilisation de votre RAM de quelques Mo ou Go. Donc, si vous êtes du genre à tester des trucs à tout va sur votre machine. 
+
+Je vous mets à disposition tout le nécessaire dépendant de votre utilisation. Utilisez donc ce pack à votre convenance. Je rajoute aussi un .reg nommé *"Default_Services.reg"* qui remet tout vos services par défaut en cas de problème quelconque.
+
+Pour ma part, je n'ai pas rencontré de soucis, notamment, pour : 
+
+- les mises à jour Windows
+- installation d'application du Windows Store.
+
+Je les note particulièrement car ces derniers sont très fragiles sur une désactivation quelconque d'un service et peut ne plus fonctionner correctement. 
+
+## *Qu'est-ce que ce pack désactive ?* 
+
+Ce pack désactive la plupart des services qui peuvent être lié à : 
+
+- La virtualisation (Hyper-V)
+- Imprimante
+- Téléphone (si vous n'utilisez pas votre portable avec votre PC)
+- Géolocalisation
+- Télémétrie (pas mal)
+- Envoie de rapport de diagnostic
+- Donnée cellulaire
+- Bureau à distance
+- Biométrie (Windows Hello, capteur d'empreinte)
+- Service pour Kit de developpement
+- De la gestion audio (QWAVE)
+- ...
+
+Je vous mets la liste complète des services qui sont désactivés (si vous utlisez celui qui désactive tout, donc *"Services Tweaks.reg"*) : 
+
+<details>
+  <summary><img src="images/w10.png"> Services désactivés</summary> 
+  
+<img src="images/services0.png">
+<img src="images/services01.png">
+<img src="images/services02.png">
+</details>
+
+**NB :** Les services "Origin" et "Galaxy" ne sont pas inclus dans ce pack mais ne les touchez pas pour un bon fonctionnement de vos launchers. Je n'ai pas rencontré de soucis en les ayant désactivé mais, dans le doute, laissez tel quel.
+
+## *Utilisation du pack*
+
+Quand vous aurez décompresser le dossier, vous aurez 2 sous-dossiers : 
+
+<details>
+  <summary><img src="images/w10.png"> Décompression du .zip et son contenu</summary> 
+  
+<img src="images/services1.png">
+<img src="images/services11.png">
+<img src="images/services12.png">
+</details>
+
+**NB :** Dans tous les cas, collez OBLIGATOIREMENT *"PowerRun.exe"* dans le dossier *"Windows"* pour que cela fonctionne avec les fichiers .cmd.
+
+Le dossier *"C Drive"* contient les .cmd, à mettre à la racine de votre disque C comme ceci : 
+
+<details>
+  <summary><img src="images/w10.png"> .cmd dans le disque C</summary> 
+  
+<img src="images/services2.png">
+</details>
+
+Ensuite, glissez les fichiers du dossier Windows dans le dossier du même nom situé dans votre disque C : 
+
+<details>
+  <summary><img src="images/w10.png"> .reg dans le disque C > dossier "Windows"</summary> 
+  
+<img src="images/services3.png">
+</details>
+
+J'ai utilisé celui qui désactive le plus mais vous pouvez copier celui qui vous convient le mieux. Les noms sont explicites donc vous ne pouvez pas vous tromper. 
+
+Vous pouvez télécharger le pack ci-dessous : 
+
+<img src="images/w10.png"> [`Services Tweaks`](https://drive.google.com/file/d/1JTFnwnxdjbzSMi0JYcrZSO-erk5OO4Jy/view?usp=sharing)
+
 # Désactiver les overlays et accélération matérielle
 
 Pour diminuer la charge CPU et GPU (accélération matérielle) : 
@@ -455,17 +660,31 @@ Pour diminuer la charge CPU et GPU (accélération matérielle) :
 <img src="images/w10.png"> [`Brave`](https://brave.com/) : Navigateur web open source gratuit, qui a pour objectif de protéger la vie privée en bloquant par défaut les pisteurs et en favorisant une navigation via les pages en HTTPS, grâce à l'extension HTTPS Everywhere, ou en permettant de naviguer via le réseau Tor. Brave est construit sur Chromium.
 Meilleure alternative à Google Chrome, aussi rapide que Chrome, adblocker intégré, contre beaucoup de trackers de Google. A un système de synchronisation maison avec une liste de mots générés (à garder précieuseuement) afin de récupérer vos données.
 
-<img src="images/w10.png"> [`Google Chrome`](https://www.google.com/intl/fr/chrome/) : Basé sur le projet Chromium, Google Chrome est l'un des navigateurs les plus sécurisés. Rapide, il vous permet de synchroniser vos favoris, mots de passe (privilégiez un gestionnaire de mot de passe externe comme Bitwarden), extensions etc. grâce à votre simple compte Google. 
-
-Tips : Si vous préférez Chrome à Brave cité juste avant, pensez bien à bloquer les cookies tiers dans les paramètres afin d'acroitre un peu votre sécurité et de cocher "Envoyer une demande "Interdire de me suivre" pendant la navigation". Malgré un envoi de vos données à Google, même si cela est temporaire, activez aussi le mode "Protection renforcée" afin de vous prémunir des sites référencés qui ont mauvaises réputations dans la base de donnée de Google.
-
 <img src="images/w10.png"> [`Firefox`](https://firefox.com/) : Navigateur web open source gratuit, qui a pour objectif de protéger la vie privée en bloquant par défaut les pisteurs et en favorisant une navigation via les pages en HTTPS, grâce à l'extension HTTPS Everywhere. Développé par la fondation Mozilla, Firefox a pour but de protéger votre vie privée. Firefox n'est pas basée sur le moteur Chromium mais le moteur maison de Mozilla : Gecko. 
+
+<img src="images/w10.png"> [`Ungoogled Chromium`](https://chromium.woolyss.com/) : *Prenez la version archive si vous souhaitez l'utiliser en mode portable*. 
+
+Cette version de chromium est totalement dépourvue de quelconque tracker/API de Google, choses qui sont encore disponibles sur Chromium de base.
+
+Prêt à l’emploi, l’utilisation de ce dernier est identique à Google Chrome. Cependant, il y a quelques contraintes : 
+
+- Pas de synchronisation 
+
+- **=> pour récupérer vos données** : ***Win+R*** et tapez ***appdata***, puis allez dans le dossier ***Local*** et copiez le dossier ***Chromium*** sur une clé USB ou ailleurs pour stocker vos données et extensions installées avant un formatage. Une fois fait, retournez dans le même chemin de dossier et coller votre dossier ***Chromium*** ;
+
+- Les extensions ne sont pas installables nativement. 
+
+Pour bien paramétrer ce navigateur, je vous recommande de suivre le petit guide juste après et aller dans la section ***ungoogled-chromium (pour le lol)***.
+
+**Bonus (facultatif) :** <img src="images/w10.png"> [`Configurer son navigateur et les extensions que je recommande (OPTIONNEL)`](https://docs.google.com/document/d/1vq0me5Gd6WOsz68GHlrAQEBHOJ85Az8pXhY13JV9kLA/edit?usp=sharing) : Voici un document qui vous permettra de bien paramétrer votre navigateur ainsi que les extensions utiles que je recommande.
 
 ## Logiciels utilitaires
 
 <img src="images/w10.png"> [`7Zip`](https://www.7-zip.org/download.html) : gratuit et open-source, plus léger et meilleur (à mon sens) que WinRar.
 
 <img src="images/w10.png"> [`NVCleanstall`](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) : alternative à GeForce Experience, plus léger, permet d’installer que le driver vidéo. Vous pouvez donc ne pas installer GeForce Experience, Ansel, ShadowPlay etc. si vous ne les utilisez pas. Vous pouvez aussi les installer si nécessaire. A vous de voir, cela ne joue pas sur les performences en jeu si vous installez toutes les features de Nvidia ou pas.
+
+<img src="images/w10.png"> [`Office 2007`](https://drive.google.com/file/d/1kPPVj9b3SNFY6sHGxfvdnRnestCEgAUA/view?usp=sharing) : si vous souhaitez garder la suite Office de Microsoft, alors je vous recommande cette version. Pas de nécessité de se connecter à internet, gère les formats “.docx” sur les documents récents. Outre l’interface qui change un petit peu, vous ne vous perdrez pas car les menus sont identiques aux versions récentes (2013/2016/2019/2021). 
 
 <img src="images/w10.png"> [`LibreOffice`](https://fr.libreoffice.org/download/telecharger-libreoffice/) : Bon remplaçant de la suite Office de Microsoft, prend en charge l’exportation “.docx”, gratuit, interface qui se rapproche beaucoup de Word.
 
@@ -502,5 +721,3 @@ Tips : Si vous préférez Chrome à Brave cité juste avant, pensez bien à bloq
 <img src="images/w10.png"> [`CEMU`](https://Cemu.info/) : émulateur pour la WII U, malheureusement, il est closed-source, mais c'est un émulateur performant et safe. 
 
 <img src="images/w10.png"> [`RPCS3`](https://rpcs3.net/) : RPCS3 est un émulateur pour la PS3. Open-source, constamment mis à jour, il s'agit, à ce jour, de l'émulateur PS3 le plus abouti (en même temps, c'est le seul). Surveillez bien les wiki, les jeux demandent parfois une configuration particulière pour bien fonctionner ! 
-
-*Dernière mise à jour : 16/01/2022*
