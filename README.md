@@ -1,10 +1,11 @@
-# Optimiser son PC et Windows 10 sans risque 
+# Optimiser son PC et Windows 10 sans risque. Compatible Windows 11, pas de grands changements sont apportés.
+
+### *DISCLAIMER : CE GUIDE NE SERA PLUS A JOUR MAIS TOUJOURS CONSULTABLE EN ARCHIVE PUBLIC !*
 
 Dans ce github, j'ai compilé plusieurs tutos, guides de différentes personnes. Les trouvailles, tutos appartiennent aux personnes qui ont passés du temps à faire toutes ces recherches.
- 
-<img src="images/w10.png"> [`CAPETLEVRAI`](https://www.twitter.com/capetlevrai) + [`GUIDE`](https://docs.google.com/document/d/1bfRI8ykV2esBQwy6x_3DX7WR_XLO-Y0bJ-0ds2Mbhek/edit) + [`YOUTUBE`](https://www.youtube.com/user/capetlevrai)
 
-<img src="images/w10.png"> [`PIWI`](https://www.twitter.com/piwielle) + [`GUIDE`](https://piwielle.github.io/oui) + [`YOUTUBE`](https://www.youtube.com/c/Piwi_youtube/)
+<img src="images/w10.png"> [`PIWI`](https://www.twitter.com/piwielle) + [`GUIDE`](https://installerwindows.fr/) + [`YOUTUBE`](https://www.youtube.com/c/Piwi_youtube/) 
+### !! TOURNEZ VOUS VERS SON GUIDE QUI EST PLUS A JOUR ET PLUS COMPLET !!
 
 <img src="images/w10.png"> [`TOPACHAT`](https://www.twitter.com/topachat) + [`YOUTUBE`](https://www.youtube.com/user/topachat) 
 
