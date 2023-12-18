@@ -1,4 +1,4 @@
-# Optimiser son PC et Windows 10 sans risque. Compatible Windows 11, pas de grands changements sont apportés.
+# Optimiser son PC et Windows 10/11 sans risque. 
 
 ### *DISCLAIMER : CE GUIDE NE SERA PLUS A JOUR MAIS TOUJOURS CONSULTABLE EN ARCHIVE PUBLIC !*
 
